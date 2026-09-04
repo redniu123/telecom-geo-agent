@@ -1,0 +1,11 @@
+{
+  "existing_duct_length_m": 180.0,
+  "new_build_length_m": 220.0,
+  "recommended_cable_length_m": 440.0,
+  "slack_ratio": 0.1,
+  "total_length_m": 400.0,
+  "used_edge_ids": [
+    "N001",
+    "N002"
+  ]
+}
