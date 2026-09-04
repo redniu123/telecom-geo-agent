@@ -1,0 +1,42 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.47,
+            31.23
+          ],
+          [
+            121.48,
+            31.23
+          ],
+          [
+            121.49,
+            31.235
+          ],
+          [
+            121.5,
+            31.24
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "R001",
+      "properties": {
+        "edge_ids": [
+          "D001",
+          "D017",
+          "D003"
+        ],
+        "forbidden_asset_ids_applied": [],
+        "relative_cost": 175.0,
+        "route_id": "R001",
+        "stage": "first",
+        "total_length_m": 350.0
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

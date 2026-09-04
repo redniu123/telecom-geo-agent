@@ -1,0 +1,27 @@
+{
+  "error": null,
+  "forbidden_asset_ids": [
+    "D017"
+  ],
+  "repair_count": 1,
+  "status": "completed",
+  "validation_history": [
+    {
+      "passed": false,
+      "violations": [
+        {
+          "asset_id": "D017",
+          "message": "D017 剩余容量不足以承载 24 芯光缆",
+          "repair_hint": "forbid_asset",
+          "rule_id": "R_CAPACITY",
+          "severity": "error",
+          "type": "duct_capacity"
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "violations": []
+    }
+  ]
+}
