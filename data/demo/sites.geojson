@@ -1,0 +1,46 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          121.47,
+          31.23
+        ],
+        "type": "Point"
+      },
+      "id": "site:A",
+      "properties": {
+        "name": "A 机房",
+        "node_id": "N1",
+        "site_id": "A",
+        "site_type": "telecom_room",
+        "status": "available"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.5,
+          31.24
+        ],
+        "type": "Point"
+      },
+      "id": "site:B",
+      "properties": {
+        "name": "B 基站",
+        "node_id": "N4",
+        "site_id": "B",
+        "site_type": "base_station",
+        "status": "available"
+      },
+      "type": "Feature"
+    }
+  ],
+  "metadata": {
+    "coordinate_order": "longitude, latitude",
+    "seed": 20260904,
+    "source": "synthetic fixed P0 demo; not a real engineering dataset"
+  },
+  "type": "FeatureCollection"
+}
