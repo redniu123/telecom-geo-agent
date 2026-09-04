@@ -1,0 +1,264 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.47,
+            31.23
+          ],
+          [
+            121.48,
+            31.23
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:D001",
+      "properties": {
+        "asset_type": "existing_duct",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.5,
+        "edge_id": "D001",
+        "feature_type": "edge",
+        "from_node": "N1",
+        "length_m": 100.0,
+        "status": "available",
+        "to_node": "N2",
+        "used_cores": 20
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.49,
+            31.235
+          ],
+          [
+            121.5,
+            31.24
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:D003",
+      "properties": {
+        "asset_type": "existing_duct",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.5,
+        "edge_id": "D003",
+        "feature_type": "edge",
+        "from_node": "N3",
+        "length_m": 130.0,
+        "status": "available",
+        "to_node": "N4",
+        "used_cores": 50
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.48,
+            31.23
+          ],
+          [
+            121.49,
+            31.235
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:D017",
+      "properties": {
+        "asset_type": "existing_duct",
+        "capacity_cores": 48,
+        "cost_multiplier": 0.5,
+        "edge_id": "D017",
+        "feature_type": "edge",
+        "from_node": "N2",
+        "length_m": 120.0,
+        "status": "available",
+        "to_node": "N3",
+        "used_cores": 32
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.47,
+            31.23
+          ],
+          [
+            121.48,
+            31.245
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:N001",
+      "properties": {
+        "asset_type": "existing_duct",
+        "capacity_cores": 72,
+        "cost_multiplier": 1.0,
+        "edge_id": "N001",
+        "feature_type": "edge",
+        "from_node": "N1",
+        "length_m": 180.0,
+        "status": "available",
+        "to_node": "N5",
+        "used_cores": 20
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.48,
+            31.245
+          ],
+          [
+            121.5,
+            31.24
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:N002",
+      "properties": {
+        "asset_type": "new_build",
+        "capacity_cores": 0,
+        "cost_multiplier": 1.2,
+        "edge_id": "N002",
+        "feature_type": "edge",
+        "from_node": "N5",
+        "length_m": 220.0,
+        "status": "available",
+        "to_node": "N4",
+        "used_cores": 0
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.47,
+            31.23
+          ],
+          [
+            121.5,
+            31.24
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:U001",
+      "properties": {
+        "asset_type": "existing_duct",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.1,
+        "edge_id": "U001",
+        "feature_type": "edge",
+        "from_node": "N1",
+        "length_m": 50.0,
+        "status": "unavailable",
+        "to_node": "N4",
+        "used_cores": 0
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.47,
+          31.23
+        ],
+        "type": "Point"
+      },
+      "id": "node:N1",
+      "properties": {
+        "feature_type": "node",
+        "node_id": "N1",
+        "status": "available"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.48,
+          31.23
+        ],
+        "type": "Point"
+      },
+      "id": "node:N2",
+      "properties": {
+        "feature_type": "node",
+        "node_id": "N2",
+        "status": "available"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.49,
+          31.235
+        ],
+        "type": "Point"
+      },
+      "id": "node:N3",
+      "properties": {
+        "feature_type": "node",
+        "node_id": "N3",
+        "status": "available"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.5,
+          31.24
+        ],
+        "type": "Point"
+      },
+      "id": "node:N4",
+      "properties": {
+        "feature_type": "node",
+        "node_id": "N4",
+        "status": "available"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.48,
+          31.245
+        ],
+        "type": "Point"
+      },
+      "id": "node:N5",
+      "properties": {
+        "feature_type": "node",
+        "node_id": "N5",
+        "status": "available"
+      },
+      "type": "Feature"
+    }
+  ],
+  "metadata": {
+    "coordinate_order": "longitude, latitude",
+    "seed": 20260904,
+    "source": "synthetic fixed P0 demo; not a real engineering dataset"
+  },
+  "type": "FeatureCollection"
+}
