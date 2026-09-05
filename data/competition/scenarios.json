@@ -1,0 +1,51 @@
+{
+  "dataset_id": "osm_shanghai_former_french_concession_north_demo_v1",
+  "scenarios": {
+    "capacity_reroute": {
+      "description": "约束前候选路线命中合成容量不足段，一次禁用后改走第二走廊。",
+      "end_site_id": "B",
+      "expected_issue_asset_ids": [
+        "C1-017"
+      ],
+      "expected_status": "completed",
+      "fiber_cores": 24,
+      "forbidden_asset_ids": [],
+      "name": "容量不足自动绕行",
+      "prefer_existing_duct": true,
+      "start_site_id": "A"
+    },
+    "forbidden_reroute": {
+      "description": "约束前候选路线命中显式禁用段，确认后改走第二走廊。",
+      "end_site_id": "B",
+      "expected_issue_asset_ids": [
+        "C1-009"
+      ],
+      "expected_status": "completed",
+      "fiber_cores": 12,
+      "forbidden_asset_ids": [
+        "C1-009"
+      ],
+      "name": "显式禁用资源绕行",
+      "prefer_existing_duct": true,
+      "start_site_id": "A"
+    },
+    "no_path": {
+      "description": "两条独立候选走廊各禁用一段，应用约束后无路可达。",
+      "end_site_id": "B",
+      "expected_issue_asset_ids": [
+        "C1-017",
+        "C2-024"
+      ],
+      "expected_status": "failed",
+      "fiber_cores": 12,
+      "forbidden_asset_ids": [
+        "C1-017",
+        "C2-024"
+      ],
+      "name": "双走廊中断明确失败",
+      "prefer_existing_duct": true,
+      "start_site_id": "A"
+    }
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,2622 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    },
+    "type": "name"
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4482261,
+            31.218636
+          ],
+          [
+            121.4484324,
+            31.2185397
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-001",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-001",
+        "feature_type": "edge",
+        "from_node": "N-A",
+        "laying_type": "synthetic_duct",
+        "length_m": 22.35,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-001",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4484324,
+            31.2185397
+          ],
+          [
+            121.4492843,
+            31.2182082
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-002",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-002",
+        "feature_type": "edge",
+        "from_node": "N1-001",
+        "laying_type": "synthetic_duct",
+        "length_m": 89.0,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-002",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4492843,
+            31.2182082
+          ],
+          [
+            121.4513402,
+            31.2174971
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-003",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-003",
+        "feature_type": "edge",
+        "from_node": "N1-002",
+        "laying_type": "synthetic_duct",
+        "length_m": 210.89,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-003",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4513402,
+            31.2174971
+          ],
+          [
+            121.4514226,
+            31.217358
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-004",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-004",
+        "feature_type": "edge",
+        "from_node": "N1-003",
+        "laying_type": "synthetic_duct",
+        "length_m": 17.34,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-004",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4514226,
+            31.217358
+          ],
+          [
+            121.4521976,
+            31.2176804
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-005",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-005",
+        "feature_type": "edge",
+        "from_node": "N1-004",
+        "laying_type": "synthetic_duct",
+        "length_m": 81.96,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-005",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4521976,
+            31.2176804
+          ],
+          [
+            121.4527325,
+            31.2179128
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-006",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-006",
+        "feature_type": "edge",
+        "from_node": "N1-005",
+        "laying_type": "synthetic_duct",
+        "length_m": 57.05,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-006",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4527325,
+            31.2179128
+          ],
+          [
+            121.4533402,
+            31.2181802
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-007",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-007",
+        "feature_type": "edge",
+        "from_node": "N1-006",
+        "laying_type": "synthetic_duct",
+        "length_m": 64.99,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-007",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4533402,
+            31.2181802
+          ],
+          [
+            121.4536589,
+            31.2183076
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-008",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-008",
+        "feature_type": "edge",
+        "from_node": "N1-007",
+        "laying_type": "synthetic_duct",
+        "length_m": 33.45,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-008",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4536589,
+            31.2183076
+          ],
+          [
+            121.4542889,
+            31.2185721
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-009",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-009",
+        "feature_type": "edge",
+        "from_node": "N1-008",
+        "laying_type": "synthetic_duct",
+        "length_m": 66.74,
+        "scenario_role": "explicit_forbidden_example",
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-009",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4542889,
+            31.2185721
+          ],
+          [
+            121.4543684,
+            31.2186057
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-010",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-010",
+        "feature_type": "edge",
+        "from_node": "N1-009",
+        "laying_type": "synthetic_duct",
+        "length_m": 8.43,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-010",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4543684,
+            31.2186057
+          ],
+          [
+            121.4544926,
+            31.2186583
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-011",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-011",
+        "feature_type": "edge",
+        "from_node": "N1-010",
+        "laying_type": "synthetic_duct",
+        "length_m": 13.18,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-011",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4544926,
+            31.2186583
+          ],
+          [
+            121.4546493,
+            31.2187247
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-012",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-012",
+        "feature_type": "edge",
+        "from_node": "N1-011",
+        "laying_type": "synthetic_duct",
+        "length_m": 16.63,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-012",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4546493,
+            31.2187247
+          ],
+          [
+            121.4551653,
+            31.2189433
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-013",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-013",
+        "feature_type": "edge",
+        "from_node": "N1-012",
+        "laying_type": "synthetic_duct",
+        "length_m": 54.76,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-013",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4551653,
+            31.2189433
+          ],
+          [
+            121.4552806,
+            31.2189921
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-014",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-014",
+        "feature_type": "edge",
+        "from_node": "N1-013",
+        "laying_type": "synthetic_duct",
+        "length_m": 12.23,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-014",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4552806,
+            31.2189921
+          ],
+          [
+            121.4560032,
+            31.2192981
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-015",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-015",
+        "feature_type": "edge",
+        "from_node": "N1-014",
+        "laying_type": "synthetic_duct",
+        "length_m": 76.68,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-015",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4560032,
+            31.2192981
+          ],
+          [
+            121.4566179,
+            31.2195585
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-016",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-016",
+        "feature_type": "edge",
+        "from_node": "N1-015",
+        "laying_type": "synthetic_duct",
+        "length_m": 65.23,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-016",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4566179,
+            31.2195585
+          ],
+          [
+            121.4567313,
+            31.2196065
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-017",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 48,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-017",
+        "feature_type": "edge",
+        "from_node": "N1-016",
+        "laying_type": "synthetic_duct",
+        "length_m": 12.03,
+        "scenario_role": "capacity_bottleneck",
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-017",
+        "used_cores": 32
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4567313,
+            31.2196065
+          ],
+          [
+            121.4568022,
+            31.2196343
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-018",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-018",
+        "feature_type": "edge",
+        "from_node": "N1-017",
+        "laying_type": "synthetic_duct",
+        "length_m": 7.42,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-018",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4568022,
+            31.2196343
+          ],
+          [
+            121.4576473,
+            31.2199917
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-019",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-019",
+        "feature_type": "edge",
+        "from_node": "N1-018",
+        "laying_type": "synthetic_duct",
+        "length_m": 89.65,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-019",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4576473,
+            31.2199917
+          ],
+          [
+            121.4579107,
+            31.2201071
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-020",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-020",
+        "feature_type": "edge",
+        "from_node": "N1-019",
+        "laying_type": "synthetic_duct",
+        "length_m": 28.14,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-020",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4579107,
+            31.2201071
+          ],
+          [
+            121.4586425,
+            31.220424
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-021",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-021",
+        "feature_type": "edge",
+        "from_node": "N1-020",
+        "laying_type": "synthetic_duct",
+        "length_m": 78.0,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-021",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4586425,
+            31.220424
+          ],
+          [
+            121.4593952,
+            31.2207468
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-022",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-022",
+        "feature_type": "edge",
+        "from_node": "N1-021",
+        "laying_type": "synthetic_duct",
+        "length_m": 80.07,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-022",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4593952,
+            31.2207468
+          ],
+          [
+            121.4597408,
+            31.2194812
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-023",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-023",
+        "feature_type": "edge",
+        "from_node": "N1-022",
+        "laying_type": "synthetic_duct",
+        "length_m": 144.51,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-023",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4597408,
+            31.2194812
+          ],
+          [
+            121.4597486,
+            31.2194003
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-024",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-024",
+        "feature_type": "edge",
+        "from_node": "N1-023",
+        "laying_type": "synthetic_duct",
+        "length_m": 9.03,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-024",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4597486,
+            31.2194003
+          ],
+          [
+            121.4600358,
+            31.2183567
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-025",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-025",
+        "feature_type": "edge",
+        "from_node": "N1-024",
+        "laying_type": "synthetic_duct",
+        "length_m": 119.21,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-025",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4600358,
+            31.2183567
+          ],
+          [
+            121.4622545,
+            31.2190547
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-026",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-026",
+        "feature_type": "edge",
+        "from_node": "N1-025",
+        "laying_type": "synthetic_duct",
+        "length_m": 224.81,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-026",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4622545,
+            31.2190547
+          ],
+          [
+            121.4624264,
+            31.2186118
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-027",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-027",
+        "feature_type": "edge",
+        "from_node": "N1-026",
+        "laying_type": "synthetic_duct",
+        "length_m": 51.89,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-027",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4624264,
+            31.2186118
+          ],
+          [
+            121.4626498,
+            31.2180455
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-028",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-028",
+        "feature_type": "edge",
+        "from_node": "N1-027",
+        "laying_type": "synthetic_duct",
+        "length_m": 66.46,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-028",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4626498,
+            31.2180455
+          ],
+          [
+            121.4627268,
+            31.2178502
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-029",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-029",
+        "feature_type": "edge",
+        "from_node": "N1-028",
+        "laying_type": "synthetic_duct",
+        "length_m": 22.92,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-029",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4627268,
+            31.2178502
+          ],
+          [
+            121.4630494,
+            31.2171151
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-030",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-030",
+        "feature_type": "edge",
+        "from_node": "N1-029",
+        "laying_type": "synthetic_duct",
+        "length_m": 87.31,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-030",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4630494,
+            31.2171151
+          ],
+          [
+            121.4635751,
+            31.2171925
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-031",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-031",
+        "feature_type": "edge",
+        "from_node": "N1-030",
+        "laying_type": "synthetic_duct",
+        "length_m": 50.73,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-031",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4635751,
+            31.2171925
+          ],
+          [
+            121.4638135,
+            31.2172276
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-032",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-032",
+        "feature_type": "edge",
+        "from_node": "N1-031",
+        "laying_type": "synthetic_duct",
+        "length_m": 23.0,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N1-032",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4638135,
+            31.2172276
+          ],
+          [
+            121.4638652,
+            31.2170227
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C1-033",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 0.85,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C1-033",
+        "feature_type": "edge",
+        "from_node": "N1-032",
+        "laying_type": "synthetic_duct",
+        "length_m": 23.31,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N-B",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4482261,
+            31.218636
+          ],
+          [
+            121.4484018,
+            31.2187162
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-001",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-001",
+        "feature_type": "edge",
+        "from_node": "N-A",
+        "laying_type": "synthetic_duct",
+        "length_m": 18.94,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-001",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4484018,
+            31.2187162
+          ],
+          [
+            121.4511738,
+            31.2196153
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-002",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-002",
+        "feature_type": "edge",
+        "from_node": "N2-001",
+        "laying_type": "synthetic_duct",
+        "length_m": 281.92,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-002",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4511738,
+            31.2196153
+          ],
+          [
+            121.4512584,
+            31.219445
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-003",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-003",
+        "feature_type": "edge",
+        "from_node": "N2-002",
+        "laying_type": "synthetic_duct",
+        "length_m": 20.57,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-003",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4512584,
+            31.219445
+          ],
+          [
+            121.4517942,
+            31.2184384
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-004",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-004",
+        "feature_type": "edge",
+        "from_node": "N2-003",
+        "laying_type": "synthetic_duct",
+        "length_m": 122.98,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-004",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4517942,
+            31.2184384
+          ],
+          [
+            121.4518516,
+            31.2183304
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-005",
+      "properties": {
+        "asset_type": "new_build",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 0,
+        "cost_multiplier": 1.25,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-005",
+        "feature_type": "edge",
+        "from_node": "N2-004",
+        "laying_type": "synthetic_trench",
+        "length_m": 13.19,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-005",
+        "used_cores": 0
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4518516,
+            31.2183304
+          ],
+          [
+            121.4521976,
+            31.2176804
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-006",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-006",
+        "feature_type": "edge",
+        "from_node": "N2-005",
+        "laying_type": "synthetic_duct",
+        "length_m": 79.41,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-006",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4521976,
+            31.2176804
+          ],
+          [
+            121.4523524,
+            31.2167529
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-007",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-007",
+        "feature_type": "edge",
+        "from_node": "N2-006",
+        "laying_type": "synthetic_duct",
+        "length_m": 104.18,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-007",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4523524,
+            31.2167529
+          ],
+          [
+            121.4524318,
+            31.2163161
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-008",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-008",
+        "feature_type": "edge",
+        "from_node": "N2-007",
+        "laying_type": "synthetic_duct",
+        "length_m": 49.15,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-008",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4524318,
+            31.2163161
+          ],
+          [
+            121.4524632,
+            31.216139
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-009",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-009",
+        "feature_type": "edge",
+        "from_node": "N2-008",
+        "laying_type": "synthetic_duct",
+        "length_m": 19.92,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-009",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4524632,
+            31.216139
+          ],
+          [
+            121.452471,
+            31.2160736
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-010",
+      "properties": {
+        "asset_type": "new_build",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 0,
+        "cost_multiplier": 1.25,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-010",
+        "feature_type": "edge",
+        "from_node": "N2-009",
+        "laying_type": "synthetic_trench",
+        "length_m": 7.31,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-010",
+        "used_cores": 0
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.452471,
+            31.2160736
+          ],
+          [
+            121.4527439,
+            31.2161579
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-011",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-011",
+        "feature_type": "edge",
+        "from_node": "N2-010",
+        "laying_type": "synthetic_duct",
+        "length_m": 27.59,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-011",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4527439,
+            31.2161579
+          ],
+          [
+            121.4529753,
+            31.2162293
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-012",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-012",
+        "feature_type": "edge",
+        "from_node": "N2-011",
+        "laying_type": "synthetic_duct",
+        "length_m": 23.39,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-012",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4529753,
+            31.2162293
+          ],
+          [
+            121.4532842,
+            31.2163255
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-013",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-013",
+        "feature_type": "edge",
+        "from_node": "N2-012",
+        "laying_type": "synthetic_duct",
+        "length_m": 31.26,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-013",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4532842,
+            31.2163255
+          ],
+          [
+            121.4537136,
+            31.2164592
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-014",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-014",
+        "feature_type": "edge",
+        "from_node": "N2-013",
+        "laying_type": "synthetic_duct",
+        "length_m": 43.46,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-014",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4537136,
+            31.2164592
+          ],
+          [
+            121.4539588,
+            31.216537
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-015",
+      "properties": {
+        "asset_type": "new_build",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 0,
+        "cost_multiplier": 1.25,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-015",
+        "feature_type": "edge",
+        "from_node": "N2-014",
+        "laying_type": "synthetic_trench",
+        "length_m": 24.87,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-015",
+        "used_cores": 0
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4539588,
+            31.216537
+          ],
+          [
+            121.4542967,
+            31.216661
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-016",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-016",
+        "feature_type": "edge",
+        "from_node": "N2-015",
+        "laying_type": "synthetic_duct",
+        "length_m": 34.97,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-016",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4542967,
+            31.216661
+          ],
+          [
+            121.4546207,
+            31.21678
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-017",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-017",
+        "feature_type": "edge",
+        "from_node": "N2-016",
+        "laying_type": "synthetic_duct",
+        "length_m": 33.53,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-017",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4546207,
+            31.21678
+          ],
+          [
+            121.4549069,
+            31.2168946
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-018",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-018",
+        "feature_type": "edge",
+        "from_node": "N2-017",
+        "laying_type": "synthetic_duct",
+        "length_m": 30.05,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-018",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4549069,
+            31.2168946
+          ],
+          [
+            121.4552488,
+            31.2170411
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-019",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-019",
+        "feature_type": "edge",
+        "from_node": "N2-018",
+        "laying_type": "synthetic_duct",
+        "length_m": 36.37,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-019",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4552488,
+            31.2170411
+          ],
+          [
+            121.456074,
+            31.2173539
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-020",
+      "properties": {
+        "asset_type": "new_build",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 0,
+        "cost_multiplier": 1.25,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-020",
+        "feature_type": "edge",
+        "from_node": "N2-019",
+        "laying_type": "synthetic_trench",
+        "length_m": 85.84,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-020",
+        "used_cores": 0
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.456074,
+            31.2173539
+          ],
+          [
+            121.4568599,
+            31.2177761
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-021",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-021",
+        "feature_type": "edge",
+        "from_node": "N2-020",
+        "laying_type": "synthetic_duct",
+        "length_m": 88.26,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-021",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4568599,
+            31.2177761
+          ],
+          [
+            121.4571381,
+            31.2180463
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-022",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-022",
+        "feature_type": "edge",
+        "from_node": "N2-021",
+        "laying_type": "synthetic_duct",
+        "length_m": 40.03,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-022",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4571381,
+            31.2180463
+          ],
+          [
+            121.4571946,
+            31.218099
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-023",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-023",
+        "feature_type": "edge",
+        "from_node": "N2-022",
+        "laying_type": "synthetic_duct",
+        "length_m": 7.95,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-023",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4571946,
+            31.218099
+          ],
+          [
+            121.4578754,
+            31.21599
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-024",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-024",
+        "feature_type": "edge",
+        "from_node": "N2-023",
+        "laying_type": "synthetic_duct",
+        "length_m": 243.28,
+        "scenario_role": "second_corridor_cut",
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-024",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4578754,
+            31.21599
+          ],
+          [
+            121.4579221,
+            31.2158584
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-025",
+      "properties": {
+        "asset_type": "new_build",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 0,
+        "cost_multiplier": 1.25,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-025",
+        "feature_type": "edge",
+        "from_node": "N2-024",
+        "laying_type": "synthetic_trench",
+        "length_m": 15.29,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-025",
+        "used_cores": 0
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4579221,
+            31.2158584
+          ],
+          [
+            121.4580417,
+            31.2159315
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-026",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-026",
+        "feature_type": "edge",
+        "from_node": "N2-025",
+        "laying_type": "synthetic_duct",
+        "length_m": 13.98,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-026",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4580417,
+            31.2159315
+          ],
+          [
+            121.4583434,
+            31.2161219
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-027",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-027",
+        "feature_type": "edge",
+        "from_node": "N2-026",
+        "laying_type": "synthetic_duct",
+        "length_m": 35.66,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-027",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4583434,
+            31.2161219
+          ],
+          [
+            121.4586063,
+            31.2162389
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-028",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-028",
+        "feature_type": "edge",
+        "from_node": "N2-027",
+        "laying_type": "synthetic_duct",
+        "length_m": 28.18,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-028",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4586063,
+            31.2162389
+          ],
+          [
+            121.458904,
+            31.2163272
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-029",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-029",
+        "feature_type": "edge",
+        "from_node": "N2-028",
+        "laying_type": "synthetic_duct",
+        "length_m": 29.96,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-029",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.458904,
+            31.2163272
+          ],
+          [
+            121.4593063,
+            31.2164304
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-030",
+      "properties": {
+        "asset_type": "new_build",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 0,
+        "cost_multiplier": 1.25,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-030",
+        "feature_type": "edge",
+        "from_node": "N2-029",
+        "laying_type": "synthetic_trench",
+        "length_m": 39.94,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-030",
+        "used_cores": 0
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4593063,
+            31.2164304
+          ],
+          [
+            121.4594364,
+            31.2164717
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-031",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-031",
+        "feature_type": "edge",
+        "from_node": "N2-030",
+        "laying_type": "synthetic_duct",
+        "length_m": 13.2,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-031",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4594364,
+            31.2164717
+          ],
+          [
+            121.4603537,
+            31.216661
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-032",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-032",
+        "feature_type": "edge",
+        "from_node": "N2-031",
+        "laying_type": "synthetic_duct",
+        "length_m": 89.73,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-032",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4603537,
+            31.216661
+          ],
+          [
+            121.4604706,
+            31.2166922
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-033",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-033",
+        "feature_type": "edge",
+        "from_node": "N2-032",
+        "laying_type": "synthetic_duct",
+        "length_m": 11.65,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-033",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4604706,
+            31.2166922
+          ],
+          [
+            121.4605857,
+            31.2167229
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-034",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-034",
+        "feature_type": "edge",
+        "from_node": "N2-033",
+        "laying_type": "synthetic_duct",
+        "length_m": 11.47,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-034",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4605857,
+            31.2167229
+          ],
+          [
+            121.4610618,
+            31.2168112
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-035",
+      "properties": {
+        "asset_type": "new_build",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 0,
+        "cost_multiplier": 1.25,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-035",
+        "feature_type": "edge",
+        "from_node": "N2-034",
+        "laying_type": "synthetic_trench",
+        "length_m": 46.33,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-035",
+        "used_cores": 0
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4610618,
+            31.2168112
+          ],
+          [
+            121.4616185,
+            31.2168972
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-036",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-036",
+        "feature_type": "edge",
+        "from_node": "N2-035",
+        "laying_type": "synthetic_duct",
+        "length_m": 53.8,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-036",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4616185,
+            31.2168972
+          ],
+          [
+            121.4616412,
+            31.2169007
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-037",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-037",
+        "feature_type": "edge",
+        "from_node": "N2-036",
+        "laying_type": "synthetic_duct",
+        "length_m": 2.19,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-037",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4616412,
+            31.2169007
+          ],
+          [
+            121.4622722,
+            31.2169965
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-038",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-038",
+        "feature_type": "edge",
+        "from_node": "N2-037",
+        "laying_type": "synthetic_duct",
+        "length_m": 60.94,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-038",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4622722,
+            31.2169965
+          ],
+          [
+            121.4625625,
+            31.2170406
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-039",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-039",
+        "feature_type": "edge",
+        "from_node": "N2-038",
+        "laying_type": "synthetic_duct",
+        "length_m": 28.04,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-039",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4625625,
+            31.2170406
+          ],
+          [
+            121.4627878,
+            31.2170704
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-040",
+      "properties": {
+        "asset_type": "new_build",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 0,
+        "cost_multiplier": 1.25,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-040",
+        "feature_type": "edge",
+        "from_node": "N2-039",
+        "laying_type": "synthetic_trench",
+        "length_m": 21.68,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-040",
+        "used_cores": 0
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4627878,
+            31.2170704
+          ],
+          [
+            121.4630494,
+            31.2171151
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-041",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-041",
+        "feature_type": "edge",
+        "from_node": "N2-040",
+        "laying_type": "synthetic_duct",
+        "length_m": 25.37,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-041",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4630494,
+            31.2171151
+          ],
+          [
+            121.4632211,
+            31.2168255
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-042",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-042",
+        "feature_type": "edge",
+        "from_node": "N2-041",
+        "laying_type": "synthetic_duct",
+        "length_m": 36.11,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-042",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4632211,
+            31.2168255
+          ],
+          [
+            121.4632624,
+            31.2168374
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-043",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-043",
+        "feature_type": "edge",
+        "from_node": "N2-042",
+        "laying_type": "synthetic_duct",
+        "length_m": 4.14,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-043",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4632624,
+            31.2168374
+          ],
+          [
+            121.4632281,
+            31.2169076
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-044",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-044",
+        "feature_type": "edge",
+        "from_node": "N2-043",
+        "laying_type": "synthetic_duct",
+        "length_m": 8.46,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-044",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4632281,
+            31.2169076
+          ],
+          [
+            121.4636352,
+            31.2169812
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-045",
+      "properties": {
+        "asset_type": "new_build",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 0,
+        "cost_multiplier": 1.25,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-045",
+        "feature_type": "edge",
+        "from_node": "N2-044",
+        "laying_type": "synthetic_trench",
+        "length_m": 39.57,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N2-045",
+        "used_cores": 0
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4636352,
+            31.2169812
+          ],
+          [
+            121.4638652,
+            31.2170227
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "edge:C2-046",
+      "properties": {
+        "asset_type": "existing_duct",
+        "attribution": "© OpenStreetMap contributors",
+        "capacity_cores": 96,
+        "cost_multiplier": 1.05,
+        "data_class": "derived_geometry_with_synthetic_telecom_attributes",
+        "edge_id": "C2-046",
+        "feature_type": "edge",
+        "from_node": "N2-045",
+        "laying_type": "synthetic_duct",
+        "length_m": 22.35,
+        "source_geometry": "OpenStreetMap road coordinate sequence",
+        "status": "available",
+        "to_node": "N-B",
+        "used_cores": 12
+      },
+      "type": "Feature"
+    }
+  ],
+  "name": "telecom_competition_demo",
+  "type": "FeatureCollection"
+}

@@ -14,7 +14,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 PLUGIN_SOURCE = REPO_ROOT / "qgis_plugin" / "telecom_geo_agent"
-PLUGIN_VERSION = "0.2.0"
+PLUGIN_VERSION = "0.3.0"
 FIXED_ZIP_TIMESTAMP = (2026, 9, 4, 0, 0, 0)
 
 
@@ -86,6 +86,11 @@ def build_bundle(
         _copy_tree(repo_root / "agent", runtime_root / "agent")
         _copy_tree(repo_root / "telecom_core", runtime_root / "telecom_core")
         _copy_tree(repo_root / "data" / "demo", runtime_root / "data" / "demo")
+        _copy_tree(repo_root / "competition", runtime_root / "competition")
+        _copy_tree(
+            repo_root / "data" / "competition",
+            runtime_root / "data" / "competition",
+        )
 
         canonical_files = [
             path
@@ -93,10 +98,19 @@ def build_bundle(
             for path in source.rglob("*.py")
         ]
         canonical_files.extend((repo_root / "data" / "demo").glob("*.geojson"))
+        canonical_files.extend((repo_root / "competition").glob("*.py"))
+        canonical_files.extend(
+            path
+            for path in (repo_root / "data" / "competition").rglob("*")
+            if path.is_file()
+        )
         manifest = {
             "schema_version": 1,
             "plugin_version": PLUGIN_VERSION,
             "p0_packaging": "byte-identical canonical source snapshot; no parallel algorithm",
+            "competition_packaging": (
+                "audited public background plus derived geometry and synthetic telecom attributes"
+            ),
             "canonical_sha256": {
                 path.relative_to(repo_root).as_posix(): _sha256(path)
                 for path in sorted(canonical_files)

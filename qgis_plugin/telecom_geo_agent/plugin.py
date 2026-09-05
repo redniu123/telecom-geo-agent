@@ -27,12 +27,16 @@ def _load_bindings() -> PluginBindings:
 
 def _create_components(iface, runtime_root: Path):
     from .controller import ChatController
+    from .competition_controller import CompetitionController, PluginController
     from .dock_widget import AgentDockWidget
     from .map_adapter import QgisMapAdapter
 
     dock = AgentDockWidget(iface.mainWindow())
     map_adapter = QgisMapAdapter(iface)
-    controller = ChatController(dock, map_adapter, runtime_root)
+    controller = PluginController(
+        ChatController(dock, map_adapter, runtime_root),
+        CompetitionController(dock, map_adapter, runtime_root),
+    )
     return dock, map_adapter, controller
 
 
@@ -72,6 +76,19 @@ class TelecomGeoAgentPlugin:
         self.dock.visibilityChanged.connect(self.action.setChecked)
         self.dock.send_requested.connect(self.controller.handle_user_input)
         self.dock.command_requested.connect(self.controller.handle_user_input)
+        if hasattr(self.dock, "competition_preview_requested") and hasattr(
+            self.controller, "preview_competition"
+        ):
+            self.dock.competition_preview_requested.connect(
+                self.controller.preview_competition
+            )
+            self.dock.competition_execute_requested.connect(
+                self.controller.execute_competition
+            )
+            if hasattr(self.controller, "export_competition"):
+                self.dock.competition_export_requested.connect(
+                    self.controller.export_competition
+                )
 
         self.iface.addPluginToMenu(PLUGIN_MENU, self.action)
         self.iface.addToolBarIcon(self.action)
@@ -96,6 +113,19 @@ class TelecomGeoAgentPlugin:
             self.dock.visibilityChanged.disconnect(self.action.setChecked)
             self.dock.send_requested.disconnect(self.controller.handle_user_input)
             self.dock.command_requested.disconnect(self.controller.handle_user_input)
+            if hasattr(self.dock, "competition_preview_requested") and hasattr(
+                self.controller, "preview_competition"
+            ):
+                self.dock.competition_preview_requested.disconnect(
+                    self.controller.preview_competition
+                )
+                self.dock.competition_execute_requested.disconnect(
+                    self.controller.execute_competition
+                )
+                if hasattr(self.controller, "export_competition"):
+                    self.dock.competition_export_requested.disconnect(
+                        self.controller.export_competition
+                    )
         except (RuntimeError, TypeError):
             pass
         if self.map_adapter is not None:
@@ -112,4 +142,3 @@ class TelecomGeoAgentPlugin:
         self.dock = None
         self.map_adapter = None
         self.controller = None
-

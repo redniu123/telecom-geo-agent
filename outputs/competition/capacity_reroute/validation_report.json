@@ -1,0 +1,29 @@
+{
+  "error": null,
+  "forbidden_asset_ids_applied": [
+    "C1-017"
+  ],
+  "parameter_fingerprint": "1d158b578f362c219eb7d99e8fe8d2e02c547251683db858b6c9975c3184cf19",
+  "repair_count": 1,
+  "scenario_id": "capacity_reroute",
+  "status": "completed",
+  "validation_history": [
+    {
+      "passed": false,
+      "violations": [
+        {
+          "asset_id": "C1-017",
+          "message": "C1-017 剩余容量不足以承载 24 芯光缆",
+          "repair_hint": "forbid_asset",
+          "rule_id": "R_CAPACITY",
+          "severity": "error",
+          "type": "duct_capacity"
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "violations": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4536589,
+            31.2183076
+          ],
+          [
+            121.4542889,
+            31.2185721
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "issue:R_USER_FORBIDDEN:C1-009",
+      "properties": {
+        "asset_id": "C1-009",
+        "data_class": "derived_competition_output",
+        "issue_type": "explicit_forbidden_asset",
+        "message": "约束前候选路线命中显式禁用资产 C1-009",
+        "rule_id": "R_USER_FORBIDDEN",
+        "scenario_id": "forbidden_reroute",
+        "severity": "error",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

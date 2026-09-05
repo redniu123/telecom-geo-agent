@@ -1,0 +1,46 @@
+{
+  "aggregation": "median per scenario; human rows require a non-empty evidence_ref",
+  "limitations": [
+    "System timing is not a human manual-design baseline.",
+    "Blank or evidence-free human rows are excluded.",
+    "No competition threshold claim is valid while overall_status is pending_human_baseline."
+  ],
+  "overall_status": "pending_human_baseline",
+  "scenarios": [
+    {
+      "competition_threshold_met": null,
+      "efficiency_improvement_percent": null,
+      "human_baseline_count": 0,
+      "human_median_seconds": null,
+      "manual_operation_reduction_percent": null,
+      "scenario_id": "capacity_reroute",
+      "status": "pending_human_baseline",
+      "system_median_seconds": 0.006643,
+      "system_run_count": 3
+    },
+    {
+      "competition_threshold_met": null,
+      "efficiency_improvement_percent": null,
+      "human_baseline_count": 0,
+      "human_median_seconds": null,
+      "manual_operation_reduction_percent": null,
+      "scenario_id": "forbidden_reroute",
+      "status": "pending_human_baseline",
+      "system_median_seconds": 0.007548,
+      "system_run_count": 3
+    },
+    {
+      "competition_threshold_met": null,
+      "efficiency_improvement_percent": null,
+      "human_baseline_count": 0,
+      "human_median_seconds": null,
+      "manual_operation_reduction_percent": null,
+      "scenario_id": "no_path",
+      "status": "pending_human_baseline",
+      "system_median_seconds": 0.00625,
+      "system_run_count": 3
+    }
+  ],
+  "schema_version": 1,
+  "threshold_rule": "efficiency_improvement_percent >= 30 OR manual_operation_reduction_percent > 50"
+}

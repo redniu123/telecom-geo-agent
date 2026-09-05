@@ -1,0 +1,26 @@
+{
+  "error": "RoutePlanningError: no route from site 'A' (N-A) to site 'B' (N-B); forbidden_asset_ids=['C1-017', 'C2-024']",
+  "forbidden_asset_ids_applied": [
+    "C1-017",
+    "C2-024"
+  ],
+  "parameter_fingerprint": "8edf9b1c74a9e3a20333964dddeb31b1a2bc05beeffc733cc21604b1187f07c1",
+  "repair_count": 1,
+  "scenario_id": "no_path",
+  "status": "failed",
+  "validation_history": [
+    {
+      "passed": false,
+      "violations": [
+        {
+          "asset_id": "C1-017",
+          "message": "约束前候选路线命中显式禁用资产 C1-017",
+          "repair_hint": "forbid_asset",
+          "rule_id": "R_USER_FORBIDDEN",
+          "severity": "error",
+          "type": "explicit_forbidden_asset"
+        }
+      ]
+    }
+  ]
+}

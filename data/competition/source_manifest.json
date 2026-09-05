@@ -1,0 +1,207 @@
+{
+  "build_rule": "two shortest edge-disjoint paths sorted by geodesic length; fixed attribute rules",
+  "classification_boundary": {
+    "background": "public_real_derived_subset",
+    "candidate_channel_geometry": "derived_from_public_road_geometry",
+    "outputs": "derived_competition_output",
+    "sites": "synthetic",
+    "telecom_asset_type_capacity_status_cost": "synthetic"
+  },
+  "dataset_id": "osm_shanghai_former_french_concession_north_demo_v1",
+  "dataset_name": "上海公开 GIS 背景上的合成通信候选路线竞赛样例",
+  "generated_files": {
+    "background/buildings.geojson": {
+      "classification": "public_real_derived_subset",
+      "crs": "EPSG:4326",
+      "feature_count": 848,
+      "geometry_ring_closures": 0,
+      "sha256": "423bc91f89a51913d4b58d009d4793c82e55c4cfc1fe362a3f1dcdc87ecd108e"
+    },
+    "background/landuse.geojson": {
+      "classification": "public_real_derived_subset",
+      "crs": "EPSG:4326",
+      "feature_count": 23,
+      "geometry_ring_closures": 0,
+      "sha256": "5e06bcf7c503744c1d8bbac269610b8d3bf6b0019054cc5928a5729739abd196"
+    },
+    "background/railways.geojson": {
+      "classification": "public_real_derived_subset",
+      "crs": "EPSG:4326",
+      "feature_count": 10,
+      "geometry_ring_closures": 0,
+      "sha256": "60accad0d80a2aea899121565f1677c4233fdeabaa03f0f7e44589c3ca911a31"
+    },
+    "background/roads.geojson": {
+      "classification": "public_real_derived_subset",
+      "crs": "EPSG:4326",
+      "feature_count": 60,
+      "geometry_ring_closures": 0,
+      "sha256": "672d33c45501d19f6a0a73a34977d57b6e590d24584d99dc5fa70fee36cfb661"
+    },
+    "background/water.geojson": {
+      "classification": "public_real_derived_subset",
+      "crs": "EPSG:4326",
+      "feature_count": 1,
+      "geometry_ring_closures": 0,
+      "sha256": "580eff03eb3c8c8d153dd3c55013a6d9919e1322fd60277cb534f3accd9b1540"
+    },
+    "candidate_channels.geojson": {
+      "classification": "derived_geometry_with_synthetic_telecom_attributes",
+      "crs": "EPSG:4326",
+      "feature_count": 79,
+      "sha256": "a6657647d18ac71d939d5d6a97e560e177e236ddcc8786bce82abb6d0db51bbd"
+    },
+    "network.geojson": {
+      "classification": "derived_geometry_with_synthetic_telecom_attributes",
+      "crs": "EPSG:4326",
+      "feature_count": 158,
+      "sha256": "e354fd0b62da9e8de45159dd677cd28f7f0bc5ba378d1d63b3e19f33e3fa1a5b"
+    },
+    "scenarios.json": {
+      "classification": "synthetic_competition_configuration",
+      "scenario_count": 3,
+      "sha256": "bb3889b23a92b6b5d2ffbb8fa6ecdc0faa15f66d529f26ddc965d29700948c02"
+    },
+    "sites.geojson": {
+      "classification": "synthetic",
+      "crs": "EPSG:4326",
+      "feature_count": 2,
+      "sha256": "7d5a65a30a407cedfbeb4c1f291085fc73f59c6b5a89662daa3413e34555ee7c"
+    }
+  },
+  "limitations": [
+    "Only selected OSM way geometries are used; multipolygon relations are not assembled.",
+    "Candidate channels are not real ducts, cables, chambers, or carrier assets.",
+    "Capacity, occupancy, availability, laying type, cost multiplier, and BOM are synthetic.",
+    "Competition sample only; not a formal construction drawing."
+  ],
+  "output_crs": "EPSG:4326",
+  "required_notice": "© OpenStreetMap contributors; ODbL 1.0",
+  "schema_version": 1,
+  "source_dataset": {
+    "bounding_box": {
+      "east": 121.465,
+      "north": 31.222,
+      "south": 31.21,
+      "west": 121.447
+    },
+    "license": {
+      "name": "Open Database License (ODbL) 1.0",
+      "url": "https://opendatacommons.org/licenses/odbl/1-0/"
+    },
+    "osm_base_timestamp": "2026-09-04T16:29:36Z",
+    "required_attribution": "© OpenStreetMap contributors",
+    "selected_layer_sha256": {
+      "buildings": "b5d9e70e2496c7e13b0aaab88917a93bf871bf0437b601b6fc5d876275e8aa67",
+      "landuse": "6890a3cbef59160083cc191f81a9ef5ef83a4a0623fbe79cd584039c99bbd11d",
+      "railways": "7d30b549b2e2b33a38f4d72268d9a0ac7d04053ebbf124aada178d332405ad86",
+      "roads": "fc76e462b7a2de52a31606e0d6c549f570d62b8d133a5ffd1e6ae258eedcd876",
+      "site_candidates": "645b6f4d3a6501b02b0e83c54ce550f00ddb13b0f753dd27dd0467e903ebd5eb",
+      "water": "fec0aad29753b25e8b0446158fd3637652951294875c2e5aee8cd678f539e139"
+    },
+    "source": "OpenStreetMap via Overpass API"
+  },
+  "source_manifest_sha256": "61306c80f0baec19740aca865c8b78a522fd435766428e9fa165c2a82a02c4ef",
+  "topology_evidence": {
+    "capacity_edge": "C1-017",
+    "edge_disjoint_path_count_used": 2,
+    "forbidden_edge": "C1-009",
+    "no_path_cut_edges": [
+      "C1-017",
+      "C2-024"
+    ],
+    "path_edge_counts": [
+      33,
+      46
+    ],
+    "path_edge_ids": [
+      [
+        "C1-001",
+        "C1-002",
+        "C1-003",
+        "C1-004",
+        "C1-005",
+        "C1-006",
+        "C1-007",
+        "C1-008",
+        "C1-009",
+        "C1-010",
+        "C1-011",
+        "C1-012",
+        "C1-013",
+        "C1-014",
+        "C1-015",
+        "C1-016",
+        "C1-017",
+        "C1-018",
+        "C1-019",
+        "C1-020",
+        "C1-021",
+        "C1-022",
+        "C1-023",
+        "C1-024",
+        "C1-025",
+        "C1-026",
+        "C1-027",
+        "C1-028",
+        "C1-029",
+        "C1-030",
+        "C1-031",
+        "C1-032",
+        "C1-033"
+      ],
+      [
+        "C2-001",
+        "C2-002",
+        "C2-003",
+        "C2-004",
+        "C2-005",
+        "C2-006",
+        "C2-007",
+        "C2-008",
+        "C2-009",
+        "C2-010",
+        "C2-011",
+        "C2-012",
+        "C2-013",
+        "C2-014",
+        "C2-015",
+        "C2-016",
+        "C2-017",
+        "C2-018",
+        "C2-019",
+        "C2-020",
+        "C2-021",
+        "C2-022",
+        "C2-023",
+        "C2-024",
+        "C2-025",
+        "C2-026",
+        "C2-027",
+        "C2-028",
+        "C2-029",
+        "C2-030",
+        "C2-031",
+        "C2-032",
+        "C2-033",
+        "C2-034",
+        "C2-035",
+        "C2-036",
+        "C2-037",
+        "C2-038",
+        "C2-039",
+        "C2-040",
+        "C2-041",
+        "C2-042",
+        "C2-043",
+        "C2-044",
+        "C2-045",
+        "C2-046"
+      ]
+    ],
+    "path_lengths_m": [
+      2009.4,
+      2106.46
+    ]
+  }
+}

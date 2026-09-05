@@ -1,0 +1,10 @@
+﻿run_id,scenario_id,iteration,status,expected_status,elapsed_seconds,event_count,parameter_fingerprint,evidence_ref
+SYS-capacity_reroute-01,capacity_reroute,1,completed,completed,0.006905,9,1d158b578f362c219eb7d99e8fe8d2e02c547251683db858b6c9975c3184cf19,outputs/competition/capacity_reroute/events.jsonl
+SYS-capacity_reroute-02,capacity_reroute,2,completed,completed,0.006055,9,1d158b578f362c219eb7d99e8fe8d2e02c547251683db858b6c9975c3184cf19,outputs/competition/capacity_reroute/events.jsonl
+SYS-capacity_reroute-03,capacity_reroute,3,completed,completed,0.006643,9,1d158b578f362c219eb7d99e8fe8d2e02c547251683db858b6c9975c3184cf19,outputs/competition/capacity_reroute/events.jsonl
+SYS-forbidden_reroute-01,forbidden_reroute,1,completed,completed,0.007548,9,f9e73c6095c8b037255d50da323d3c6b2195f82b42b87c9733425b9a5f536c76,outputs/competition/forbidden_reroute/events.jsonl
+SYS-forbidden_reroute-02,forbidden_reroute,2,completed,completed,0.005854,9,f9e73c6095c8b037255d50da323d3c6b2195f82b42b87c9733425b9a5f536c76,outputs/competition/forbidden_reroute/events.jsonl
+SYS-forbidden_reroute-03,forbidden_reroute,3,completed,completed,0.007633,9,f9e73c6095c8b037255d50da323d3c6b2195f82b42b87c9733425b9a5f536c76,outputs/competition/forbidden_reroute/events.jsonl
+SYS-no_path-01,no_path,1,failed,failed,0.006105,6,8edf9b1c74a9e3a20333964dddeb31b1a2bc05beeffc733cc21604b1187f07c1,outputs/competition/no_path/events.jsonl
+SYS-no_path-02,no_path,2,failed,failed,0.006250,6,8edf9b1c74a9e3a20333964dddeb31b1a2bc05beeffc733cc21604b1187f07c1,outputs/competition/no_path/events.jsonl
+SYS-no_path-03,no_path,3,failed,failed,0.006529,6,8edf9b1c74a9e3a20333964dddeb31b1a2bc05beeffc733cc21604b1187f07c1,outputs/competition/no_path/events.jsonl

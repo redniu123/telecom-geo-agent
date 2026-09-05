@@ -1,6 +1,6 @@
 # TelecomGeoAgent MVP
 
-这是一个完全离线、可确定性复算的通信光缆路由 P0 Demo。它把固定中文请求解析为 `TelecomTask`，调用现有 `telecom_core` 完成路线规划、独立校核、一次有界自动修复和简化 BOM 计算，并输出可由 QGIS 打开的 GeoJSON。P1A 在不修改这条冻结主链的前提下，增加了可本地安装的 QGIS 右侧对话 Dock。
+这是一个完全离线、可确定性复算的通信光缆路由 P0 Demo。它把固定中文请求解析为 `TelecomTask`，调用现有 `telecom_core` 完成路线规划、独立校核、一次有界自动修复和简化 BOM 计算，并输出可由 QGIS 打开的 GeoJSON。P1A 在不修改这条冻结主链的前提下，增加了可本地安装的 QGIS 右侧对话 Dock。竞赛版 0.3 在同一插件中增加了结构化参数设计、公开 GIS 背景、合成通信约束、三类可复算场景和 QGIS Layout 图纸导出。
 
 默认 Case 会从 A 机房到 B 基站规划 24 芯光缆。第一次最低相对成本路线故意经过容量不足的 `D017`；Validator 独立返回失败后，Workflow 禁用 `D017` 并仅重新规划一次，最终路线校核通过后才生成 BOM。
 
@@ -29,7 +29,11 @@ tests/e2e/          解析、Workflow、CLI 和输出端到端测试
 tests/p1a/          不启动 QGIS 的控制器、生命周期、图层计划和安装包测试
 outputs/            run_demo.py 生成的五个结果文件
 qgis_plugin/        QGIS Dock、对话控制器和 PyQGIS 地图适配层
+competition/        竞赛参数合同、场景工作流、证据输出和指标计算
+data/competition/   公开背景派生子集、候选几何、合成站点/通信属性及来源清单
+tests/competition/  数据、参数、场景、图层和指标的领域事实测试
 run_demo.py         默认无交互 CLI 入口
+run_competition.py  三个竞赛场景的离线 CLI 入口
 docs/               总设计和角色任务书
 ```
 
@@ -171,6 +175,36 @@ P0 源码和数据的 SHA-256，便于确认打包内容没有成为另一套算
 自动测试不会启动 QGIS，也不能证明 Dock 已在真实 QGIS 中加载、交互和正确
 显示。该 GUI 验收必须由 Quimer 在安装后的 QGIS 中完成并记录。
 
+## 竞赛版 0.3：参数化设计与标准图纸
+
+构建并运行三个冻结场景：
+
+```powershell
+python scripts/build_competition_dataset.py
+python run_competition.py --all
+python scripts/run_competition_benchmark.py --iterations 3
+python scripts/calculate_competition_metrics.py
+python scripts/build_qgis_plugin.py --output-dir dist
+```
+
+场景事实如下：
+
+- `capacity_reroute`：24 芯候选路线命中 `C1-017` 容量不足，一次禁用后走第二走廊并 PASS；
+- `forbidden_reroute`：候选路线命中显式禁用 `C1-009`，一次禁用后走第二走廊并 PASS；
+- `no_path`：两条边不重合走廊分别被 `C1-017`、`C2-024` 切断，明确失败，不生成 BOM 或正式最终路线。
+
+QGIS 中从 ZIP 安装时选择：
+
+```text
+dist/telecom_geo_agent-0.3.0.zip
+```
+
+打开右侧 Dock 的“参数化设计”页，依次完成“选择参数 → 预览参数 → 确认并执行 → 导出 A3 标准图纸”。修改任意字段会使旧确认指纹失效。勾选“优先使用已有管道”时按 `长度 × 相对成本系数` 选路；取消勾选时按纯长度选路。只有最终独立校核 PASS 且存在 BOM 时，图纸按钮才会启用。
+
+竞赛数据不是运营商资产数据：道路、建筑、水体、铁路和用地是 OSM 公开背景的派生子集；候选通道几何沿公开道路派生；站点身份、通道身份、容量、占用、状态、成本和 BOM 全部是合成字段。输出始终是“竞赛样例 / 非正式施工图”。详见 `docs/competition/`。
+
+人工效率基线没有被自动生成。`outputs/competition/benchmark/metric_report.json` 在人工证据为空时必须保持 `pending_human_baseline`；只有 Quimer 完成同机、同任务、带录屏/日志引用的手工对照后，才允许计算并讨论赛题门槛。
+
 ## 计算口径与免责声明
 
 路由权重是：
@@ -201,5 +235,5 @@ recommended_cable_length_m = total_length_m × 1.10
 - 只有仓库内的小型 A/B Demo 网络，不含真实地理、道路、建筑、权属或造价数据。
 - 只允许一次 Repair，不做无限重试或多候选路线比较。
 - BOM 只有长度分类和固定 10% 余量，不是完整材料清单或预算。
-- 没有并发执行、鉴权、持久化任务队列、UI 或生产运维能力。
+- 没有并发执行、鉴权、持久化任务队列或生产运维能力；现有 UI 是本地 QGIS 竞赛原型。
 - QGIS 目视验收不由自动化测试替代。

@@ -3,13 +3,18 @@
 from __future__ import annotations
 
 from qgis.core import (
+    QgsFillSymbol,
     QgsLineSymbol,
     QgsMarkerSymbol,
+    QgsPalLayerSettings,
     QgsProject,
     QgsRectangle,
     QgsSingleSymbolRenderer,
+    QgsTextFormat,
     QgsVectorLayer,
+    QgsVectorLayerSimpleLabeling,
 )
+from qgis.PyQt.QtGui import QColor, QFont
 
 from .layer_plan import (
     PLUGIN_LAYER_PROPERTY,
@@ -26,14 +31,22 @@ class QgisMapAdapter:
         self.iface = iface
         self.project = QgsProject.instance()
         self.layers: dict[str, QgsVectorLayer] = {}
+        self.group_name: str | None = None
 
     def load_plan(self, plan: LayerPlan) -> None:
         plan.validate_sources()
         self.clear_layers()
         try:
+            group = None
+            if plan.group_name:
+                group = self.project.layerTreeRoot().addGroup(plan.group_name)
+                group.setCustomProperty(PLUGIN_LAYER_PROPERTY, "group")
+                self.group_name = plan.group_name
             for spec in plan.layers:
                 layer = self._create_layer(plan, spec)
-                self.project.addMapLayer(layer)
+                self.project.addMapLayer(layer, not bool(group))
+                if group is not None:
+                    group.addLayer(layer)
                 self.layers[spec.key] = layer
                 self._set_visible(spec.key, spec.visible)
         except Exception:
@@ -54,21 +67,55 @@ class QgisMapAdapter:
             RELATIVE_SOURCE_PROPERTY, spec.relative_path.as_posix()
         )
         layer.setRenderer(QgsSingleSymbolRenderer(self._symbol(spec.style)))
+        if spec.label_field:
+            settings = QgsPalLayerSettings()
+            settings.fieldName = spec.label_field
+            text_format = QgsTextFormat()
+            text_format.setFont(QFont("Microsoft YaHei", 8))
+            text_format.setColor(QColor("#ecf2f8"))
+            settings.setFormat(text_format)
+            layer.setLabeling(QgsVectorLayerSimpleLabeling(settings))
+            layer.setLabelsEnabled(True)
         layer.triggerRepaint()
         return layer
 
     @staticmethod
     def _symbol(style: str):
-        if style == "sites":
+        if style in {"sites", "rooms", "base_stations"}:
+            colors = {
+                "sites": ("45,132,255,255", "circle"),
+                "rooms": ("65,145,255,255", "square"),
+                "base_stations": ("255,108,76,255", "triangle"),
+            }
+            color, name = colors[style]
             return QgsMarkerSymbol.createSimple(
                 {
-                    "name": "circle",
-                    "color": "45,132,255,255",
+                    "name": name,
+                    "color": color,
                     "outline_color": "230,240,255,255",
                     "outline_width": "0.6",
                     "size": "4.2",
                 }
             )
+        fill_styles = {
+            "buildings": {
+                "color": "94,104,118,95",
+                "outline_color": "120,130,145,120",
+                "outline_width": "0.15",
+            },
+            "landuse": {
+                "color": "81,112,87,55",
+                "outline_color": "81,112,87,60",
+                "outline_width": "0.1",
+            },
+            "water": {
+                "color": "65,154,210,115",
+                "outline_color": "65,154,210,210",
+                "outline_width": "0.35",
+            },
+        }
+        if style in fill_styles:
+            return QgsFillSymbol.createSimple(fill_styles[style])
         line_styles = {
             "network": {
                 "color": "117,126,140,145",
@@ -95,6 +142,21 @@ class QgisMapAdapter:
                 "width": "3.2",
                 "line_style": "solid",
             },
+            "roads": {
+                "color": "137,148,164,150",
+                "width": "0.55",
+                "line_style": "solid",
+            },
+            "railways": {
+                "color": "125,92,145,170",
+                "width": "0.8",
+                "line_style": "dash",
+            },
+            "candidate_channels": {
+                "color": "86,191,206,165",
+                "width": "0.9",
+                "line_style": "dash",
+            },
         }
         return QgsLineSymbol.createSimple(line_styles[style])
 
@@ -108,11 +170,12 @@ class QgisMapAdapter:
         tree_layer.setItemVisibilityChecked(visible)
 
     def show_first_route(self) -> None:
-        self._set_visible("first_route", True)
+        key = "first_route" if "first_route" in self.layers else "candidate_route"
+        self._set_visible(key, True)
         self._set_visible_if_present("final_route", False)
         self._set_visible_if_present("issue_d017", True)
         self._set_visible_if_present("issues", True)
-        self._zoom_to("first_route")
+        self._zoom_to(key)
 
     def show_final_route(self) -> None:
         self._set_visible_if_present("first_route", False)
@@ -128,7 +191,8 @@ class QgisMapAdapter:
         self._set_visible(key, True)
         layer = self.layers[key]
         layer.removeSelection()
-        layer.selectByExpression(f'"edge_id" = \'{asset_id.replace(chr(39), chr(39) * 2)}\'')
+        field = "edge_id" if "edge_id" in layer.fields().names() else "asset_id"
+        layer.selectByExpression(f'"{field}" = \'{asset_id.replace(chr(39), chr(39) * 2)}\'')
         if layer.selectedFeatureCount() == 0:
             raise RuntimeError(f"当前问题图层不包含资产：{asset_id}")
         self._zoom_to(key, selected_only=True)
@@ -164,4 +228,22 @@ class QgisMapAdapter:
         ]
         if managed_ids:
             self.project.removeMapLayers(managed_ids)
+        root = self.project.layerTreeRoot()
+        for group in list(root.children()):
+            if group.customProperty(PLUGIN_LAYER_PROPERTY, "") == "group":
+                root.removeChildNode(group)
         self.layers.clear()
+        self.group_name = None
+
+    def export_competition_pdf(
+        self, state: dict, destination, *, paper_size: str = "A3"
+    ):
+        from .layout_exporter import export_competition_layout
+
+        return export_competition_layout(
+            self.project,
+            self.layers,
+            state,
+            destination,
+            paper_size=paper_size,
+        )

@@ -1,0 +1,32 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4566179,
+            31.2195585
+          ],
+          [
+            121.4567313,
+            31.2196065
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "issue:R_CAPACITY:C1-017",
+      "properties": {
+        "asset_id": "C1-017",
+        "data_class": "derived_competition_output",
+        "issue_type": "duct_capacity",
+        "message": "C1-017 剩余容量不足以承载 24 芯光缆",
+        "rule_id": "R_CAPACITY",
+        "scenario_id": "capacity_reroute",
+        "severity": "error",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

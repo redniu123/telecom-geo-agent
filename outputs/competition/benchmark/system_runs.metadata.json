@@ -1,0 +1,6 @@
+{
+  "all_actual_statuses_match_catalog": true,
+  "claim_boundary": "system execution timing only; not human efficiency evidence",
+  "iterations_per_scenario": 3,
+  "raw_csv": "C:\\Users\\zhubinhua\\.codex\\worktrees\\9e1c\\通信工程agent\\outputs\\competition\\benchmark\\system_runs.csv"
+}

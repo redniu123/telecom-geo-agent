@@ -7,12 +7,14 @@ classes and the real P0 Workflow, but it is not a visual GUI acceptance test.
 from __future__ import annotations
 
 import argparse
+from contextlib import nullcontext
+import shutil
 import sys
 import tempfile
 import zipfile
 from pathlib import Path
 
-from qgis.core import QgsApplication, QgsProject
+from qgis.core import Qgis, QgsApplication, QgsProject
 
 
 DEFAULT_REQUEST = "从A到B规划24芯光缆"
@@ -71,9 +73,11 @@ def _visible(plugin, key: str) -> bool:
     return tree_layer.itemVisibilityChecked()
 
 
-def run_smoke(bundle: Path) -> None:
-    with tempfile.TemporaryDirectory(prefix="telecom-qgis-smoke-") as temporary:
-        install_root = Path(temporary)
+def run_smoke(
+    bundle: Path, install_root: Path, export_pdf: Path | None = None
+) -> None:
+    # The caller owns cleanup so it can release QGIS/OGR providers first.
+    with nullcontext(install_root):
         with zipfile.ZipFile(bundle) as archive:
             archive.extractall(install_root)
         sys.path.insert(0, str(install_root))
@@ -145,6 +149,69 @@ def run_smoke(bundle: Path) -> None:
             assert parse_failed["first_route"] is None
             assert not QgsProject.instance().mapLayers()
             print("parse_failure_clears_stale_layers=PASS")
+
+            from competition.catalog import parameters_for_scenario
+
+            capacity = parameters_for_scenario(
+                plugin.controller.competition.repository_root,
+                "capacity_reroute",
+            )
+            plugin.controller.preview_competition(capacity.as_dict())
+            plugin.controller.execute_competition(
+                capacity.as_dict(), capacity.fingerprint
+            )
+            competition_state = plugin.controller.competition.last_state
+            assert competition_state["status"] == "completed"
+            assert competition_state["validation_history"][0]["violations"][0][
+                "asset_id"
+            ] == "C1-017"
+            assert competition_state["validation_history"][-1]["passed"] is True
+            assert "C1-017" not in competition_state["final_route"]["edge_ids"]
+            assert set(plugin.map_adapter.layers) == {
+                "landuse",
+                "buildings",
+                "water",
+                "railways",
+                "roads",
+                "candidate_channels",
+                "rooms",
+                "base_stations",
+                "candidate_route",
+                "issues",
+                "final_route",
+            }
+            assert plugin.map_adapter.layers["candidate_channels"].featureCount() == 79
+            assert (
+                plugin.map_adapter.layers["candidate_channels"].geometryType()
+                == Qgis.GeometryType.Line
+            )
+            assert plugin.map_adapter.layers["buildings"].featureCount() == 848
+            assert plugin.map_adapter.layers["issues"].featureCount() == 1
+            assert not _visible(plugin, "candidate_route")
+            assert _visible(plugin, "final_route")
+            layout_pdf = install_root / "competition_capacity_A3.pdf"
+            plugin.map_adapter.export_competition_pdf(
+                competition_state, layout_pdf, paper_size="A3"
+            )
+            assert layout_pdf.is_file() and layout_pdf.stat().st_size > 10_000
+            if export_pdf is not None:
+                export_pdf.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copyfile(layout_pdf, export_pdf)
+            print(f"competition_capacity=PASS pdf_bytes={layout_pdf.stat().st_size}")
+
+            no_path = parameters_for_scenario(
+                plugin.controller.competition.repository_root,
+                "no_path",
+            )
+            plugin.controller.preview_competition(no_path.as_dict())
+            plugin.controller.execute_competition(no_path.as_dict(), no_path.fingerprint)
+            failed_competition = plugin.controller.competition.last_state
+            assert failed_competition["status"] == "failed"
+            assert failed_competition["final_route"] is None
+            assert failed_competition["bom_result"] is None
+            assert "no route" in failed_competition["error"]
+            assert "final_route" not in plugin.map_adapter.layers
+            print("competition_no_path=EXPECTED_FAIL_WITH_EVIDENCE")
             print(f"extent_updates={iface.canvas.extent_updates}")
         finally:
             plugin.unload()
@@ -160,20 +227,36 @@ def main() -> int:
     )
     parser.add_argument(
         "--bundle",
-        default="dist/telecom_geo_agent-0.2.0.zip",
+        default="dist/telecom_geo_agent-0.3.0.zip",
         help="待验证的插件 ZIP",
+    )
+    parser.add_argument(
+        "--export-pdf",
+        type=Path,
+        help="可选：把 smoke 中真实导出的容量场景 A3 图纸复制到该路径",
     )
     args = parser.parse_args()
     bundle = Path(args.bundle).resolve()
     if not bundle.is_file():
         parser.error(f"插件 ZIP 不存在：{bundle}")
 
+    install_root = Path(tempfile.mkdtemp(prefix="telecom-qgis-smoke-")).resolve()
+    expected_parent = Path(tempfile.gettempdir()).resolve()
+    if install_root.parent != expected_parent or not install_root.name.startswith(
+        "telecom-qgis-smoke-"
+    ):
+        raise RuntimeError(f"拒绝使用未验证的临时目录：{install_root}")
     app = QgsApplication([], False)
     app.initQgis()
     try:
-        run_smoke(bundle)
+        run_smoke(
+            bundle,
+            install_root,
+            args.export_pdf.resolve() if args.export_pdf else None,
+        )
     finally:
         app.exitQgis()
+        shutil.rmtree(install_root)
     return 0
 
 

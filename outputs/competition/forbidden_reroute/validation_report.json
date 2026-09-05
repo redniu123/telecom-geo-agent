@@ -1,0 +1,29 @@
+{
+  "error": null,
+  "forbidden_asset_ids_applied": [
+    "C1-009"
+  ],
+  "parameter_fingerprint": "f9e73c6095c8b037255d50da323d3c6b2195f82b42b87c9733425b9a5f536c76",
+  "repair_count": 1,
+  "scenario_id": "forbidden_reroute",
+  "status": "completed",
+  "validation_history": [
+    {
+      "passed": false,
+      "violations": [
+        {
+          "asset_id": "C1-009",
+          "message": "约束前候选路线命中显式禁用资产 C1-009",
+          "repair_hint": "forbid_asset",
+          "rule_id": "R_USER_FORBIDDEN",
+          "severity": "error",
+          "type": "explicit_forbidden_asset"
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "violations": []
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    },
+    "type": "name"
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          121.4482261,
+          31.218636
+        ],
+        "type": "Point"
+      },
+      "id": "site:A",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "样例 A 机房",
+        "node_id": "N-A",
+        "site_id": "A",
+        "site_type": "telecom_room",
+        "source": "synthetic_site_on_public_road_network",
+        "status": "available"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4638652,
+          31.2170227
+        ],
+        "type": "Point"
+      },
+      "id": "site:B",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "样例 B 基站",
+        "node_id": "N-B",
+        "site_id": "B",
+        "site_type": "base_station",
+        "source": "synthetic_site_on_public_road_network",
+        "status": "available"
+      },
+      "type": "Feature"
+    }
+  ],
+  "name": "telecom_competition_demo",
+  "type": "FeatureCollection"
+}

@@ -1,8 +1,8 @@
 [general]
 name=通信工程 Agent
-description=离线确定性光缆规划对话 Dock，展示 D017 容量失败、一次修复、最终路线和 BOM
-about=TelecomGeoAgent P1A 最小垂直切片。仅运行仓库内合成 P0 Demo，不连接模型、在线服务或现实通信数据。
-version=0.2.0
+description=离线参数化通信线路设计、冲突校核、自动绕行、QGIS 图层与标准图纸
+about=保留冻结 P0 对话 Demo，并增加公开 OSM 背景与合成通信属性的竞赛样例。无模型、无在线服务；输出不是正式施工图。
+version=0.3.0
 qgisMinimumVersion=3.28
 qgisMaximumVersion=3.99
 author=TelecomGeoAgent contributors

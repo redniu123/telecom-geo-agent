@@ -1,0 +1,4 @@
+run_id,scenario_id,operator_id,environment,started_at,ended_at,elapsed_seconds,manual_operations,system_observed_operations,status,evidence_ref,notes
+MAN-capacity-01,capacity_reroute,,,,,,,,pending,,由 Quimer 实测填写；不可估算
+MAN-forbidden-01,forbidden_reroute,,,,,,,,pending,,由 Quimer 实测填写；不可估算
+MAN-no-path-01,no_path,,,,,,,,pending,,由 Quimer 实测填写；失败识别也需计时
