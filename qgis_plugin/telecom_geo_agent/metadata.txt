@@ -1,0 +1,15 @@
+[general]
+name=通信工程 Agent
+description=离线确定性光缆规划对话 Dock，展示 D017 容量失败、一次修复、最终路线和 BOM
+about=TelecomGeoAgent P1A 最小垂直切片。仅运行仓库内合成 P0 Demo，不连接模型、在线服务或现实通信数据。
+version=0.2.0
+qgisMinimumVersion=3.28
+qgisMaximumVersion=3.99
+author=TelecomGeoAgent contributors
+email=
+repository=https://github.com/redniu123/telecom-geo-agent
+tracker=https://github.com/redniu123/telecom-geo-agent/issues
+category=Vector
+experimental=True
+deprecated=False
+hasProcessingProvider=False
