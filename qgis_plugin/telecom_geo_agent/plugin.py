@@ -28,6 +28,7 @@ def _load_bindings() -> PluginBindings:
 def _create_components(iface, runtime_root: Path):
     from .controller import ChatController
     from .competition_controller import CompetitionController, PluginController
+    from .batch_controller import BatchController
     from .dock_widget import AgentDockWidget
     from .map_adapter import QgisMapAdapter
 
@@ -36,6 +37,7 @@ def _create_components(iface, runtime_root: Path):
     controller = PluginController(
         ChatController(dock, map_adapter, runtime_root),
         CompetitionController(dock, map_adapter, runtime_root),
+        BatchController(dock, map_adapter, runtime_root),
     )
     return dock, map_adapter, controller
 
@@ -89,6 +91,18 @@ class TelecomGeoAgentPlugin:
                 self.dock.competition_export_requested.connect(
                     self.controller.export_competition
                 )
+        if hasattr(self.dock, "batch_import_requested") and hasattr(
+            self.controller, "import_batch"
+        ):
+            self.dock.batch_import_requested.connect(self.controller.import_batch)
+            self.dock.batch_preview_requested.connect(self.controller.preview_batch)
+            self.dock.batch_execute_requested.connect(self.controller.execute_batch)
+            self.dock.batch_export_requested.connect(self.controller.export_batch)
+            self.dock.batch_filter_requested.connect(self.controller.filter_batch)
+            self.dock.batch_focus_requested.connect(self.controller.focus_batch)
+            self.dock.batch_route_visibility_requested.connect(
+                self.controller.set_batch_route_visibility
+            )
 
         self.iface.addPluginToMenu(PLUGIN_MENU, self.action)
         self.iface.addToolBarIcon(self.action)
@@ -126,6 +140,18 @@ class TelecomGeoAgentPlugin:
                     self.dock.competition_export_requested.disconnect(
                         self.controller.export_competition
                     )
+            if hasattr(self.dock, "batch_import_requested") and hasattr(
+                self.controller, "import_batch"
+            ):
+                self.dock.batch_import_requested.disconnect(self.controller.import_batch)
+                self.dock.batch_preview_requested.disconnect(self.controller.preview_batch)
+                self.dock.batch_execute_requested.disconnect(self.controller.execute_batch)
+                self.dock.batch_export_requested.disconnect(self.controller.export_batch)
+                self.dock.batch_filter_requested.disconnect(self.controller.filter_batch)
+                self.dock.batch_focus_requested.disconnect(self.controller.focus_batch)
+                self.dock.batch_route_visibility_requested.disconnect(
+                    self.controller.set_batch_route_visibility
+                )
         except (RuntimeError, TypeError):
             pass
         if self.map_adapter is not None:

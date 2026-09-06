@@ -1,0 +1,31 @@
+﻿task_id,batch_id,site_id,preferred_room_id,alternate_room_id,priority,cable_fiber_cores,prefer_existing_duct,forbidden_asset_ids,required_date,notes
+T001,BATCH-MAIN-30,SITE-001,ROOM-01,,high,24,true,,2026-09-15,cross-task bottleneck first reservation
+T002,BATCH-MAIN-30,SITE-002,ROOM-01,,high,48,true,,2026-09-15,must explain previous-task capacity conflict
+T003,BATCH-MAIN-30,SITE-003,ROOM-03,,high,96,true,,2026-09-15,initial full subduct triggers bounded reroute
+T004,BATCH-MAIN-30,SITE-004,ROOM-01,,high,24,true,,2026-09-15,synthetic forbidden segment triggers bounded reroute
+T005,BATCH-MAIN-30,SITE-005,ROOM-02,,high,48,true,BC-0386,2026-09-15,task-level explicit forbidden segment
+T006,BATCH-MAIN-30,SITE-006,ROOM-03,,high,144,true,,2026-09-15,deterministic synthetic task
+T007,BATCH-MAIN-30,SITE-007,ROOM-01,,high,24,true,,2026-09-15,deterministic synthetic task
+T008,BATCH-MAIN-30,SITE-008,ROOM-02,,high,48,true,,2026-09-15,deterministic synthetic task
+T009,BATCH-MAIN-30,SITE-009,ROOM-03,,high,96,true,,2026-09-15,deterministic synthetic task
+T010,BATCH-MAIN-30,SITE-010,ROOM-01,,high,24,true,,2026-09-15,deterministic synthetic task
+T011,BATCH-MAIN-30,SITE-011,ROOM-02,,medium,48,true,,2026-09-15,deterministic synthetic task
+T012,BATCH-MAIN-30,SITE-012,ROOM-03,,medium,144,true,,2026-09-15,deterministic synthetic task
+T013,BATCH-MAIN-30,SITE-013,ROOM-01,,medium,24,true,,2026-09-15,deterministic synthetic task
+T014,BATCH-MAIN-30,SITE-014,ROOM-02,,medium,48,true,,2026-09-15,deterministic synthetic task
+T015,BATCH-MAIN-30,SITE-015,ROOM-03,,medium,96,true,,2026-09-15,deterministic synthetic task
+T016,BATCH-MAIN-30,SITE-016,ROOM-01,,medium,24,true,,2026-09-15,deterministic synthetic task
+T017,BATCH-MAIN-30,SITE-017,ROOM-02,,medium,48,true,,2026-09-15,deterministic synthetic task
+T018,BATCH-MAIN-30,SITE-018,ROOM-03,,medium,144,true,,2026-09-15,deterministic synthetic task
+T019,BATCH-MAIN-30,SITE-019,ROOM-01,,medium,24,true,,2026-09-15,deterministic synthetic task
+T020,BATCH-MAIN-30,SITE-020,ROOM-02,,medium,48,true,,2026-09-15,deterministic synthetic task
+T021,BATCH-MAIN-30,SITE-021,ROOM-03,,low,96,true,,2026-09-15,deterministic synthetic task
+T022,BATCH-MAIN-30,SITE-022,ROOM-01,,low,24,true,,2026-09-15,deterministic synthetic task
+T023,BATCH-MAIN-30,SITE-023,ROOM-02,,low,48,true,,2026-09-15,deterministic synthetic task
+T024,BATCH-MAIN-30,SITE-024,ROOM-03,,low,144,true,,2026-09-15,deterministic synthetic task
+T025,BATCH-MAIN-30,SITE-025,ROOM-01,,low,24,true,,2026-09-15,deterministic synthetic task
+T026,BATCH-MAIN-30,SITE-026,ROOM-02,,low,48,true,,2026-09-15,deterministic synthetic task
+T027,BATCH-MAIN-30,SITE-027,ROOM-03,,low,96,true,,2026-09-15,deterministic synthetic task
+T028,BATCH-MAIN-30,SITE-028,ROOM-01,,low,24,true,,2026-09-15,deterministic synthetic task
+T029,BATCH-MAIN-30,SITE-029,ROOM-02,,low,48,true,,2026-09-15,risk information requires human review
+T030,BATCH-MAIN-30,SITE-030,ROOM-03,,low,144,true,BC-0437,2026-09-15,explicit cut leaves no feasible path

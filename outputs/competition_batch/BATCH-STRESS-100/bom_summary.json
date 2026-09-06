@@ -1,0 +1,12 @@
+{
+  "by_fiber_cores": {
+    "144": 16,
+    "24": 25,
+    "48": 30,
+    "96": 17
+  },
+  "completed_task_count": 88,
+  "cost_semantics": "relative routing weight only; not currency or real construction cost",
+  "recommended_cable_length_m": 140615.76,
+  "total_route_length_m": 127832.41
+}

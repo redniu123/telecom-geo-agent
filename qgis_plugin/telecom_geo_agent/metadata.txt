@@ -1,8 +1,8 @@
 [general]
 name=通信工程 Agent
-description=离线参数化通信线路设计、冲突校核、自动绕行、QGIS 图层与标准图纸
-about=保留冻结 P0 对话 Demo，并增加公开 OSM 背景与合成通信属性的竞赛样例。无模型、无在线服务；输出不是正式施工图。
-version=0.3.0
+description=离线片区批量接入、资源冲突、一次改路、QGIS 图层与完整 Atlas 图册
+about=保留冻结单任务 Demo，并增加 411 节点、444 边、30 任务的固定顺序批量规划。公开 OSM 仅为背景，通信设施与资源为合成；无模型、无在线服务，输出不是正式施工图。
+version=0.4.0
 qgisMinimumVersion=3.28
 qgisMaximumVersion=3.99
 author=TelecomGeoAgent contributors

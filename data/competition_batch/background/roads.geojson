@@ -1,0 +1,5512 @@
+{
+  "type": "FeatureCollection",
+  "name": "roads",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  },
+  "attribution": "© OpenStreetMap contributors",
+  "license": "Open Database License (ODbL) 1.0",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/9704194",
+      "properties": {
+        "osm_id": "way/9704194",
+        "name": "思南路",
+        "name_en": "Sinan Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": "1",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4613651,
+            31.2215623
+          ],
+          [
+            121.4615958,
+            31.2208832
+          ],
+          [
+            121.4618774,
+            31.2200539
+          ],
+          [
+            121.4620843,
+            31.2195139
+          ],
+          [
+            121.4622545,
+            31.2190547
+          ],
+          [
+            121.4624264,
+            31.2186118
+          ],
+          [
+            121.4626498,
+            31.2180455
+          ],
+          [
+            121.4627268,
+            31.2178502
+          ],
+          [
+            121.4630494,
+            31.2171151
+          ],
+          [
+            121.4632211,
+            31.2168255
+          ],
+          [
+            121.4635132,
+            31.2163156
+          ],
+          [
+            121.4641816,
+            31.2151485
+          ],
+          [
+            121.464379,
+            31.2147594
+          ],
+          [
+            121.4647652,
+            31.2137097
+          ],
+          [
+            121.465,
+            31.213002797968674
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/10045544",
+      "properties": {
+        "osm_id": "way/10045544",
+        "name": "汾阳路",
+        "name_en": "Fenyang Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": "1",
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.447,
+            31.21088060695287
+          ],
+          [
+            121.4470803,
+            31.2109056
+          ],
+          [
+            121.4475346,
+            31.2110475
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/10677242",
+      "properties": {
+        "osm_id": "way/10677242",
+        "name": "东平路",
+        "name_en": "Dongping Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": "1",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.447,
+            31.210318801569862
+          ],
+          [
+            121.4471874,
+            31.2103594
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/10724869",
+      "properties": {
+        "osm_id": "way/10724869",
+        "name": "建德路",
+        "name_en": "Jiande Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.465,
+            31.21221991390414
+          ],
+          [
+            121.4635779,
+            31.2116771
+          ],
+          [
+            121.4619574,
+            31.2109208
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/12088962",
+      "properties": {
+        "osm_id": "way/12088962",
+        "name": "襄阳南路",
+        "name_en": "South Xiangyang Road",
+        "highway": "tertiary",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.45338700695653,
+            31.21
+          ],
+          [
+            121.4533746,
+            31.210246
+          ],
+          [
+            121.4533553,
+            31.2109688
+          ],
+          [
+            121.45324,
+            31.2117642
+          ],
+          [
+            121.4532206,
+            31.2118981
+          ],
+          [
+            121.4532084,
+            31.2119819
+          ],
+          [
+            121.4531874,
+            31.212127
+          ],
+          [
+            121.4531553,
+            31.2123484
+          ],
+          [
+            121.4531207,
+            31.2125871
+          ],
+          [
+            121.4531071,
+            31.2126837
+          ],
+          [
+            121.4530961,
+            31.2127487
+          ],
+          [
+            121.4530832,
+            31.2128332
+          ],
+          [
+            121.4530202,
+            31.2131596
+          ],
+          [
+            121.4528767,
+            31.2139323
+          ],
+          [
+            121.4527606,
+            31.2144688
+          ],
+          [
+            121.4527259,
+            31.2146659
+          ],
+          [
+            121.4526589,
+            31.2150468
+          ],
+          [
+            121.4526258,
+            31.2152347
+          ],
+          [
+            121.4526018,
+            31.2153647
+          ],
+          [
+            121.452471,
+            31.2160736
+          ],
+          [
+            121.4524632,
+            31.216139
+          ],
+          [
+            121.4524318,
+            31.2163161
+          ],
+          [
+            121.4523524,
+            31.2167529
+          ],
+          [
+            121.4521976,
+            31.2176804
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/12088974",
+      "properties": {
+        "osm_id": "way/12088974",
+        "name": "瑞金二路",
+        "name_en": "Ruijin No. 2 Road",
+        "highway": "secondary",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": "2",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4620997,
+            31.2104218
+          ],
+          [
+            121.4619574,
+            31.2109208
+          ],
+          [
+            121.4619251,
+            31.2110499
+          ],
+          [
+            121.4618506,
+            31.2113476
+          ],
+          [
+            121.4617401,
+            31.2117114
+          ],
+          [
+            121.4616087,
+            31.2122436
+          ],
+          [
+            121.4614703,
+            31.2129153
+          ],
+          [
+            121.4612668,
+            31.213688
+          ],
+          [
+            121.4609368,
+            31.2148083
+          ],
+          [
+            121.4608239,
+            31.2151915
+          ],
+          [
+            121.4606865,
+            31.2156581
+          ],
+          [
+            121.460661,
+            31.2157446
+          ],
+          [
+            121.4606425,
+            31.2158168
+          ],
+          [
+            121.4604811,
+            31.2165967
+          ],
+          [
+            121.4604706,
+            31.2166922
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/12090415",
+      "properties": {
+        "osm_id": "way/12090415",
+        "name": "香山路",
+        "name_en": "Xiangshan Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4626498,
+            31.2180455
+          ],
+          [
+            121.4611357,
+            31.2176667
+          ],
+          [
+            121.4602898,
+            31.2174587
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/13866211",
+      "properties": {
+        "osm_id": "way/13866211",
+        "name": "襄阳北路",
+        "name_en": "North Xiangyang Road",
+        "highway": "tertiary",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4521976,
+            31.2176804
+          ],
+          [
+            121.4518516,
+            31.2183304
+          ],
+          [
+            121.4517942,
+            31.2184384
+          ],
+          [
+            121.4512584,
+            31.219445
+          ],
+          [
+            121.4511738,
+            31.2196153
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/14924729",
+      "properties": {
+        "osm_id": "way/14924729",
+        "name": "淮海中路",
+        "name_en": "Middle Huaihai Road",
+        "highway": "secondary",
+        "ref": null,
+        "oneway": null,
+        "lanes": "2",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.46239135085423,
+            31.222
+          ],
+          [
+            121.4616245,
+            31.2216752
+          ],
+          [
+            121.4613651,
+            31.2215623
+          ],
+          [
+            121.4609212,
+            31.221393
+          ],
+          [
+            121.4606476,
+            31.2212807
+          ],
+          [
+            121.4599637,
+            31.2210031
+          ],
+          [
+            121.4593952,
+            31.2207468
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/15420525",
+      "properties": {
+        "osm_id": "way/15420525",
+        "name": "延庆路",
+        "name_en": "Yanqing Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.447,
+            31.217159471195096
+          ],
+          [
+            121.4471532,
+            31.2172241
+          ],
+          [
+            121.4473169,
+            31.2173354
+          ],
+          [
+            121.4474657,
+            31.2174523
+          ],
+          [
+            121.4475636,
+            31.2175407
+          ],
+          [
+            121.4476481,
+            31.2176611
+          ],
+          [
+            121.4477419,
+            31.2178289
+          ],
+          [
+            121.4478006,
+            31.2179769
+          ],
+          [
+            121.44786,
+            31.2181726
+          ],
+          [
+            121.4478801,
+            31.2183458
+          ],
+          [
+            121.4478828,
+            31.2185041
+          ],
+          [
+            121.4478265,
+            31.2187013
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/15420532",
+      "properties": {
+        "osm_id": "way/15420532",
+        "name": "东湖路",
+        "name_en": "Donghu Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": "1",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4470862,
+            31.219066
+          ],
+          [
+            121.4471908,
+            31.2189766
+          ],
+          [
+            121.4476722,
+            31.2187805
+          ],
+          [
+            121.4478265,
+            31.2187013
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/15420537",
+      "properties": {
+        "osm_id": "way/15420537",
+        "name": "新乐路",
+        "name_en": "Xinle Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4511738,
+            31.2196153
+          ],
+          [
+            121.4512775,
+            31.2196445
+          ],
+          [
+            121.4514724,
+            31.2197133
+          ],
+          [
+            121.4522566,
+            31.2199814
+          ],
+          [
+            121.4525308,
+            31.2200722
+          ],
+          [
+            121.4529015,
+            31.2201814
+          ],
+          [
+            121.4536832,
+            31.2203882
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/24623782",
+      "properties": {
+        "osm_id": "way/24623782",
+        "name": "太原路",
+        "name_en": "Taiyuan Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4493202,
+            31.2122339
+          ],
+          [
+            121.4493963,
+            31.2119675
+          ],
+          [
+            121.4495203,
+            31.2114939
+          ],
+          [
+            121.4495464,
+            31.2114108
+          ],
+          [
+            121.449718,
+            31.2107915
+          ],
+          [
+            121.44995927527137,
+            31.21
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/39838789",
+      "properties": {
+        "osm_id": "way/39838789",
+        "name": "茂名南路",
+        "name_en": "South Maoming Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4590269,
+            31.2128998
+          ],
+          [
+            121.458763,
+            31.2134407
+          ],
+          [
+            121.4583758,
+            31.2145659
+          ],
+          [
+            121.4583534,
+            31.2146311
+          ],
+          [
+            121.4583059,
+            31.2147619
+          ],
+          [
+            121.4579545,
+            31.2157721
+          ],
+          [
+            121.4579221,
+            31.2158584
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/40140141",
+      "properties": {
+        "osm_id": "way/40140141",
+        "name": "南昌路",
+        "name_en": "Nanchang Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.452471,
+            31.2160736
+          ],
+          [
+            121.4527439,
+            31.2161579
+          ],
+          [
+            121.4529753,
+            31.2162293
+          ],
+          [
+            121.4532842,
+            31.2163255
+          ],
+          [
+            121.4537136,
+            31.2164592
+          ],
+          [
+            121.4539588,
+            31.216537
+          ],
+          [
+            121.4542967,
+            31.216661
+          ],
+          [
+            121.4546207,
+            31.21678
+          ],
+          [
+            121.4549069,
+            31.2168946
+          ],
+          [
+            121.4552488,
+            31.2170411
+          ],
+          [
+            121.456074,
+            31.2173539
+          ],
+          [
+            121.4568599,
+            31.2177761
+          ],
+          [
+            121.4571381,
+            31.2180463
+          ],
+          [
+            121.4571946,
+            31.218099
+          ],
+          [
+            121.4578034,
+            31.2186768
+          ],
+          [
+            121.4581919,
+            31.218964
+          ],
+          [
+            121.4584453,
+            31.2190936
+          ],
+          [
+            121.4591709,
+            31.2193149
+          ],
+          [
+            121.4597408,
+            31.2194812
+          ],
+          [
+            121.4599165,
+            31.2195317
+          ],
+          [
+            121.4606697,
+            31.2196913
+          ],
+          [
+            121.4611316,
+            31.2198311
+          ],
+          [
+            121.4618774,
+            31.2200539
+          ],
+          [
+            121.4621727,
+            31.220242
+          ],
+          [
+            121.462705,
+            31.2204332
+          ],
+          [
+            121.4627451,
+            31.2204505
+          ],
+          [
+            121.4639898,
+            31.2209862
+          ],
+          [
+            121.4640182,
+            31.2209984
+          ],
+          [
+            121.4641834,
+            31.2210518
+          ],
+          [
+            121.4646761,
+            31.2212188
+          ],
+          [
+            121.465,
+            31.22124005152558
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/40299122",
+      "properties": {
+        "osm_id": "way/40299122",
+        "name": "复兴中路",
+        "name_en": "Middle Fuxing Road",
+        "highway": "secondary",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": "2",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.465,
+            31.217409476422464
+          ],
+          [
+            121.464664,
+            31.2173629
+          ],
+          [
+            121.4644092,
+            31.2173136
+          ],
+          [
+            121.4642228,
+            31.2172918
+          ],
+          [
+            121.4640391,
+            31.2172608
+          ],
+          [
+            121.4638135,
+            31.2172276
+          ],
+          [
+            121.4635751,
+            31.2171925
+          ],
+          [
+            121.4630494,
+            31.2171151
+          ],
+          [
+            121.4627878,
+            31.2170704
+          ],
+          [
+            121.4625625,
+            31.2170406
+          ],
+          [
+            121.4622722,
+            31.2169965
+          ],
+          [
+            121.4616412,
+            31.2169007
+          ],
+          [
+            121.4616185,
+            31.2168972
+          ],
+          [
+            121.4610618,
+            31.2168112
+          ],
+          [
+            121.4605857,
+            31.2167229
+          ],
+          [
+            121.4604706,
+            31.2166922
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/43763701",
+      "properties": {
+        "osm_id": "way/43763701",
+        "name": "永嘉路",
+        "name_en": "Yongjia Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.45169540790828,
+            31.21
+          ],
+          [
+            121.4521571,
+            31.2102672
+          ],
+          [
+            121.4522669,
+            31.2103308
+          ],
+          [
+            121.4523636,
+            31.210389
+          ],
+          [
+            121.4532675,
+            31.210925
+          ],
+          [
+            121.4533553,
+            31.2109688
+          ],
+          [
+            121.4543329,
+            31.2112304
+          ],
+          [
+            121.4548224,
+            31.2113613
+          ],
+          [
+            121.4549255,
+            31.2113903
+          ],
+          [
+            121.4550163,
+            31.2114145
+          ],
+          [
+            121.4560793,
+            31.2117603
+          ],
+          [
+            121.4561886,
+            31.2117945
+          ],
+          [
+            121.4563934,
+            31.2118586
+          ],
+          [
+            121.4565187,
+            31.2118947
+          ],
+          [
+            121.4569327,
+            31.2120141
+          ],
+          [
+            121.4570331,
+            31.2120504
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/44121335",
+      "properties": {
+        "osm_id": "way/44121335",
+        "name": "建国中路",
+        "name_en": "Middle Jianguo Road",
+        "highway": "tertiary",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.463276,
+            31.2109215
+          ],
+          [
+            121.4633498,
+            31.2109525
+          ],
+          [
+            121.4634746,
+            31.2110057
+          ],
+          [
+            121.4641173,
+            31.211272
+          ],
+          [
+            121.465,
+            31.21160694304271
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/47087993",
+      "properties": {
+        "osm_id": "way/47087993",
+        "name": "陕西南路",
+        "name_en": "South Shaanxi Road",
+        "highway": "secondary",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": "3",
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4531755862318,
+            31.222
+          ],
+          [
+            121.4533771,
+            31.2212802
+          ],
+          [
+            121.4536136,
+            31.2205625
+          ],
+          [
+            121.4536832,
+            31.2203882
+          ],
+          [
+            121.4539734,
+            31.2197715
+          ],
+          [
+            121.4540298,
+            31.2196973
+          ],
+          [
+            121.4540815,
+            31.219618
+          ],
+          [
+            121.4541956,
+            31.2193514
+          ],
+          [
+            121.4543107,
+            31.2190615
+          ],
+          [
+            121.454449,
+            31.21876
+          ],
+          [
+            121.4544926,
+            31.2186583
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/47225638",
+      "properties": {
+        "osm_id": "way/47225638",
+        "name": "瑞金一路",
+        "name_en": "Ruijin No. 1 Road",
+        "highway": "secondary",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": "4",
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4593952,
+            31.2207468
+          ],
+          [
+            121.4592183,
+            31.2213332
+          ],
+          [
+            121.45903269773218,
+            31.222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/47226030",
+      "properties": {
+        "osm_id": "way/47226030",
+        "name": "岳阳路",
+        "name_en": "Yueyang Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.44728486638519,
+            31.21
+          ],
+          [
+            121.4471874,
+            31.2103594
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/47226033",
+      "properties": {
+        "osm_id": "way/47226033",
+        "name": "嘉善路",
+        "name_en": "Jiashan Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4549255,
+            31.2113903
+          ],
+          [
+            121.4548946,
+            31.211478
+          ],
+          [
+            121.4547517,
+            31.2118898
+          ],
+          [
+            121.4547308,
+            31.2119508
+          ],
+          [
+            121.4547222,
+            31.2119759
+          ],
+          [
+            121.4546747,
+            31.2121139
+          ],
+          [
+            121.4546702,
+            31.2121234
+          ],
+          [
+            121.4546331,
+            31.2122296
+          ],
+          [
+            121.4546222,
+            31.2122651
+          ],
+          [
+            121.4546177,
+            31.2122836
+          ],
+          [
+            121.4545983,
+            31.2123626
+          ],
+          [
+            121.4545875,
+            31.2124194
+          ],
+          [
+            121.4545855,
+            31.2124402
+          ],
+          [
+            121.4545727,
+            31.2125761
+          ],
+          [
+            121.4545756,
+            31.2126511
+          ],
+          [
+            121.4545816,
+            31.2127405
+          ],
+          [
+            121.4546035,
+            31.2128672
+          ],
+          [
+            121.4546204,
+            31.2129467
+          ],
+          [
+            121.4546623,
+            31.2131266
+          ],
+          [
+            121.4546672,
+            31.2131419
+          ],
+          [
+            121.4547647,
+            31.2134466
+          ],
+          [
+            121.4548106,
+            31.2136649
+          ],
+          [
+            121.4548119,
+            31.2137219
+          ],
+          [
+            121.4547969,
+            31.2139136
+          ],
+          [
+            121.4547914,
+            31.2139491
+          ],
+          [
+            121.454787,
+            31.2139879
+          ],
+          [
+            121.4547669,
+            31.2141003
+          ],
+          [
+            121.4544785,
+            31.2149162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/47226034",
+      "properties": {
+        "osm_id": "way/47226034",
+        "name": "嘉善路",
+        "name_en": "Jiashan Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.45543291195652,
+            31.21
+          ],
+          [
+            121.4554319,
+            31.2100095
+          ],
+          [
+            121.4552828,
+            31.210469
+          ],
+          [
+            121.4549573,
+            31.2112946
+          ],
+          [
+            121.4549255,
+            31.2113903
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/47226288",
+      "properties": {
+        "osm_id": "way/47226288",
+        "name": "皋兰路",
+        "name_en": "Gaolan Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4600358,
+            31.2183567
+          ],
+          [
+            121.4622545,
+            31.2190547
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/47226293",
+      "properties": {
+        "osm_id": "way/47226293",
+        "name": "永康路",
+        "name_en": "Yongkang Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4546623,
+            31.2131266
+          ],
+          [
+            121.454496,
+            31.2130762
+          ],
+          [
+            121.4541612,
+            31.2129796
+          ],
+          [
+            121.4541303,
+            31.212971
+          ],
+          [
+            121.453502,
+            31.2127961
+          ],
+          [
+            121.4534713,
+            31.2127876
+          ],
+          [
+            121.4534383,
+            31.2127784
+          ],
+          [
+            121.453207,
+            31.2127136
+          ],
+          [
+            121.4531071,
+            31.2126837
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/72233381",
+      "properties": {
+        "osm_id": "way/72233381",
+        "name": "绍兴路",
+        "name_en": "Shaoxing Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4616087,
+            31.2122436
+          ],
+          [
+            121.4610723,
+            31.2120904
+          ],
+          [
+            121.4605739,
+            31.2119014
+          ],
+          [
+            121.4604757,
+            31.2118443
+          ],
+          [
+            121.4604497,
+            31.2118292
+          ],
+          [
+            121.460111,
+            31.2116325
+          ],
+          [
+            121.4593519,
+            31.2112092
+          ],
+          [
+            121.4589511,
+            31.2109908
+          ],
+          [
+            121.4573202,
+            31.2103744
+          ],
+          [
+            121.4572091,
+            31.2103531
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/232920698",
+      "properties": {
+        "osm_id": "way/232920698",
+        "name": "汾阳路",
+        "name_en": "Fenyang Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": null,
+        "lanes": "1",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4493202,
+            31.2122339
+          ],
+          [
+            121.449584,
+            31.2128404
+          ],
+          [
+            121.4496123,
+            31.2129107
+          ],
+          [
+            121.449932,
+            31.2136865
+          ],
+          [
+            121.4507902,
+            31.2155996
+          ],
+          [
+            121.4509731,
+            31.2160699
+          ],
+          [
+            121.451434,
+            31.2172585
+          ],
+          [
+            121.4514226,
+            31.217358
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/232920701",
+      "properties": {
+        "osm_id": "way/232920701",
+        "name": "襄阳北路",
+        "name_en": "North Xiangyang Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4504228,
+            31.2210953
+          ],
+          [
+            121.44998096788589,
+            31.222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/240666072",
+      "properties": {
+        "osm_id": "way/240666072",
+        "name": "茂名南路",
+        "name_en": "South Maoming Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4579221,
+            31.2158584
+          ],
+          [
+            121.4578754,
+            31.21599
+          ],
+          [
+            121.4571946,
+            31.218099
+          ],
+          [
+            121.4571476,
+            31.2182401
+          ],
+          [
+            121.4570287,
+            31.2186403
+          ],
+          [
+            121.4568433,
+            31.2192637
+          ],
+          [
+            121.4567777,
+            31.2194845
+          ],
+          [
+            121.4567313,
+            31.2196065
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/421846087",
+      "properties": {
+        "osm_id": "way/421846087",
+        "name": "岳阳路",
+        "name_en": "Yueyang Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4471874,
+            31.2103594
+          ],
+          [
+            121.4472129,
+            31.2104088
+          ],
+          [
+            121.4475346,
+            31.2110475
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/424580475",
+      "properties": {
+        "osm_id": "way/424580475",
+        "name": "富民路",
+        "name_en": "Fumin Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": "1",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4478265,
+            31.2187013
+          ],
+          [
+            121.4477648,
+            31.2188424
+          ],
+          [
+            121.4476575,
+            31.2191739
+          ],
+          [
+            121.4476151,
+            31.2192642
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/424580476",
+      "properties": {
+        "osm_id": "way/424580476",
+        "name": "富民路",
+        "name_en": "Fumin Road",
+        "highway": "tertiary",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.447,
+            31.220295872219396
+          ],
+          [
+            121.4475837,
+            31.219331
+          ],
+          [
+            121.4476151,
+            31.2192642
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/436681710",
+      "properties": {
+        "osm_id": "way/436681710",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4522779,
+            31.2188057
+          ],
+          [
+            121.4522751,
+            31.218797
+          ],
+          [
+            121.4522718,
+            31.2187865
+          ],
+          [
+            121.4522115,
+            31.218596
+          ],
+          [
+            121.4521952,
+            31.2185351
+          ],
+          [
+            121.4520889,
+            31.218138
+          ],
+          [
+            121.4520644,
+            31.218036
+          ],
+          [
+            121.4520573,
+            31.2180064
+          ],
+          [
+            121.4521012,
+            31.2179293
+          ],
+          [
+            121.4521302,
+            31.2178827
+          ],
+          [
+            121.4521491,
+            31.2178716
+          ],
+          [
+            121.4521902,
+            31.2178474
+          ],
+          [
+            121.4522833,
+            31.2178825
+          ],
+          [
+            121.4524896,
+            31.2185952
+          ],
+          [
+            121.4525261,
+            31.2187134
+          ],
+          [
+            121.4525271,
+            31.2187167
+          ],
+          [
+            121.4525287,
+            31.2187224
+          ],
+          [
+            121.4525355,
+            31.2187461
+          ],
+          [
+            121.4525842,
+            31.2187976
+          ],
+          [
+            121.4525889,
+            31.2188026
+          ],
+          [
+            121.4525919,
+            31.2188058
+          ],
+          [
+            121.4526217,
+            31.2188373
+          ],
+          [
+            121.4525415,
+            31.2189606
+          ],
+          [
+            121.45245,
+            31.2189777
+          ],
+          [
+            121.4523759,
+            31.2189915
+          ],
+          [
+            121.4522431,
+            31.2189044
+          ],
+          [
+            121.4522779,
+            31.2188057
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/438354815",
+      "properties": {
+        "osm_id": "way/438354815",
+        "name": "皋兰路",
+        "name_en": "Gaolan Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4622545,
+            31.2190547
+          ],
+          [
+            121.4629062,
+            31.2192715
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/438431105",
+      "properties": {
+        "osm_id": "way/438431105",
+        "name": "汾阳路",
+        "name_en": "Fenyang Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": "1",
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4475346,
+            31.2110475
+          ],
+          [
+            121.4478888,
+            31.2112988
+          ],
+          [
+            121.4479369,
+            31.2113269
+          ],
+          [
+            121.4483287,
+            31.2115558
+          ],
+          [
+            121.4490368,
+            31.2120604
+          ],
+          [
+            121.4493202,
+            31.2122339
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/438516309",
+      "properties": {
+        "osm_id": "way/438516309",
+        "name": "东湖路",
+        "name_en": "Donghu Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": null,
+        "lanes": "1",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4482261,
+            31.218636
+          ],
+          [
+            121.4484324,
+            31.2185397
+          ],
+          [
+            121.4492843,
+            31.2182082
+          ],
+          [
+            121.4513402,
+            31.2174971
+          ],
+          [
+            121.4514226,
+            31.217358
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/440429843",
+      "properties": {
+        "osm_id": "way/440429843",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "concrete",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4525261,
+            31.2187134
+          ],
+          [
+            121.4525537,
+            31.2186963
+          ],
+          [
+            121.4525808,
+            31.2186795
+          ],
+          [
+            121.4526126,
+            31.2186675
+          ],
+          [
+            121.4526275,
+            31.218667
+          ],
+          [
+            121.4526911,
+            31.2186651
+          ],
+          [
+            121.4527398,
+            31.2186763
+          ],
+          [
+            121.4528074,
+            31.2186615
+          ],
+          [
+            121.4528074,
+            31.2186731
+          ],
+          [
+            121.4527877,
+            31.2186874
+          ],
+          [
+            121.4527642,
+            31.2187146
+          ],
+          [
+            121.4527546,
+            31.2187385
+          ],
+          [
+            121.4527542,
+            31.2187544
+          ],
+          [
+            121.4527448,
+            31.2187748
+          ],
+          [
+            121.4527412,
+            31.218791
+          ],
+          [
+            121.4527375,
+            31.2188025
+          ],
+          [
+            121.4527406,
+            31.2188216
+          ],
+          [
+            121.4527331,
+            31.2188225
+          ],
+          [
+            121.452719,
+            31.2188028
+          ],
+          [
+            121.4527049,
+            31.2187894
+          ],
+          [
+            121.4526847,
+            31.2187858
+          ],
+          [
+            121.4526685,
+            31.2187865
+          ],
+          [
+            121.4526512,
+            31.2187847
+          ],
+          [
+            121.4526371,
+            31.2187826
+          ],
+          [
+            121.452622,
+            31.2187898
+          ],
+          [
+            121.4525919,
+            31.2188058
+          ],
+          [
+            121.4525889,
+            31.2188026
+          ],
+          [
+            121.4525842,
+            31.2187976
+          ],
+          [
+            121.4526064,
+            31.2187822
+          ],
+          [
+            121.4526186,
+            31.2187665
+          ],
+          [
+            121.4526169,
+            31.2187543
+          ],
+          [
+            121.452604,
+            31.2187492
+          ],
+          [
+            121.4525951,
+            31.2187405
+          ],
+          [
+            121.4525903,
+            31.2187248
+          ],
+          [
+            121.4525846,
+            31.2187125
+          ],
+          [
+            121.4525638,
+            31.2187102
+          ],
+          [
+            121.4525427,
+            31.2187186
+          ],
+          [
+            121.4525287,
+            31.2187224
+          ],
+          [
+            121.4525271,
+            31.2187167
+          ],
+          [
+            121.4525261,
+            31.2187134
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/440439921",
+      "properties": {
+        "osm_id": "way/440439921",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.452241,
+            31.2190478
+          ],
+          [
+            121.4522018,
+            31.2190094
+          ],
+          [
+            121.4521718,
+            31.218963
+          ],
+          [
+            121.4521516,
+            31.2189197
+          ],
+          [
+            121.4521331,
+            31.2189228
+          ],
+          [
+            121.4521123,
+            31.2189263
+          ],
+          [
+            121.4520677,
+            31.2189337
+          ],
+          [
+            121.4520877,
+            31.218971
+          ],
+          [
+            121.4520839,
+            31.219003
+          ],
+          [
+            121.4520764,
+            31.2190414
+          ],
+          [
+            121.4520671,
+            31.2190721
+          ],
+          [
+            121.4521449,
+            31.2191043
+          ],
+          [
+            121.452241,
+            31.2190478
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/440439922",
+      "properties": {
+        "osm_id": "way/440439922",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4525753,
+            31.2192019
+          ],
+          [
+            121.4523551,
+            31.2192125
+          ],
+          [
+            121.4523289,
+            31.2192287
+          ],
+          [
+            121.452358,
+            31.219324
+          ],
+          [
+            121.4525271,
+            31.2193369
+          ],
+          [
+            121.4525578,
+            31.2192671
+          ],
+          [
+            121.4525753,
+            31.2192019
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/440478976",
+      "properties": {
+        "osm_id": "way/440478976",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "concrete",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4520522,
+            31.2188196
+          ],
+          [
+            121.4520674,
+            31.2188143
+          ],
+          [
+            121.4520867,
+            31.2187989
+          ],
+          [
+            121.452106,
+            31.2187812
+          ],
+          [
+            121.4521205,
+            31.2187544
+          ],
+          [
+            121.4521098,
+            31.2187276
+          ],
+          [
+            121.4520846,
+            31.2187183
+          ],
+          [
+            121.45207,
+            31.2187038
+          ],
+          [
+            121.4520579,
+            31.2186892
+          ],
+          [
+            121.4520305,
+            31.2186832
+          ],
+          [
+            121.4520099,
+            31.2186988
+          ],
+          [
+            121.4519953,
+            31.2187267
+          ],
+          [
+            121.4519887,
+            31.2187496
+          ],
+          [
+            121.4519606,
+            31.2187416
+          ],
+          [
+            121.4519457,
+            31.2186874
+          ],
+          [
+            121.4519035,
+            31.2186336
+          ],
+          [
+            121.451933,
+            31.2186111
+          ],
+          [
+            121.4519706,
+            31.218591
+          ],
+          [
+            121.4520677,
+            31.2185982
+          ],
+          [
+            121.4521036,
+            31.2186061
+          ],
+          [
+            121.4521353,
+            31.2186131
+          ],
+          [
+            121.4521282,
+            31.218642
+          ],
+          [
+            121.4521288,
+            31.2186671
+          ],
+          [
+            121.4521442,
+            31.2186868
+          ],
+          [
+            121.4521671,
+            31.218706
+          ],
+          [
+            121.4521782,
+            31.2187219
+          ],
+          [
+            121.4521835,
+            31.2187393
+          ],
+          [
+            121.4521858,
+            31.2187512
+          ],
+          [
+            121.4521874,
+            31.2187746
+          ],
+          [
+            121.4521962,
+            31.218788
+          ],
+          [
+            121.4522114,
+            31.2187963
+          ],
+          [
+            121.4522275,
+            31.2188
+          ],
+          [
+            121.4522718,
+            31.2187865
+          ],
+          [
+            121.4522751,
+            31.218797
+          ],
+          [
+            121.4522612,
+            31.2188129
+          ],
+          [
+            121.4522498,
+            31.218833
+          ],
+          [
+            121.4522458,
+            31.2188498
+          ],
+          [
+            121.452241,
+            31.2188597
+          ],
+          [
+            121.4522258,
+            31.218868
+          ],
+          [
+            121.4522077,
+            31.2188667
+          ],
+          [
+            121.4521879,
+            31.2188674
+          ],
+          [
+            121.4521595,
+            31.2188657
+          ],
+          [
+            121.4521441,
+            31.2188637
+          ],
+          [
+            121.4521327,
+            31.2188733
+          ],
+          [
+            121.4521319,
+            31.2188929
+          ],
+          [
+            121.4521331,
+            31.2189228
+          ],
+          [
+            121.4521123,
+            31.2189263
+          ],
+          [
+            121.4520496,
+            31.2188565
+          ],
+          [
+            121.4520507,
+            31.2188412
+          ],
+          [
+            121.4520522,
+            31.2188196
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/440478977",
+      "properties": {
+        "osm_id": "way/440478977",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "concrete",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4516624,
+            31.2191216
+          ],
+          [
+            121.4517292,
+            31.2190744
+          ],
+          [
+            121.4518043,
+            31.2190584
+          ],
+          [
+            121.4518874,
+            31.2190698
+          ],
+          [
+            121.4519572,
+            31.2190676
+          ],
+          [
+            121.4520215,
+            31.2189414
+          ],
+          [
+            121.4520479,
+            31.2188805
+          ],
+          [
+            121.4520496,
+            31.2188565
+          ],
+          [
+            121.4520507,
+            31.2188412
+          ],
+          [
+            121.4520522,
+            31.2188196
+          ],
+          [
+            121.4520406,
+            31.2187939
+          ],
+          [
+            121.4519971,
+            31.2188091
+          ],
+          [
+            121.4519743,
+            31.2188021
+          ],
+          [
+            121.4519515,
+            31.2187826
+          ],
+          [
+            121.4519606,
+            31.2187416
+          ],
+          [
+            121.4519088,
+            31.218752
+          ],
+          [
+            121.4519141,
+            31.2187715
+          ],
+          [
+            121.4519043,
+            31.2187868
+          ],
+          [
+            121.4518896,
+            31.2187896
+          ],
+          [
+            121.4518587,
+            31.2187882
+          ],
+          [
+            121.4518327,
+            31.2187937
+          ],
+          [
+            121.4518229,
+            31.2188119
+          ],
+          [
+            121.451805,
+            31.2188132
+          ],
+          [
+            121.4517747,
+            31.2187989
+          ],
+          [
+            121.4517591,
+            31.2188249
+          ],
+          [
+            121.4517708,
+            31.2188397
+          ],
+          [
+            121.4517757,
+            31.2188564
+          ],
+          [
+            121.4517789,
+            31.2188801
+          ],
+          [
+            121.4517936,
+            31.218901
+          ],
+          [
+            121.4518115,
+            31.2189163
+          ],
+          [
+            121.4518278,
+            31.2189219
+          ],
+          [
+            121.4518408,
+            31.218933
+          ],
+          [
+            121.4518327,
+            31.2189497
+          ],
+          [
+            121.4518066,
+            31.2189567
+          ],
+          [
+            121.4517887,
+            31.2189567
+          ],
+          [
+            121.4517691,
+            31.2189428
+          ],
+          [
+            121.4517512,
+            31.2189414
+          ],
+          [
+            121.4517219,
+            31.2189344
+          ],
+          [
+            121.4517054,
+            31.2189148
+          ],
+          [
+            121.4516917,
+            31.2189377
+          ],
+          [
+            121.4517056,
+            31.2189497
+          ],
+          [
+            121.4517252,
+            31.2189567
+          ],
+          [
+            121.4517252,
+            31.2189831
+          ],
+          [
+            121.4517366,
+            31.2190096
+          ],
+          [
+            121.4517333,
+            31.2190291
+          ],
+          [
+            121.4517008,
+            31.2190361
+          ],
+          [
+            121.4516739,
+            31.2190314
+          ],
+          [
+            121.4516624,
+            31.2191216
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/447882284",
+      "properties": {
+        "osm_id": "way/447882284",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "bricks",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4526188,
+            31.2183651
+          ],
+          [
+            121.4526043,
+            31.2183677
+          ],
+          [
+            121.4525892,
+            31.2183651
+          ],
+          [
+            121.4525758,
+            31.2183589
+          ],
+          [
+            121.4525656,
+            31.2183493
+          ],
+          [
+            121.4525596,
+            31.2183373
+          ],
+          [
+            121.4525586,
+            31.2183243
+          ],
+          [
+            121.4525626,
+            31.2183118
+          ],
+          [
+            121.4525712,
+            31.218301
+          ],
+          [
+            121.4525835,
+            31.2182934
+          ],
+          [
+            121.4525981,
+            31.2182895
+          ],
+          [
+            121.4526129,
+            31.21829
+          ],
+          [
+            121.4526267,
+            31.2182945
+          ],
+          [
+            121.4526382,
+            31.2183025
+          ],
+          [
+            121.452646,
+            31.2183133
+          ],
+          [
+            121.4526494,
+            31.2183256
+          ],
+          [
+            121.452648,
+            31.2183382
+          ],
+          [
+            121.4526419,
+            31.2183498
+          ],
+          [
+            121.4526318,
+            31.218359
+          ],
+          [
+            121.4526188,
+            31.2183651
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/447882287",
+      "properties": {
+        "osm_id": "way/447882287",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "bricks",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4525689,
+            31.2184019
+          ],
+          [
+            121.4525724,
+            31.2183901
+          ],
+          [
+            121.45258,
+            31.2183798
+          ],
+          [
+            121.452591,
+            31.2183721
+          ],
+          [
+            121.4526043,
+            31.2183677
+          ],
+          [
+            121.4526193,
+            31.2183672
+          ],
+          [
+            121.4526337,
+            31.218371
+          ],
+          [
+            121.4526458,
+            31.2183786
+          ],
+          [
+            121.4526543,
+            31.2183893
+          ],
+          [
+            121.4526581,
+            31.2184017
+          ],
+          [
+            121.452657,
+            31.2184145
+          ],
+          [
+            121.4526509,
+            31.2184263
+          ],
+          [
+            121.4526406,
+            31.2184357
+          ],
+          [
+            121.4526273,
+            31.2184416
+          ],
+          [
+            121.4526124,
+            31.2184435
+          ],
+          [
+            121.4525977,
+            31.218441
+          ],
+          [
+            121.4525847,
+            31.2184345
+          ],
+          [
+            121.4525754,
+            31.2184253
+          ],
+          [
+            121.4525699,
+            31.218414
+          ],
+          [
+            121.4525689,
+            31.2184019
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/451728952",
+      "properties": {
+        "osm_id": "way/451728952",
+        "name": "茂名南路",
+        "name_en": "South Maoming Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4567313,
+            31.2196065
+          ],
+          [
+            121.4566927,
+            31.2197075
+          ],
+          [
+            121.4563428,
+            31.2205956
+          ],
+          [
+            121.4561085,
+            31.2213107
+          ],
+          [
+            121.4560848,
+            31.2213859
+          ],
+          [
+            121.4560159,
+            31.2215764
+          ],
+          [
+            121.45587027732513,
+            31.222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/654530822",
+      "properties": {
+        "osm_id": "way/654530822",
+        "name": "桃江路",
+        "name_en": "Taojang Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4471874,
+            31.2103594
+          ],
+          [
+            121.4470794,
+            31.2105947
+          ],
+          [
+            121.447,
+            31.210685559793816
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/674428069",
+      "properties": {
+        "osm_id": "way/674428069",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.447021,
+            31.2108459
+          ],
+          [
+            121.4471816,
+            31.2105616
+          ],
+          [
+            121.4473278,
+            31.210892
+          ],
+          [
+            121.447021,
+            31.2108459
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/679060031",
+      "properties": {
+        "osm_id": "way/679060031",
+        "name": null,
+        "name_en": null,
+        "highway": "living_street",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": "customers",
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4635563,
+            31.2182632
+          ],
+          [
+            121.4627123,
+            31.2180605
+          ],
+          [
+            121.4626498,
+            31.2180455
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/682216778",
+      "properties": {
+        "osm_id": "way/682216778",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              121.4648713,
+              31.2170006
+            ],
+            [
+              121.4648321,
+              31.2171373
+            ],
+            [
+              121.4649801,
+              31.2171635
+            ],
+            [
+              121.465,
+              31.217101743666664
+            ]
+          ],
+          [
+            [
+              121.465,
+              31.217010361785952
+            ],
+            [
+              121.4648754,
+              31.216985
+            ],
+            [
+              121.4648713,
+              31.2170006
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/682216781",
+      "properties": {
+        "osm_id": "way/682216781",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4648321,
+            31.2171373
+          ],
+          [
+            121.4647207,
+            31.2171232
+          ],
+          [
+            121.464664,
+            31.2173629
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/682223770",
+      "properties": {
+        "osm_id": "way/682223770",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4647207,
+            31.2171232
+          ],
+          [
+            121.4644672,
+            31.2170787
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/682223771",
+      "properties": {
+        "osm_id": "way/682223771",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4644092,
+            31.2173136
+          ],
+          [
+            121.4644508,
+            31.2171406
+          ],
+          [
+            121.4644672,
+            31.2170787
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/682223772",
+      "properties": {
+        "osm_id": "way/682223772",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4644508,
+            31.2171406
+          ],
+          [
+            121.4642677,
+            31.2171107
+          ],
+          [
+            121.4640849,
+            31.2170808
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/682223773",
+      "properties": {
+        "osm_id": "way/682223773",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4632281,
+            31.2169076
+          ],
+          [
+            121.4636352,
+            31.2169812
+          ],
+          [
+            121.4638652,
+            31.2170227
+          ],
+          [
+            121.4640804,
+            31.2170605
+          ],
+          [
+            121.4641057,
+            31.2169666
+          ],
+          [
+            121.4636381,
+            31.2168889
+          ],
+          [
+            121.463611,
+            31.2169097
+          ],
+          [
+            121.4635311,
+            31.2168858
+          ],
+          [
+            121.4635131,
+            31.2168443
+          ],
+          [
+            121.4632978,
+            31.2167649
+          ],
+          [
+            121.4632624,
+            31.2168374
+          ],
+          [
+            121.4632281,
+            31.2169076
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/682223776",
+      "properties": {
+        "osm_id": "way/682223776",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.464129,
+            31.2169265
+          ],
+          [
+            121.464307,
+            31.2169607
+          ],
+          [
+            121.4644868,
+            31.216994
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/682223777",
+      "properties": {
+        "osm_id": "way/682223777",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4644672,
+            31.2170787
+          ],
+          [
+            121.4644868,
+            31.216994
+          ],
+          [
+            121.4645201,
+            31.2168507
+          ],
+          [
+            121.4643408,
+            31.2168209
+          ],
+          [
+            121.4641678,
+            31.2167909
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/682223778",
+      "properties": {
+        "osm_id": "way/682223778",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4642228,
+            31.2172918
+          ],
+          [
+            121.4642677,
+            31.2171107
+          ],
+          [
+            121.464307,
+            31.2169607
+          ],
+          [
+            121.4643408,
+            31.2168209
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/682223846",
+      "properties": {
+        "osm_id": "way/682223846",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4632624,
+            31.2168374
+          ],
+          [
+            121.4632211,
+            31.2168255
+          ],
+          [
+            121.4630798,
+            31.2167706
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/760475695",
+      "properties": {
+        "osm_id": "way/760475695",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4636352,
+            31.2169812
+          ],
+          [
+            121.4635751,
+            31.2171925
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/760475696",
+      "properties": {
+        "osm_id": "way/760475696",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4638652,
+            31.2170227
+          ],
+          [
+            121.4638135,
+            31.2172276
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/760475698",
+      "properties": {
+        "osm_id": "way/760475698",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4640849,
+            31.2170808
+          ],
+          [
+            121.4640391,
+            31.2172608
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/760475718",
+      "properties": {
+        "osm_id": "way/760475718",
+        "name": "永康路",
+        "name_en": "Yongkang Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4531071,
+            31.2126837
+          ],
+          [
+            121.4528751,
+            31.2125869
+          ],
+          [
+            121.4527541,
+            31.212535
+          ],
+          [
+            121.4527344,
+            31.2125265
+          ],
+          [
+            121.4526463,
+            31.2124887
+          ],
+          [
+            121.4525448,
+            31.2124451
+          ],
+          [
+            121.4519878,
+            31.2122077
+          ],
+          [
+            121.4519545,
+            31.2121943
+          ],
+          [
+            121.4514925,
+            31.2120032
+          ],
+          [
+            121.4512515,
+            31.2119078
+          ],
+          [
+            121.4509857,
+            31.2118297
+          ],
+          [
+            121.4495464,
+            31.2114108
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/863774952",
+      "properties": {
+        "osm_id": "way/863774952",
+        "name": "淮海中路",
+        "name_en": "Middle Huaihai Road",
+        "highway": "secondary",
+        "ref": null,
+        "oneway": null,
+        "lanes": "2",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4514226,
+            31.217358
+          ],
+          [
+            121.451263,
+            31.2172904
+          ],
+          [
+            121.4506656,
+            31.217036
+          ],
+          [
+            121.4500768,
+            31.216788
+          ],
+          [
+            121.4500242,
+            31.2167657
+          ],
+          [
+            121.4489112,
+            31.2162943
+          ],
+          [
+            121.4472287,
+            31.2155806
+          ],
+          [
+            121.4472093,
+            31.2155724
+          ],
+          [
+            121.4471367,
+            31.2155412
+          ],
+          [
+            121.447,
+            31.21548191883975
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/900279871",
+      "properties": {
+        "osm_id": "way/900279871",
+        "name": "建国西路",
+        "name_en": "West Jianguo Road",
+        "highway": "tertiary",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.46124396974248,
+            31.21
+          ],
+          [
+            121.4617538,
+            31.2102422
+          ],
+          [
+            121.4620997,
+            31.2104218
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1005394019",
+      "properties": {
+        "osm_id": "way/1005394019",
+        "name": "复兴中路",
+        "name_en": "Middle Fuxing Road",
+        "highway": "secondary",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": "2",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4561669,
+            31.2153329
+          ],
+          [
+            121.4554431,
+            31.2151553
+          ],
+          [
+            121.455329,
+            31.2151273
+          ],
+          [
+            121.4550046,
+            31.2150477
+          ],
+          [
+            121.4544785,
+            31.2149162
+          ],
+          [
+            121.4539615,
+            31.2147864
+          ],
+          [
+            121.4536795,
+            31.2147147
+          ],
+          [
+            121.4527606,
+            31.2144688
+          ],
+          [
+            121.4522596,
+            31.2143338
+          ],
+          [
+            121.4516352,
+            31.2141677
+          ],
+          [
+            121.4513284,
+            31.2140811
+          ],
+          [
+            121.4508343,
+            31.2139407
+          ],
+          [
+            121.449932,
+            31.2136865
+          ],
+          [
+            121.4497634,
+            31.213643
+          ],
+          [
+            121.4486976,
+            31.2133483
+          ],
+          [
+            121.4484902,
+            31.2132909
+          ],
+          [
+            121.448422,
+            31.2132734
+          ],
+          [
+            121.4479558,
+            31.2131537
+          ],
+          [
+            121.4478673,
+            31.213131
+          ],
+          [
+            121.447,
+            31.21290622315903
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1005394020",
+      "properties": {
+        "osm_id": "way/1005394020",
+        "name": "陕西南路",
+        "name_en": "South Shaanxi Road",
+        "highway": "secondary",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": "3",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4544926,
+            31.2186583
+          ],
+          [
+            121.4545443,
+            31.218541
+          ],
+          [
+            121.4547855,
+            31.2179902
+          ],
+          [
+            121.4548391,
+            31.2178712
+          ],
+          [
+            121.4549565,
+            31.2176048
+          ],
+          [
+            121.4552488,
+            31.2170411
+          ],
+          [
+            121.4561266,
+            31.2154097
+          ],
+          [
+            121.4561669,
+            31.2153329
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1063471490",
+      "properties": {
+        "osm_id": "way/1063471490",
+        "name": "陕西南路",
+        "name_en": "South Shaanxi Road",
+        "highway": "secondary",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": "3",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4561669,
+            31.2153329
+          ],
+          [
+            121.4561927,
+            31.2152441
+          ],
+          [
+            121.4566015,
+            31.2137814
+          ],
+          [
+            121.4566828,
+            31.2135109
+          ],
+          [
+            121.4567334,
+            31.2133084
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1064398312",
+      "properties": {
+        "osm_id": "way/1064398312",
+        "name": "建国西路",
+        "name_en": "West Jianguo Road",
+        "highway": "tertiary",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4620997,
+            31.2104218
+          ],
+          [
+            121.4629839,
+            31.210803
+          ],
+          [
+            121.463276,
+            31.2109215
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1064398313",
+      "properties": {
+        "osm_id": "way/1064398313",
+        "name": "瑞金二路",
+        "name_en": "Ruijin No. 2 Road",
+        "highway": "secondary",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": "2",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.46222615977058,
+            31.21
+          ],
+          [
+            121.4621996,
+            31.2100972
+          ],
+          [
+            121.4620997,
+            31.2104218
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1067953247",
+      "properties": {
+        "osm_id": "way/1067953247",
+        "name": "瑞金二路",
+        "name_en": "Ruijin No. 2 Road",
+        "highway": "secondary",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": "2",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4604706,
+            31.2166922
+          ],
+          [
+            121.4604583,
+            31.2168032
+          ],
+          [
+            121.460343,
+            31.2172723
+          ],
+          [
+            121.4602898,
+            31.2174587
+          ],
+          [
+            121.4601477,
+            31.2179751
+          ],
+          [
+            121.4600358,
+            31.2183567
+          ],
+          [
+            121.4597486,
+            31.2194003
+          ],
+          [
+            121.4597408,
+            31.2194812
+          ],
+          [
+            121.4593952,
+            31.2207468
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1067953248",
+      "properties": {
+        "osm_id": "way/1067953248",
+        "name": "复兴中路",
+        "name_en": "Middle Fuxing Road",
+        "highway": "secondary",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": "2",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4594364,
+            31.2164717
+          ],
+          [
+            121.4593063,
+            31.2164304
+          ],
+          [
+            121.458904,
+            31.2163272
+          ],
+          [
+            121.4586063,
+            31.2162389
+          ],
+          [
+            121.4583434,
+            31.2161219
+          ],
+          [
+            121.4580417,
+            31.2159315
+          ],
+          [
+            121.4579221,
+            31.2158584
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1068144844",
+      "properties": {
+        "osm_id": "way/1068144844",
+        "name": "长乐路",
+        "name_en": "Changle Road",
+        "highway": "tertiary",
+        "ref": null,
+        "oneway": null,
+        "lanes": "1",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4504228,
+            31.2210953
+          ],
+          [
+            121.4512496,
+            31.2216226
+          ],
+          [
+            121.4514413,
+            31.2216876
+          ],
+          [
+            121.452204,
+            31.2218415
+          ],
+          [
+            121.452958,
+            31.2219972
+          ],
+          [
+            121.452970833853,
+            31.222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1068144845",
+      "properties": {
+        "osm_id": "way/1068144845",
+        "name": "淮海中路",
+        "name_en": "Middle Huaihai Road",
+        "highway": "secondary",
+        "ref": null,
+        "oneway": null,
+        "lanes": "2",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4567313,
+            31.2196065
+          ],
+          [
+            121.4566179,
+            31.2195585
+          ],
+          [
+            121.4560032,
+            31.2192981
+          ],
+          [
+            121.4552806,
+            31.2189921
+          ],
+          [
+            121.4551653,
+            31.2189433
+          ],
+          [
+            121.4546493,
+            31.2187247
+          ],
+          [
+            121.4544926,
+            31.2186583
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1068144849",
+      "properties": {
+        "osm_id": "way/1068144849",
+        "name": "长乐路",
+        "name_en": "Changle Road",
+        "highway": "tertiary",
+        "ref": null,
+        "oneway": null,
+        "lanes": "1",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4470862,
+            31.219066
+          ],
+          [
+            121.4475369,
+            31.2192321
+          ],
+          [
+            121.4476151,
+            31.2192642
+          ],
+          [
+            121.4477138,
+            31.2193046
+          ],
+          [
+            121.4481322,
+            31.2195833
+          ],
+          [
+            121.4483157,
+            31.219703
+          ],
+          [
+            121.4489286,
+            31.220102
+          ],
+          [
+            121.4504228,
+            31.2210953
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1068890127",
+      "properties": {
+        "osm_id": "way/1068890127",
+        "name": null,
+        "name_en": null,
+        "highway": "secondary",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": "40",
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4614703,
+            31.2129153
+          ],
+          [
+            121.4615017,
+            31.2130905
+          ],
+          [
+            121.4613285,
+            31.2137031
+          ],
+          [
+            121.4610457,
+            31.2147031
+          ],
+          [
+            121.4609368,
+            31.2148083
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1068916333",
+      "properties": {
+        "osm_id": "way/1068916333",
+        "name": "淮海中路",
+        "name_en": "Middle Huaihai Road",
+        "highway": "secondary",
+        "ref": null,
+        "oneway": null,
+        "lanes": "2",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4521976,
+            31.2176804
+          ],
+          [
+            121.4514226,
+            31.217358
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1118804248",
+      "properties": {
+        "osm_id": "way/1118804248",
+        "name": "襄阳北路",
+        "name_en": "North Xiangyang Road",
+        "highway": "tertiary",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4511738,
+            31.2196153
+          ],
+          [
+            121.4509201,
+            31.2201034
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1118804249",
+      "properties": {
+        "osm_id": "way/1118804249",
+        "name": "新乐路",
+        "name_en": "Xinle Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4482261,
+            31.218636
+          ],
+          [
+            121.4484018,
+            31.2187162
+          ],
+          [
+            121.4511738,
+            31.2196153
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1118804250",
+      "properties": {
+        "osm_id": "way/1118804250",
+        "name": "东湖路",
+        "name_en": "Donghu Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": null,
+        "lanes": "1",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4478265,
+            31.2187013
+          ],
+          [
+            121.4479552,
+            31.2186807
+          ],
+          [
+            121.4482261,
+            31.218636
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1118804251",
+      "properties": {
+        "osm_id": "way/1118804251",
+        "name": "长乐路",
+        "name_en": "Changle Road",
+        "highway": "tertiary",
+        "ref": null,
+        "oneway": null,
+        "lanes": "1",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.447,
+            31.219031147791956
+          ],
+          [
+            121.4470862,
+            31.219066
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1118804257",
+      "properties": {
+        "osm_id": "way/1118804257",
+        "name": "襄阳北路",
+        "name_en": "North Xiangyang Road",
+        "highway": "tertiary",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4509201,
+            31.2201034
+          ],
+          [
+            121.4504228,
+            31.2210953
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1119184638",
+      "properties": {
+        "osm_id": "way/1119184638",
+        "name": "陕西南路",
+        "name_en": "South Shaanxi Road",
+        "highway": "secondary",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": "3",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4570331,
+            31.2120504
+          ],
+          [
+            121.457038,
+            31.2119534
+          ],
+          [
+            121.4570971,
+            31.2111777
+          ],
+          [
+            121.4572091,
+            31.2103531
+          ],
+          [
+            121.45724980913532,
+            31.21
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1119184639",
+      "properties": {
+        "osm_id": "way/1119184639",
+        "name": "永嘉路",
+        "name_en": "Yongjia Road",
+        "highway": "residential",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4570331,
+            31.2120504
+          ],
+          [
+            121.457147,
+            31.2120928
+          ],
+          [
+            121.4590269,
+            31.2128998
+          ],
+          [
+            121.459289,
+            31.2129869
+          ],
+          [
+            121.4612668,
+            31.213688
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1192535897",
+      "properties": {
+        "osm_id": "way/1192535897",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": "yes",
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4592337,
+            31.2203122
+          ],
+          [
+            121.4596038,
+            31.2203897
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1207401650",
+      "properties": {
+        "osm_id": "way/1207401650",
+        "name": "陕西南路",
+        "name_en": "South Shaanxi Road",
+        "highway": "secondary",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": "3",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4567334,
+            31.2133084
+          ],
+          [
+            121.4567659,
+            31.2131867
+          ],
+          [
+            121.4569458,
+            31.2124695
+          ],
+          [
+            121.4570285,
+            31.2121397
+          ],
+          [
+            121.4570331,
+            31.2120504
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1278784167",
+      "properties": {
+        "osm_id": "way/1278784167",
+        "name": null,
+        "name_en": null,
+        "highway": "residential",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4612392,
+            31.2207861
+          ],
+          [
+            121.4615958,
+            31.2208832
+          ],
+          [
+            121.4617555,
+            31.2209436
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1322916760",
+      "properties": {
+        "osm_id": "way/1322916760",
+        "name": "淮海中路",
+        "name_en": "Middle Huaihai Road",
+        "highway": "secondary",
+        "ref": null,
+        "oneway": null,
+        "lanes": "2",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4544926,
+            31.2186583
+          ],
+          [
+            121.4543684,
+            31.2186057
+          ],
+          [
+            121.4542889,
+            31.2185721
+          ],
+          [
+            121.4536589,
+            31.2183076
+          ],
+          [
+            121.4533402,
+            31.2181802
+          ],
+          [
+            121.4527325,
+            31.2179128
+          ],
+          [
+            121.4521976,
+            31.2176804
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1322916763",
+      "properties": {
+        "osm_id": "way/1322916763",
+        "name": "复兴中路",
+        "name_en": "Middle Fuxing Road",
+        "highway": "secondary",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": "2",
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4579221,
+            31.2158584
+          ],
+          [
+            121.4578204,
+            31.2157962
+          ],
+          [
+            121.4576997,
+            31.2157319
+          ],
+          [
+            121.4573578,
+            31.2156375
+          ],
+          [
+            121.4571288,
+            31.2155803
+          ],
+          [
+            121.4568454,
+            31.2155106
+          ],
+          [
+            121.4562915,
+            31.2153672
+          ],
+          [
+            121.4561669,
+            31.2153329
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1329667766",
+      "properties": {
+        "osm_id": "way/1329667766",
+        "name": "复兴中路",
+        "name_en": "Middle Fuxing Road",
+        "highway": "secondary",
+        "ref": null,
+        "oneway": "yes",
+        "lanes": "2",
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4604706,
+            31.2166922
+          ],
+          [
+            121.4603537,
+            31.216661
+          ],
+          [
+            121.4594364,
+            31.2164717
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1332638368",
+      "properties": {
+        "osm_id": "way/1332638368",
+        "name": "淮海中路",
+        "name_en": "Middle Huaihai Road",
+        "highway": "secondary",
+        "ref": null,
+        "oneway": null,
+        "lanes": "2",
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4593952,
+            31.2207468
+          ],
+          [
+            121.4586425,
+            31.220424
+          ],
+          [
+            121.4579107,
+            31.2201071
+          ],
+          [
+            121.4576473,
+            31.2199917
+          ],
+          [
+            121.4568022,
+            31.2196343
+          ],
+          [
+            121.4567313,
+            31.2196065
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1349132728",
+      "properties": {
+        "osm_id": "way/1349132728",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": "asphalt",
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4630235,
+            31.2166147
+          ],
+          [
+            121.4630798,
+            31.2167706
+          ],
+          [
+            121.4629913,
+            31.2168762
+          ],
+          [
+            121.4628706,
+            31.2169037
+          ],
+          [
+            121.4627878,
+            31.2170704
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1349132729",
+      "properties": {
+        "osm_id": "way/1349132729",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.45845057377484,
+            31.21
+          ],
+          [
+            121.458482,
+            31.2100092
+          ],
+          [
+            121.458598,
+            31.2100388
+          ],
+          [
+            121.4588766,
+            31.2100551
+          ],
+          [
+            121.4592245,
+            31.2100773
+          ],
+          [
+            121.4595672,
+            31.2101232
+          ],
+          [
+            121.4598943,
+            31.2101587
+          ],
+          [
+            121.46001,
+            31.2101697
+          ],
+          [
+            121.460192,
+            31.2101869
+          ],
+          [
+            121.4602664,
+            31.2101957
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1349132730",
+      "properties": {
+        "osm_id": "way/1349132730",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.46001,
+            31.2101697
+          ],
+          [
+            121.46004404004421,
+            31.21
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1359526009",
+      "properties": {
+        "osm_id": "way/1359526009",
+        "name": null,
+        "name_en": null,
+        "highway": "pedestrian",
+        "ref": null,
+        "oneway": null,
+        "lanes": null,
+        "maxspeed": null,
+        "surface": null,
+        "access": null,
+        "service": null,
+        "bridge": null,
+        "tunnel": null,
+        "source": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4640849,
+            31.2170808
+          ],
+          [
+            121.464129,
+            31.2169265
+          ],
+          [
+            121.4641678,
+            31.2167909
+          ]
+        ]
+      }
+    }
+  ]
+}

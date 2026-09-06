@@ -134,11 +134,12 @@ class CompetitionController:
 
 
 class PluginController:
-    """Keep the existing chat route and the competition form as peers."""
+    """Keep the frozen chat/single-task routes and batch design as peers."""
 
-    def __init__(self, chat_controller, competition_controller: CompetitionController) -> None:
+    def __init__(self, chat_controller, competition_controller: CompetitionController, batch_controller=None) -> None:
         self.chat = chat_controller
         self.competition = competition_controller
+        self.batch = batch_controller
 
     def handle_user_input(self, text: str) -> None:
         self.chat.handle_user_input(text)
@@ -153,6 +154,27 @@ class PluginController:
 
     def export_competition(self) -> None:
         self.competition.export_pdf()
+
+    def import_batch(self, path: str) -> None:
+        self.batch.import_csv(path)
+
+    def preview_batch(self) -> None:
+        self.batch.preview()
+
+    def execute_batch(self, confirmed_fingerprint: str | None) -> None:
+        self.batch.execute(confirmed_fingerprint)
+
+    def export_batch(self) -> None:
+        self.batch.export_atlas()
+
+    def filter_batch(self, status: str) -> None:
+        self.batch.filter_status(status)
+
+    def focus_batch(self, task_id: str) -> None:
+        self.batch.focus_task(task_id)
+
+    def set_batch_route_visibility(self, candidate_visible: bool, final_visible: bool) -> None:
+        self.batch.set_route_visibility(candidate_visible, final_visible)
 
     @property
     def last_state(self):

@@ -1,0 +1,112 @@
+# 片区通信设施批量接入设计运行日志
+
+- batch_id: `BATCH-STRESS-100`
+- dataset_id: `osm_shanghai_public_background_synthetic_batch_v1`
+- parameter_fingerprint: `3e7c1f6efceb466daa17380b6531f7a59cff193eb414849481da6c826efcc262`
+- sorting_rule: `priority(high>medium>low),task_id(ascending)`
+- terminal_counts: `{"completed_direct": 59, "completed_rerouted": 29, "failed": 0, "needs_review": 12}`
+- boundary: 真实公开 GIS 背景；候选通道身份、设施、子管资源与成本为合成竞赛属性。
+- output: 竞赛样例/非正式施工图，不用于施工、签章、概预算或现实资产判断。
+
+## 任务终态
+
+- S001: completed_direct / repair_count=0 / caused_by=-
+- S002: completed_rerouted / repair_count=1 / caused_by=S001
+- S003: completed_rerouted / repair_count=1 / caused_by=-
+- S004: completed_rerouted / repair_count=1 / caused_by=S001
+- S005: completed_direct / repair_count=0 / caused_by=-
+- S006: completed_rerouted / repair_count=1 / caused_by=-
+- S007: completed_rerouted / repair_count=1 / caused_by=S001
+- S008: completed_direct / repair_count=0 / caused_by=-
+- S009: completed_direct / repair_count=0 / caused_by=-
+- S010: completed_direct / repair_count=0 / caused_by=-
+- S031: completed_rerouted / repair_count=1 / caused_by=S001
+- S032: completed_rerouted / repair_count=1 / caused_by=S001
+- S033: completed_rerouted / repair_count=1 / caused_by=-
+- S034: completed_rerouted / repair_count=1 / caused_by=S001
+- S035: completed_direct / repair_count=0 / caused_by=-
+- S036: completed_rerouted / repair_count=1 / caused_by=-
+- S037: completed_rerouted / repair_count=1 / caused_by=S001
+- S038: completed_direct / repair_count=0 / caused_by=-
+- S039: completed_direct / repair_count=0 / caused_by=-
+- S040: completed_direct / repair_count=0 / caused_by=-
+- S061: completed_rerouted / repair_count=1 / caused_by=S001
+- S062: completed_rerouted / repair_count=1 / caused_by=S001
+- S063: completed_rerouted / repair_count=1 / caused_by=-
+- S064: completed_rerouted / repair_count=1 / caused_by=S001
+- S065: completed_direct / repair_count=0 / caused_by=-
+- S066: completed_rerouted / repair_count=1 / caused_by=-
+- S067: completed_rerouted / repair_count=1 / caused_by=S001
+- S068: completed_direct / repair_count=0 / caused_by=-
+- S069: completed_direct / repair_count=0 / caused_by=-
+- S070: completed_direct / repair_count=0 / caused_by=-
+- S091: completed_rerouted / repair_count=1 / caused_by=S001
+- S092: completed_rerouted / repair_count=1 / caused_by=S001
+- S093: completed_rerouted / repair_count=1 / caused_by=-
+- S094: completed_rerouted / repair_count=1 / caused_by=S001
+- S095: completed_direct / repair_count=0 / caused_by=-
+- S096: completed_rerouted / repair_count=1 / caused_by=-
+- S097: completed_rerouted / repair_count=1 / caused_by=S001
+- S098: completed_direct / repair_count=0 / caused_by=-
+- S099: completed_direct / repair_count=0 / caused_by=-
+- S100: completed_direct / repair_count=0 / caused_by=-
+- S011: completed_direct / repair_count=0 / caused_by=-
+- S012: completed_direct / repair_count=0 / caused_by=-
+- S013: completed_direct / repair_count=0 / caused_by=-
+- S014: completed_direct / repair_count=0 / caused_by=-
+- S015: completed_direct / repair_count=0 / caused_by=-
+- S016: completed_direct / repair_count=0 / caused_by=-
+- S017: completed_direct / repair_count=0 / caused_by=-
+- S018: completed_direct / repair_count=0 / caused_by=-
+- S019: completed_direct / repair_count=0 / caused_by=-
+- S020: completed_direct / repair_count=0 / caused_by=-
+- S041: completed_direct / repair_count=0 / caused_by=-
+- S042: completed_direct / repair_count=0 / caused_by=-
+- S043: completed_direct / repair_count=0 / caused_by=-
+- S044: completed_direct / repair_count=0 / caused_by=-
+- S045: completed_direct / repair_count=0 / caused_by=-
+- S046: completed_direct / repair_count=0 / caused_by=-
+- S047: completed_direct / repair_count=0 / caused_by=-
+- S048: completed_direct / repair_count=0 / caused_by=-
+- S049: completed_direct / repair_count=0 / caused_by=-
+- S050: completed_direct / repair_count=0 / caused_by=-
+- S071: completed_direct / repair_count=0 / caused_by=-
+- S072: completed_direct / repair_count=0 / caused_by=-
+- S073: completed_direct / repair_count=0 / caused_by=-
+- S074: completed_direct / repair_count=0 / caused_by=-
+- S075: completed_direct / repair_count=0 / caused_by=-
+- S076: completed_direct / repair_count=0 / caused_by=-
+- S077: completed_direct / repair_count=0 / caused_by=-
+- S078: completed_direct / repair_count=0 / caused_by=-
+- S079: completed_direct / repair_count=0 / caused_by=-
+- S080: completed_direct / repair_count=0 / caused_by=-
+- S021: completed_direct / repair_count=0 / caused_by=-
+- S022: needs_review / repair_count=1 / caused_by=S002,S004,S007,S009,S010,S016,S017,S019,S031,S032,S034,S037,S039,S040,S046,S047,S049,S061,S062,S064,S067,S069,S070,S076,S077,S079,S091,S092,S094,S097,S099,S100
+- S023: completed_direct / repair_count=0 / caused_by=-
+- S024: completed_direct / repair_count=0 / caused_by=-
+- S025: needs_review / repair_count=1 / caused_by=S002,S004,S007,S009,S010,S016,S017,S019,S031,S032,S034,S037,S039,S040,S046,S047,S049,S061,S062,S064,S067,S069,S070,S076,S077,S079,S091,S092,S094,S097,S099,S100
+- S026: completed_rerouted / repair_count=1 / caused_by=-
+- S027: completed_rerouted / repair_count=1 / caused_by=-
+- S028: needs_review / repair_count=1 / caused_by=S002,S004,S007,S009,S010,S016,S017,S019,S031,S032,S034,S037,S039,S040,S046,S047,S049,S061,S062,S064,S067,S069,S070,S076,S077,S079,S091,S092,S094,S097,S099,S100
+- S029: needs_review / repair_count=0 / caused_by=-
+- S030: completed_direct / repair_count=0 / caused_by=-
+- S051: completed_direct / repair_count=0 / caused_by=-
+- S052: needs_review / repair_count=1 / caused_by=S002,S004,S007,S009,S010,S016,S017,S019,S031,S032,S034,S037,S039,S040,S046,S047,S049,S061,S062,S064,S067,S069,S070,S076,S077,S079,S091,S092,S094,S097,S099,S100
+- S053: completed_direct / repair_count=0 / caused_by=-
+- S054: completed_direct / repair_count=0 / caused_by=-
+- S055: needs_review / repair_count=1 / caused_by=S002,S004,S007,S009,S010,S016,S017,S019,S031,S032,S034,S037,S039,S040,S046,S047,S049,S061,S062,S064,S067,S069,S070,S076,S077,S079,S091,S092,S094,S097,S099,S100
+- S056: completed_rerouted / repair_count=1 / caused_by=-
+- S057: completed_rerouted / repair_count=1 / caused_by=-
+- S058: needs_review / repair_count=1 / caused_by=S002,S004,S007,S009,S010,S016,S017,S019,S031,S032,S034,S037,S039,S040,S046,S047,S049,S061,S062,S064,S067,S069,S070,S076,S077,S079,S091,S092,S094,S097,S099,S100
+- S059: needs_review / repair_count=0 / caused_by=-
+- S060: completed_direct / repair_count=0 / caused_by=-
+- S081: completed_direct / repair_count=0 / caused_by=-
+- S082: needs_review / repair_count=1 / caused_by=S002,S004,S007,S009,S010,S016,S017,S019,S031,S032,S034,S037,S039,S040,S046,S047,S049,S061,S062,S064,S067,S069,S070,S076,S077,S079,S091,S092,S094,S097,S099,S100
+- S083: completed_direct / repair_count=0 / caused_by=-
+- S084: completed_direct / repair_count=0 / caused_by=-
+- S085: needs_review / repair_count=1 / caused_by=S002,S004,S007,S009,S010,S016,S017,S019,S031,S032,S034,S037,S039,S040,S046,S047,S049,S061,S062,S064,S067,S069,S070,S076,S077,S079,S091,S092,S094,S097,S099,S100
+- S086: completed_rerouted / repair_count=1 / caused_by=-
+- S087: completed_rerouted / repair_count=1 / caused_by=-
+- S088: needs_review / repair_count=1 / caused_by=S002,S004,S007,S009,S010,S016,S017,S019,S031,S032,S034,S037,S039,S040,S046,S047,S049,S061,S062,S064,S067,S069,S070,S076,S077,S079,S091,S092,S094,S097,S099,S100
+- S089: needs_review / repair_count=0 / caused_by=-
+- S090: completed_direct / repair_count=0 / caused_by=-

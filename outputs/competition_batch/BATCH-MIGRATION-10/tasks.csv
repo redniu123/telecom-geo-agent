@@ -1,0 +1,11 @@
+﻿task_id,batch_id,site_id,preferred_room_id,alternate_room_id,priority,cable_fiber_cores,prefer_existing_duct,forbidden_asset_ids,required_date,notes,terminal_status,repair_count,caused_by_task_ids
+M001,BATCH-MIGRATION-10,SITE-020,ROOM-02,,medium,48,True,,2026-09-15,second contract-compatible migration set,completed_direct,0,
+M002,BATCH-MIGRATION-10,SITE-019,ROOM-01,,medium,24,True,,2026-09-15,second contract-compatible migration set,completed_direct,0,
+M003,BATCH-MIGRATION-10,SITE-018,ROOM-03,,medium,144,True,,2026-09-15,second contract-compatible migration set,completed_direct,0,
+M004,BATCH-MIGRATION-10,SITE-017,ROOM-02,,medium,48,True,,2026-09-15,second contract-compatible migration set,completed_direct,0,
+M005,BATCH-MIGRATION-10,SITE-016,ROOM-01,,medium,24,True,,2026-09-15,second contract-compatible migration set,completed_direct,0,
+M006,BATCH-MIGRATION-10,SITE-015,ROOM-03,,medium,96,True,,2026-09-15,second contract-compatible migration set,completed_direct,0,
+M007,BATCH-MIGRATION-10,SITE-014,ROOM-02,,medium,48,True,,2026-09-15,second contract-compatible migration set,completed_direct,0,
+M008,BATCH-MIGRATION-10,SITE-013,ROOM-01,,medium,24,True,,2026-09-15,second contract-compatible migration set,completed_direct,0,
+M009,BATCH-MIGRATION-10,SITE-012,ROOM-03,,medium,144,True,,2026-09-15,second contract-compatible migration set,completed_direct,0,
+M010,BATCH-MIGRATION-10,SITE-011,ROOM-02,,medium,48,True,,2026-09-15,second contract-compatible migration set,completed_direct,0,

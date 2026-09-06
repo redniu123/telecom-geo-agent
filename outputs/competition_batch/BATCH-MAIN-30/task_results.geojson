@@ -1,0 +1,761 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    },
+    "type": "name"
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          121.4529708,
+          31.222
+        ],
+        "type": "Point"
+      },
+      "id": "task:T001",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 24,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-01",
+        "priority": "high",
+        "repair_count": 0,
+        "route_length_m": 1696.4,
+        "site_id": "SITE-001",
+        "status": "completed_direct",
+        "task_id": "T001"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.447,
+          31.2154819
+        ],
+        "type": "Point"
+      },
+      "id": "task:T002",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 48,
+        "caused_by_task_ids": "T001",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-01",
+        "priority": "high",
+        "repair_count": 1,
+        "route_length_m": 1693.6,
+        "site_id": "SITE-002",
+        "status": "completed_rerouted",
+        "task_id": "T002"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4554329,
+          31.21
+        ],
+        "type": "Point"
+      },
+      "id": "task:T003",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 96,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-03",
+        "priority": "high",
+        "repair_count": 1,
+        "route_length_m": 2000.78,
+        "site_id": "SITE-003",
+        "status": "completed_rerouted",
+        "task_id": "T003"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4558703,
+          31.222
+        ],
+        "type": "Point"
+      },
+      "id": "task:T004",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 24,
+        "caused_by_task_ids": "T001",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-01",
+        "priority": "high",
+        "repair_count": 1,
+        "route_length_m": 1921.06,
+        "site_id": "SITE-004",
+        "status": "completed_rerouted",
+        "task_id": "T004"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.465,
+          31.2130028
+        ],
+        "type": "Point"
+      },
+      "id": "task:T005",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 48,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-02",
+        "priority": "high",
+        "repair_count": 1,
+        "route_length_m": 1673.34,
+        "site_id": "SITE-005",
+        "status": "completed_rerouted",
+        "task_id": "T005"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4531756,
+          31.222
+        ],
+        "type": "Point"
+      },
+      "id": "task:T006",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 144,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-03",
+        "priority": "high",
+        "repair_count": 1,
+        "route_length_m": 1612.97,
+        "site_id": "SITE-006",
+        "status": "completed_rerouted",
+        "task_id": "T006"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.447,
+          31.2171595
+        ],
+        "type": "Point"
+      },
+      "id": "task:T007",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 24,
+        "caused_by_task_ids": "T001",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-01",
+        "priority": "high",
+        "repair_count": 1,
+        "route_length_m": 1806.95,
+        "site_id": "SITE-007",
+        "status": "completed_rerouted",
+        "task_id": "T007"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4593063,
+          31.2164304
+        ],
+        "type": "Point"
+      },
+      "id": "task:T008",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 48,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-02",
+        "priority": "high",
+        "repair_count": 0,
+        "route_length_m": 1043.11,
+        "site_id": "SITE-008",
+        "status": "completed_direct",
+        "task_id": "T008"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.447,
+          31.2129062
+        ],
+        "type": "Point"
+      },
+      "id": "task:T009",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 96,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-03",
+        "priority": "high",
+        "repair_count": 0,
+        "route_length_m": 2066.79,
+        "site_id": "SITE-009",
+        "status": "completed_direct",
+        "task_id": "T009"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4529753,
+          31.2162293
+        ],
+        "type": "Point"
+      },
+      "id": "task:T010",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 24,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-01",
+        "priority": "high",
+        "repair_count": 0,
+        "route_length_m": 1012.59,
+        "site_id": "SITE-010",
+        "status": "completed_direct",
+        "task_id": "T010"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4589511,
+          31.2109908
+        ],
+        "type": "Point"
+      },
+      "id": "task:T011",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 48,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-02",
+        "priority": "medium",
+        "repair_count": 0,
+        "route_length_m": 712.06,
+        "site_id": "SITE-011",
+        "status": "completed_direct",
+        "task_id": "T011"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4590327,
+          31.222
+        ],
+        "type": "Point"
+      },
+      "id": "task:T012",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 144,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-03",
+        "priority": "medium",
+        "repair_count": 0,
+        "route_length_m": 823.28,
+        "site_id": "SITE-012",
+        "status": "completed_direct",
+        "task_id": "T012"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4514925,
+          31.2120032
+        ],
+        "type": "Point"
+      },
+      "id": "task:T013",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 24,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-01",
+        "priority": "medium",
+        "repair_count": 0,
+        "route_length_m": 617.27,
+        "site_id": "SITE-013",
+        "status": "completed_direct",
+        "task_id": "T013"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.465,
+          31.2122199
+        ],
+        "type": "Point"
+      },
+      "id": "task:T014",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 48,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-02",
+        "priority": "medium",
+        "repair_count": 0,
+        "route_length_m": 594.69,
+        "site_id": "SITE-014",
+        "status": "completed_direct",
+        "task_id": "T014"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.465,
+          31.2170104
+        ],
+        "type": "Point"
+      },
+      "id": "task:T015",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 96,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-03",
+        "priority": "medium",
+        "repair_count": 0,
+        "route_length_m": 865.62,
+        "site_id": "SITE-015",
+        "status": "completed_direct",
+        "task_id": "T015"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4566828,
+          31.2135109
+        ],
+        "type": "Point"
+      },
+      "id": "task:T016",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 24,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-01",
+        "priority": "medium",
+        "repair_count": 0,
+        "route_length_m": 1327.41,
+        "site_id": "SITE-016",
+        "status": "completed_direct",
+        "task_id": "T016"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4507902,
+          31.2155996
+        ],
+        "type": "Point"
+      },
+      "id": "task:T017",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 48,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-02",
+        "priority": "medium",
+        "repair_count": 0,
+        "route_length_m": 2187.98,
+        "site_id": "SITE-017",
+        "status": "completed_direct",
+        "task_id": "T017"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4516954,
+          31.21
+        ],
+        "type": "Point"
+      },
+      "id": "task:T018",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 144,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-03",
+        "priority": "medium",
+        "repair_count": 0,
+        "route_length_m": 2076.59,
+        "site_id": "SITE-018",
+        "status": "completed_direct",
+        "task_id": "T018"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4578034,
+          31.2186768
+        ],
+        "type": "Point"
+      },
+      "id": "task:T019",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 24,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-01",
+        "priority": "medium",
+        "repair_count": 0,
+        "route_length_m": 1555.66,
+        "site_id": "SITE-019",
+        "status": "completed_direct",
+        "task_id": "T019"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4629062,
+          31.2192715
+        ],
+        "type": "Point"
+      },
+      "id": "task:T020",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 48,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-02",
+        "priority": "medium",
+        "repair_count": 0,
+        "route_length_m": 1409.62,
+        "site_id": "SITE-020",
+        "status": "completed_direct",
+        "task_id": "T020"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4623914,
+          31.222
+        ],
+        "type": "Point"
+      },
+      "id": "task:T021",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 96,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-03",
+        "priority": "low",
+        "repair_count": 0,
+        "route_length_m": 580.6,
+        "site_id": "SITE-021",
+        "status": "completed_direct",
+        "task_id": "T021"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4613285,
+          31.2137031
+        ],
+        "type": "Point"
+      },
+      "id": "task:T022",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 24,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-01",
+        "priority": "low",
+        "repair_count": 1,
+        "route_length_m": 1903.38,
+        "site_id": "SITE-022",
+        "status": "completed_rerouted",
+        "task_id": "T022"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4512584,
+          31.219445
+        ],
+        "type": "Point"
+      },
+      "id": "task:T023",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 48,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-02",
+        "priority": "low",
+        "repair_count": 0,
+        "route_length_m": 2201.75,
+        "site_id": "SITE-023",
+        "status": "completed_direct",
+        "task_id": "T023"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4547669,
+          31.2141003
+        ],
+        "type": "Point"
+      },
+      "id": "task:T024",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 144,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-03",
+        "priority": "low",
+        "repair_count": 0,
+        "route_length_m": 1530.21,
+        "site_id": "SITE-024",
+        "status": "completed_direct",
+        "task_id": "T024"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.458763,
+          31.2134407
+        ],
+        "type": "Point"
+      },
+      "id": "task:T025",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 24,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-01",
+        "priority": "low",
+        "repair_count": 0,
+        "route_length_m": 1577.22,
+        "site_id": "SITE-025",
+        "status": "completed_direct",
+        "task_id": "T025"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4551653,
+          31.2189433
+        ],
+        "type": "Point"
+      },
+      "id": "task:T026",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 48,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-02",
+        "priority": "low",
+        "repair_count": 1,
+        "route_length_m": 1813.72,
+        "site_id": "SITE-026",
+        "status": "completed_rerouted",
+        "task_id": "T026"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.447,
+          31.2202959
+        ],
+        "type": "Point"
+      },
+      "id": "task:T027",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 96,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-03",
+        "priority": "low",
+        "repair_count": 1,
+        "route_length_m": 2118.46,
+        "site_id": "SITE-027",
+        "status": "completed_rerouted",
+        "task_id": "T027"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4513284,
+          31.2140811
+        ],
+        "type": "Point"
+      },
+      "id": "task:T028",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 24,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-01",
+        "priority": "low",
+        "repair_count": 0,
+        "route_length_m": 638.2,
+        "site_id": "SITE-028",
+        "status": "completed_direct",
+        "task_id": "T028"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.447,
+          31.2103188
+        ],
+        "type": "Point"
+      },
+      "id": "task:T029",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 48,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": "候选路线含不可自动裁决的待复核风险",
+        "preferred_room_id": "ROOM-02",
+        "priority": "low",
+        "repair_count": 0,
+        "route_length_m": null,
+        "site_id": "SITE-029",
+        "status": "needs_review",
+        "task_id": "T029"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.465,
+          31.2212401
+        ],
+        "type": "Point"
+      },
+      "id": "task:T030",
+      "properties": {
+        "batch_id": "BATCH-MAIN-30",
+        "cable_fiber_cores": 144,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": "RoutePlanningError: no route from site 'SITE-030' (BN-0411) to site 'ROOM-03' (BN-0398); forbidden_asset_ids=['BC-0437']",
+        "preferred_room_id": "ROOM-03",
+        "priority": "low",
+        "repair_count": 1,
+        "route_length_m": null,
+        "site_id": "SITE-030",
+        "status": "failed",
+        "task_id": "T030"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

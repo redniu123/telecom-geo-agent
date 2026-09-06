@@ -24,6 +24,8 @@ from qgis.PyQt.QtWidgets import (
     QDockWidget,
 )
 
+from .batch_widget import BatchDesignWidget
+
 
 class MessageInput(QPlainTextEdit):
     send_requested = pyqtSignal()
@@ -45,6 +47,13 @@ class AgentDockWidget(QDockWidget):
     competition_preview_requested = pyqtSignal(object)
     competition_execute_requested = pyqtSignal(object, object)
     competition_export_requested = pyqtSignal()
+    batch_import_requested = pyqtSignal(str)
+    batch_preview_requested = pyqtSignal()
+    batch_execute_requested = pyqtSignal(object)
+    batch_export_requested = pyqtSignal()
+    batch_filter_requested = pyqtSignal(str)
+    batch_focus_requested = pyqtSignal(str)
+    batch_route_visibility_requested = pyqtSignal(bool, bool)
 
     QUICK_COMMANDS = (
         ("运行示例规划", "从A到B规划24芯光缆"),
@@ -207,6 +216,16 @@ class AgentDockWidget(QDockWidget):
         export_row.addWidget(self._export_button)
         competition_layout.addLayout(export_row)
         tabs.addTab(competition_tab, "参数化设计")
+
+        self._batch = BatchDesignWidget()
+        tabs.addTab(self._batch, "批量设计")
+        self._batch.import_requested.connect(self.batch_import_requested.emit)
+        self._batch.preview_requested.connect(self.batch_preview_requested.emit)
+        self._batch.execute_requested.connect(self.batch_execute_requested.emit)
+        self._batch.export_requested.connect(self.batch_export_requested.emit)
+        self._batch.filter_requested.connect(self.batch_filter_requested.emit)
+        self._batch.focus_requested.connect(self.batch_focus_requested.emit)
+        self._batch.route_visibility_requested.connect(self.batch_route_visibility_requested.emit)
         root_layout.addWidget(tabs, 1)
         self.setWidget(root)
 
@@ -403,3 +422,24 @@ class AgentDockWidget(QDockWidget):
 
     def set_export_enabled(self, enabled: bool) -> None:
         self._export_button.setEnabled(enabled)
+
+    def configure_batch(self, dataset_id: str, default_csv: str) -> None:
+        self._batch.configure(dataset_id, default_csv)
+
+    def batch_csv_path(self) -> str:
+        return self._batch.path_edit.text().strip()
+
+    def set_batch_preview(self, text: str, fingerprint: str | None) -> None:
+        self._batch.set_preview(text, fingerprint)
+
+    def set_batch_status(self, text: str, state: str = "idle") -> None:
+        self._batch.set_status(text, state)
+
+    def set_batch_results(self, tasks: list[dict]) -> None:
+        self._batch.set_results(tasks)
+
+    def filter_batch_results(self, status: str) -> None:
+        self._batch.filter_results(status)
+
+    def set_batch_export_enabled(self, enabled: bool) -> None:
+        self._batch.set_export_enabled(enabled)

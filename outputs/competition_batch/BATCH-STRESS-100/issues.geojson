@@ -1,0 +1,2531 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    },
+    "type": "name"
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4514226,
+            31.217358
+          ],
+          [
+            121.451434,
+            31.2172585
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S002:1:R_SUBDUCT_CAPACITY:BC-0091",
+      "properties": {
+        "asset_id": "BC-0091",
+        "caused_by_task_ids": "S001",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "S002",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4549255,
+            31.2113903
+          ],
+          [
+            121.4550163,
+            31.2114145
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S003:1:R_SUBDUCT_CAPACITY:BC-0214",
+      "properties": {
+        "asset_id": "BC-0214",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "S003",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4566179,
+            31.2195585
+          ],
+          [
+            121.4567313,
+            31.2196065
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S004:1:R_SEGMENT_STATUS:BC-0244",
+      "properties": {
+        "asset_id": "BC-0244",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "segment_forbidden",
+        "message": "合成资源台账标记为禁用",
+        "rule_id": "R_SEGMENT_STATUS",
+        "status": "completed_rerouted",
+        "task_id": "S004",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4514226,
+            31.217358
+          ],
+          [
+            121.451434,
+            31.2172585
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S004:1:R_SUBDUCT_CAPACITY:BC-0091",
+      "properties": {
+        "asset_id": "BC-0091",
+        "caused_by_task_ids": "S001",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "S004",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4566179,
+            31.2195585
+          ],
+          [
+            121.4567313,
+            31.2196065
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S006:1:R_SEGMENT_STATUS:BC-0244",
+      "properties": {
+        "asset_id": "BC-0244",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "segment_forbidden",
+        "message": "合成资源台账标记为禁用",
+        "rule_id": "R_SEGMENT_STATUS",
+        "status": "completed_rerouted",
+        "task_id": "S006",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4514226,
+            31.217358
+          ],
+          [
+            121.451434,
+            31.2172585
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S007:1:R_SUBDUCT_CAPACITY:BC-0091",
+      "properties": {
+        "asset_id": "BC-0091",
+        "caused_by_task_ids": "S001",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "S007",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4514226,
+            31.217358
+          ],
+          [
+            121.451434,
+            31.2172585
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S031:1:R_SUBDUCT_CAPACITY:BC-0091",
+      "properties": {
+        "asset_id": "BC-0091",
+        "caused_by_task_ids": "S001",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "S031",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4514226,
+            31.217358
+          ],
+          [
+            121.451434,
+            31.2172585
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S032:1:R_SUBDUCT_CAPACITY:BC-0091",
+      "properties": {
+        "asset_id": "BC-0091",
+        "caused_by_task_ids": "S001",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "S032",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4549255,
+            31.2113903
+          ],
+          [
+            121.4550163,
+            31.2114145
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S033:1:R_SUBDUCT_CAPACITY:BC-0214",
+      "properties": {
+        "asset_id": "BC-0214",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "S033",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4566179,
+            31.2195585
+          ],
+          [
+            121.4567313,
+            31.2196065
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S034:1:R_SEGMENT_STATUS:BC-0244",
+      "properties": {
+        "asset_id": "BC-0244",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "segment_forbidden",
+        "message": "合成资源台账标记为禁用",
+        "rule_id": "R_SEGMENT_STATUS",
+        "status": "completed_rerouted",
+        "task_id": "S034",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4514226,
+            31.217358
+          ],
+          [
+            121.451434,
+            31.2172585
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S034:1:R_SUBDUCT_CAPACITY:BC-0091",
+      "properties": {
+        "asset_id": "BC-0091",
+        "caused_by_task_ids": "S001",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "S034",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4566179,
+            31.2195585
+          ],
+          [
+            121.4567313,
+            31.2196065
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S036:1:R_SEGMENT_STATUS:BC-0244",
+      "properties": {
+        "asset_id": "BC-0244",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "segment_forbidden",
+        "message": "合成资源台账标记为禁用",
+        "rule_id": "R_SEGMENT_STATUS",
+        "status": "completed_rerouted",
+        "task_id": "S036",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4514226,
+            31.217358
+          ],
+          [
+            121.451434,
+            31.2172585
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S037:1:R_SUBDUCT_CAPACITY:BC-0091",
+      "properties": {
+        "asset_id": "BC-0091",
+        "caused_by_task_ids": "S001",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "S037",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4514226,
+            31.217358
+          ],
+          [
+            121.451434,
+            31.2172585
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S061:1:R_SUBDUCT_CAPACITY:BC-0091",
+      "properties": {
+        "asset_id": "BC-0091",
+        "caused_by_task_ids": "S001",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "S061",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4514226,
+            31.217358
+          ],
+          [
+            121.451434,
+            31.2172585
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S062:1:R_SUBDUCT_CAPACITY:BC-0091",
+      "properties": {
+        "asset_id": "BC-0091",
+        "caused_by_task_ids": "S001",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "S062",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4549255,
+            31.2113903
+          ],
+          [
+            121.4550163,
+            31.2114145
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S063:1:R_SUBDUCT_CAPACITY:BC-0214",
+      "properties": {
+        "asset_id": "BC-0214",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "S063",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4566179,
+            31.2195585
+          ],
+          [
+            121.4567313,
+            31.2196065
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S064:1:R_SEGMENT_STATUS:BC-0244",
+      "properties": {
+        "asset_id": "BC-0244",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "segment_forbidden",
+        "message": "合成资源台账标记为禁用",
+        "rule_id": "R_SEGMENT_STATUS",
+        "status": "completed_rerouted",
+        "task_id": "S064",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4514226,
+            31.217358
+          ],
+          [
+            121.451434,
+            31.2172585
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S064:1:R_SUBDUCT_CAPACITY:BC-0091",
+      "properties": {
+        "asset_id": "BC-0091",
+        "caused_by_task_ids": "S001",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "S064",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4566179,
+            31.2195585
+          ],
+          [
+            121.4567313,
+            31.2196065
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S066:1:R_SEGMENT_STATUS:BC-0244",
+      "properties": {
+        "asset_id": "BC-0244",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "segment_forbidden",
+        "message": "合成资源台账标记为禁用",
+        "rule_id": "R_SEGMENT_STATUS",
+        "status": "completed_rerouted",
+        "task_id": "S066",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4514226,
+            31.217358
+          ],
+          [
+            121.451434,
+            31.2172585
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S067:1:R_SUBDUCT_CAPACITY:BC-0091",
+      "properties": {
+        "asset_id": "BC-0091",
+        "caused_by_task_ids": "S001",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "S067",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4514226,
+            31.217358
+          ],
+          [
+            121.451434,
+            31.2172585
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S091:1:R_SUBDUCT_CAPACITY:BC-0091",
+      "properties": {
+        "asset_id": "BC-0091",
+        "caused_by_task_ids": "S001",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "S091",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4514226,
+            31.217358
+          ],
+          [
+            121.451434,
+            31.2172585
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S092:1:R_SUBDUCT_CAPACITY:BC-0091",
+      "properties": {
+        "asset_id": "BC-0091",
+        "caused_by_task_ids": "S001",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "S092",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4549255,
+            31.2113903
+          ],
+          [
+            121.4550163,
+            31.2114145
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S093:1:R_SUBDUCT_CAPACITY:BC-0214",
+      "properties": {
+        "asset_id": "BC-0214",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "S093",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4566179,
+            31.2195585
+          ],
+          [
+            121.4567313,
+            31.2196065
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S094:1:R_SEGMENT_STATUS:BC-0244",
+      "properties": {
+        "asset_id": "BC-0244",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "segment_forbidden",
+        "message": "合成资源台账标记为禁用",
+        "rule_id": "R_SEGMENT_STATUS",
+        "status": "completed_rerouted",
+        "task_id": "S094",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4514226,
+            31.217358
+          ],
+          [
+            121.451434,
+            31.2172585
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S094:1:R_SUBDUCT_CAPACITY:BC-0091",
+      "properties": {
+        "asset_id": "BC-0091",
+        "caused_by_task_ids": "S001",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "S094",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4566179,
+            31.2195585
+          ],
+          [
+            121.4567313,
+            31.2196065
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S096:1:R_SEGMENT_STATUS:BC-0244",
+      "properties": {
+        "asset_id": "BC-0244",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "segment_forbidden",
+        "message": "合成资源台账标记为禁用",
+        "rule_id": "R_SEGMENT_STATUS",
+        "status": "completed_rerouted",
+        "task_id": "S096",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4514226,
+            31.217358
+          ],
+          [
+            121.451434,
+            31.2172585
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S097:1:R_SUBDUCT_CAPACITY:BC-0091",
+      "properties": {
+        "asset_id": "BC-0091",
+        "caused_by_task_ids": "S001",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "S097",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4549255,
+            31.2113903
+          ],
+          [
+            121.4550163,
+            31.2114145
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S022:1:R_SUBDUCT_CAPACITY:BC-0214",
+      "properties": {
+        "asset_id": "BC-0214",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S022",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4522596,
+            31.2143338
+          ],
+          [
+            121.4527606,
+            31.2144688
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S022:2:R_SUBDUCT_CAPACITY:BC-0107",
+      "properties": {
+        "asset_id": "BC-0107",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S022",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4516352,
+            31.2141677
+          ],
+          [
+            121.4522596,
+            31.2143338
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S022:2:R_SUBDUCT_CAPACITY:BC-0096",
+      "properties": {
+        "asset_id": "BC-0096",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S022",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4513284,
+            31.2140811
+          ],
+          [
+            121.4516352,
+            31.2141677
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S022:2:R_SUBDUCT_CAPACITY:BC-0089",
+      "properties": {
+        "asset_id": "BC-0089",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S022",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4508343,
+            31.2139407
+          ],
+          [
+            121.4513284,
+            31.2140811
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S022:2:R_SUBDUCT_CAPACITY:BC-0078",
+      "properties": {
+        "asset_id": "BC-0078",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S022",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.449932,
+            31.2136865
+          ],
+          [
+            121.4508343,
+            31.2139407
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S022:2:R_SUBDUCT_CAPACITY:BC-0070",
+      "properties": {
+        "asset_id": "BC-0070",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S022",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4522596,
+            31.2143338
+          ],
+          [
+            121.4527606,
+            31.2144688
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S025:1:R_SUBDUCT_CAPACITY:BC-0107",
+      "properties": {
+        "asset_id": "BC-0107",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S025",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4516352,
+            31.2141677
+          ],
+          [
+            121.4522596,
+            31.2143338
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S025:1:R_SUBDUCT_CAPACITY:BC-0096",
+      "properties": {
+        "asset_id": "BC-0096",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S025",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4513284,
+            31.2140811
+          ],
+          [
+            121.4516352,
+            31.2141677
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S025:1:R_SUBDUCT_CAPACITY:BC-0089",
+      "properties": {
+        "asset_id": "BC-0089",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S025",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4508343,
+            31.2139407
+          ],
+          [
+            121.4513284,
+            31.2140811
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S025:1:R_SUBDUCT_CAPACITY:BC-0078",
+      "properties": {
+        "asset_id": "BC-0078",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S025",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.449932,
+            31.2136865
+          ],
+          [
+            121.4508343,
+            31.2139407
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S025:1:R_SUBDUCT_CAPACITY:BC-0070",
+      "properties": {
+        "asset_id": "BC-0070",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S025",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4549255,
+            31.2113903
+          ],
+          [
+            121.4550163,
+            31.2114145
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S025:2:R_SUBDUCT_CAPACITY:BC-0214",
+      "properties": {
+        "asset_id": "BC-0214",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S025",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4566179,
+            31.2195585
+          ],
+          [
+            121.4567313,
+            31.2196065
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S026:1:R_SEGMENT_STATUS:BC-0244",
+      "properties": {
+        "asset_id": "BC-0244",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "segment_forbidden",
+        "message": "合成资源台账标记为禁用",
+        "rule_id": "R_SEGMENT_STATUS",
+        "status": "completed_rerouted",
+        "task_id": "S026",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4566179,
+            31.2195585
+          ],
+          [
+            121.4567313,
+            31.2196065
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S027:1:R_SEGMENT_STATUS:BC-0244",
+      "properties": {
+        "asset_id": "BC-0244",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "segment_forbidden",
+        "message": "合成资源台账标记为禁用",
+        "rule_id": "R_SEGMENT_STATUS",
+        "status": "completed_rerouted",
+        "task_id": "S027",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4508343,
+            31.2139407
+          ],
+          [
+            121.4513284,
+            31.2140811
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S028:1:R_SUBDUCT_CAPACITY:BC-0078",
+      "properties": {
+        "asset_id": "BC-0078",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S028",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.449932,
+            31.2136865
+          ],
+          [
+            121.4508343,
+            31.2139407
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S028:1:R_SUBDUCT_CAPACITY:BC-0070",
+      "properties": {
+        "asset_id": "BC-0070",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S028",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4513284,
+            31.2140811
+          ],
+          [
+            121.4516352,
+            31.2141677
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S028:2:R_SUBDUCT_CAPACITY:BC-0089",
+      "properties": {
+        "asset_id": "BC-0089",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S028",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4516352,
+            31.2141677
+          ],
+          [
+            121.4522596,
+            31.2143338
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S028:2:R_SUBDUCT_CAPACITY:BC-0096",
+      "properties": {
+        "asset_id": "BC-0096",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S028",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4522596,
+            31.2143338
+          ],
+          [
+            121.4527606,
+            31.2144688
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S028:2:R_SUBDUCT_CAPACITY:BC-0107",
+      "properties": {
+        "asset_id": "BC-0107",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S028",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.447,
+            31.2103188
+          ],
+          [
+            121.4471874,
+            31.2103594
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S029:1:R_REVIEW_REQUIRED:BC-0001",
+      "properties": {
+        "asset_id": "BC-0001",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "insufficient_risk_information",
+        "message": "空间风险信息不足，必须人工复核",
+        "rule_id": "R_REVIEW_REQUIRED",
+        "status": "needs_review",
+        "task_id": "S029",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4549255,
+            31.2113903
+          ],
+          [
+            121.4550163,
+            31.2114145
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S029:1:R_SUBDUCT_CAPACITY:BC-0214",
+      "properties": {
+        "asset_id": "BC-0214",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S029",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4549255,
+            31.2113903
+          ],
+          [
+            121.4550163,
+            31.2114145
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S052:1:R_SUBDUCT_CAPACITY:BC-0214",
+      "properties": {
+        "asset_id": "BC-0214",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S052",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4522596,
+            31.2143338
+          ],
+          [
+            121.4527606,
+            31.2144688
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S052:2:R_SUBDUCT_CAPACITY:BC-0107",
+      "properties": {
+        "asset_id": "BC-0107",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S052",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4516352,
+            31.2141677
+          ],
+          [
+            121.4522596,
+            31.2143338
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S052:2:R_SUBDUCT_CAPACITY:BC-0096",
+      "properties": {
+        "asset_id": "BC-0096",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S052",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4513284,
+            31.2140811
+          ],
+          [
+            121.4516352,
+            31.2141677
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S052:2:R_SUBDUCT_CAPACITY:BC-0089",
+      "properties": {
+        "asset_id": "BC-0089",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S052",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4508343,
+            31.2139407
+          ],
+          [
+            121.4513284,
+            31.2140811
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S052:2:R_SUBDUCT_CAPACITY:BC-0078",
+      "properties": {
+        "asset_id": "BC-0078",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S052",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.449932,
+            31.2136865
+          ],
+          [
+            121.4508343,
+            31.2139407
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S052:2:R_SUBDUCT_CAPACITY:BC-0070",
+      "properties": {
+        "asset_id": "BC-0070",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S052",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4522596,
+            31.2143338
+          ],
+          [
+            121.4527606,
+            31.2144688
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S055:1:R_SUBDUCT_CAPACITY:BC-0107",
+      "properties": {
+        "asset_id": "BC-0107",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S055",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4516352,
+            31.2141677
+          ],
+          [
+            121.4522596,
+            31.2143338
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S055:1:R_SUBDUCT_CAPACITY:BC-0096",
+      "properties": {
+        "asset_id": "BC-0096",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S055",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4513284,
+            31.2140811
+          ],
+          [
+            121.4516352,
+            31.2141677
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S055:1:R_SUBDUCT_CAPACITY:BC-0089",
+      "properties": {
+        "asset_id": "BC-0089",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S055",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4508343,
+            31.2139407
+          ],
+          [
+            121.4513284,
+            31.2140811
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S055:1:R_SUBDUCT_CAPACITY:BC-0078",
+      "properties": {
+        "asset_id": "BC-0078",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S055",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.449932,
+            31.2136865
+          ],
+          [
+            121.4508343,
+            31.2139407
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S055:1:R_SUBDUCT_CAPACITY:BC-0070",
+      "properties": {
+        "asset_id": "BC-0070",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S055",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4549255,
+            31.2113903
+          ],
+          [
+            121.4550163,
+            31.2114145
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S055:2:R_SUBDUCT_CAPACITY:BC-0214",
+      "properties": {
+        "asset_id": "BC-0214",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S055",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4566179,
+            31.2195585
+          ],
+          [
+            121.4567313,
+            31.2196065
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S056:1:R_SEGMENT_STATUS:BC-0244",
+      "properties": {
+        "asset_id": "BC-0244",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "segment_forbidden",
+        "message": "合成资源台账标记为禁用",
+        "rule_id": "R_SEGMENT_STATUS",
+        "status": "completed_rerouted",
+        "task_id": "S056",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4566179,
+            31.2195585
+          ],
+          [
+            121.4567313,
+            31.2196065
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S057:1:R_SEGMENT_STATUS:BC-0244",
+      "properties": {
+        "asset_id": "BC-0244",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "segment_forbidden",
+        "message": "合成资源台账标记为禁用",
+        "rule_id": "R_SEGMENT_STATUS",
+        "status": "completed_rerouted",
+        "task_id": "S057",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4508343,
+            31.2139407
+          ],
+          [
+            121.4513284,
+            31.2140811
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S058:1:R_SUBDUCT_CAPACITY:BC-0078",
+      "properties": {
+        "asset_id": "BC-0078",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S058",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.449932,
+            31.2136865
+          ],
+          [
+            121.4508343,
+            31.2139407
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S058:1:R_SUBDUCT_CAPACITY:BC-0070",
+      "properties": {
+        "asset_id": "BC-0070",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S058",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4513284,
+            31.2140811
+          ],
+          [
+            121.4516352,
+            31.2141677
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S058:2:R_SUBDUCT_CAPACITY:BC-0089",
+      "properties": {
+        "asset_id": "BC-0089",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S058",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4516352,
+            31.2141677
+          ],
+          [
+            121.4522596,
+            31.2143338
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S058:2:R_SUBDUCT_CAPACITY:BC-0096",
+      "properties": {
+        "asset_id": "BC-0096",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S058",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4522596,
+            31.2143338
+          ],
+          [
+            121.4527606,
+            31.2144688
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S058:2:R_SUBDUCT_CAPACITY:BC-0107",
+      "properties": {
+        "asset_id": "BC-0107",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S058",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.447,
+            31.2103188
+          ],
+          [
+            121.4471874,
+            31.2103594
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S059:1:R_REVIEW_REQUIRED:BC-0001",
+      "properties": {
+        "asset_id": "BC-0001",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "insufficient_risk_information",
+        "message": "空间风险信息不足，必须人工复核",
+        "rule_id": "R_REVIEW_REQUIRED",
+        "status": "needs_review",
+        "task_id": "S059",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4549255,
+            31.2113903
+          ],
+          [
+            121.4550163,
+            31.2114145
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S059:1:R_SUBDUCT_CAPACITY:BC-0214",
+      "properties": {
+        "asset_id": "BC-0214",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S059",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4549255,
+            31.2113903
+          ],
+          [
+            121.4550163,
+            31.2114145
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S082:1:R_SUBDUCT_CAPACITY:BC-0214",
+      "properties": {
+        "asset_id": "BC-0214",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S082",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4522596,
+            31.2143338
+          ],
+          [
+            121.4527606,
+            31.2144688
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S082:2:R_SUBDUCT_CAPACITY:BC-0107",
+      "properties": {
+        "asset_id": "BC-0107",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S082",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4516352,
+            31.2141677
+          ],
+          [
+            121.4522596,
+            31.2143338
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S082:2:R_SUBDUCT_CAPACITY:BC-0096",
+      "properties": {
+        "asset_id": "BC-0096",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S082",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4513284,
+            31.2140811
+          ],
+          [
+            121.4516352,
+            31.2141677
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S082:2:R_SUBDUCT_CAPACITY:BC-0089",
+      "properties": {
+        "asset_id": "BC-0089",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S082",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4508343,
+            31.2139407
+          ],
+          [
+            121.4513284,
+            31.2140811
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S082:2:R_SUBDUCT_CAPACITY:BC-0078",
+      "properties": {
+        "asset_id": "BC-0078",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S082",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.449932,
+            31.2136865
+          ],
+          [
+            121.4508343,
+            31.2139407
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S082:2:R_SUBDUCT_CAPACITY:BC-0070",
+      "properties": {
+        "asset_id": "BC-0070",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S082",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4522596,
+            31.2143338
+          ],
+          [
+            121.4527606,
+            31.2144688
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S085:1:R_SUBDUCT_CAPACITY:BC-0107",
+      "properties": {
+        "asset_id": "BC-0107",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S085",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4516352,
+            31.2141677
+          ],
+          [
+            121.4522596,
+            31.2143338
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S085:1:R_SUBDUCT_CAPACITY:BC-0096",
+      "properties": {
+        "asset_id": "BC-0096",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S085",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4513284,
+            31.2140811
+          ],
+          [
+            121.4516352,
+            31.2141677
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S085:1:R_SUBDUCT_CAPACITY:BC-0089",
+      "properties": {
+        "asset_id": "BC-0089",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S085",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4508343,
+            31.2139407
+          ],
+          [
+            121.4513284,
+            31.2140811
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S085:1:R_SUBDUCT_CAPACITY:BC-0078",
+      "properties": {
+        "asset_id": "BC-0078",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S085",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.449932,
+            31.2136865
+          ],
+          [
+            121.4508343,
+            31.2139407
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S085:1:R_SUBDUCT_CAPACITY:BC-0070",
+      "properties": {
+        "asset_id": "BC-0070",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S085",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4549255,
+            31.2113903
+          ],
+          [
+            121.4550163,
+            31.2114145
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S085:2:R_SUBDUCT_CAPACITY:BC-0214",
+      "properties": {
+        "asset_id": "BC-0214",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S085",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4566179,
+            31.2195585
+          ],
+          [
+            121.4567313,
+            31.2196065
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S086:1:R_SEGMENT_STATUS:BC-0244",
+      "properties": {
+        "asset_id": "BC-0244",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "segment_forbidden",
+        "message": "合成资源台账标记为禁用",
+        "rule_id": "R_SEGMENT_STATUS",
+        "status": "completed_rerouted",
+        "task_id": "S086",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4566179,
+            31.2195585
+          ],
+          [
+            121.4567313,
+            31.2196065
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S087:1:R_SEGMENT_STATUS:BC-0244",
+      "properties": {
+        "asset_id": "BC-0244",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "segment_forbidden",
+        "message": "合成资源台账标记为禁用",
+        "rule_id": "R_SEGMENT_STATUS",
+        "status": "completed_rerouted",
+        "task_id": "S087",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4508343,
+            31.2139407
+          ],
+          [
+            121.4513284,
+            31.2140811
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S088:1:R_SUBDUCT_CAPACITY:BC-0078",
+      "properties": {
+        "asset_id": "BC-0078",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S088",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.449932,
+            31.2136865
+          ],
+          [
+            121.4508343,
+            31.2139407
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S088:1:R_SUBDUCT_CAPACITY:BC-0070",
+      "properties": {
+        "asset_id": "BC-0070",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S088",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4513284,
+            31.2140811
+          ],
+          [
+            121.4516352,
+            31.2141677
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S088:2:R_SUBDUCT_CAPACITY:BC-0089",
+      "properties": {
+        "asset_id": "BC-0089",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S088",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4516352,
+            31.2141677
+          ],
+          [
+            121.4522596,
+            31.2143338
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S088:2:R_SUBDUCT_CAPACITY:BC-0096",
+      "properties": {
+        "asset_id": "BC-0096",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S088",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4522596,
+            31.2143338
+          ],
+          [
+            121.4527606,
+            31.2144688
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S088:2:R_SUBDUCT_CAPACITY:BC-0107",
+      "properties": {
+        "asset_id": "BC-0107",
+        "caused_by_task_ids": "S002,S004,S007,S009,S010,S031,S032,S034,S037,S039,S040,S061,S062,S064,S067,S069,S070,S091,S092,S094,S097,S099,S100,S016,S017,S019,S046,S047,S049,S076,S077,S079",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S088",
+        "validation_index": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.447,
+            31.2103188
+          ],
+          [
+            121.4471874,
+            31.2103594
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S089:1:R_REVIEW_REQUIRED:BC-0001",
+      "properties": {
+        "asset_id": "BC-0001",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "insufficient_risk_information",
+        "message": "空间风险信息不足，必须人工复核",
+        "rule_id": "R_REVIEW_REQUIRED",
+        "status": "needs_review",
+        "task_id": "S089",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4549255,
+            31.2113903
+          ],
+          [
+            121.4550163,
+            31.2114145
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "S089:1:R_SUBDUCT_CAPACITY:BC-0214",
+      "properties": {
+        "asset_id": "BC-0214",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "S089",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

@@ -1,0 +1,254 @@
+[
+  {
+    "page_no": 1,
+    "page_type": "cover",
+    "task_id": "",
+    "title": "片区通信设施批量接入设计图册",
+    "subtitle": "BATCH-MAIN-30 · 411 节点 / 444 边 / 3 机房 / 30 任务"
+  },
+  {
+    "page_no": 2,
+    "page_type": "overview",
+    "task_id": "",
+    "title": "片区总览",
+    "subtitle": "公开 OSM 背景与批量最终路线"
+  },
+  {
+    "page_no": 3,
+    "page_type": "summary",
+    "task_id": "",
+    "title": "批次结果汇总",
+    "subtitle": "所有任务均进入明确终态"
+  },
+  {
+    "page_no": 4,
+    "page_type": "task",
+    "task_id": "T001",
+    "title": "任务设计页 · T001",
+    "subtitle": "completed_direct · SITE-001 → ROOM-01"
+  },
+  {
+    "page_no": 5,
+    "page_type": "task",
+    "task_id": "T002",
+    "title": "任务设计页 · T002",
+    "subtitle": "completed_rerouted · SITE-002 → ROOM-01"
+  },
+  {
+    "page_no": 6,
+    "page_type": "task",
+    "task_id": "T003",
+    "title": "任务设计页 · T003",
+    "subtitle": "completed_rerouted · SITE-003 → ROOM-03"
+  },
+  {
+    "page_no": 7,
+    "page_type": "task",
+    "task_id": "T004",
+    "title": "任务设计页 · T004",
+    "subtitle": "completed_rerouted · SITE-004 → ROOM-01"
+  },
+  {
+    "page_no": 8,
+    "page_type": "task",
+    "task_id": "T005",
+    "title": "任务设计页 · T005",
+    "subtitle": "completed_rerouted · SITE-005 → ROOM-02"
+  },
+  {
+    "page_no": 9,
+    "page_type": "task",
+    "task_id": "T006",
+    "title": "任务设计页 · T006",
+    "subtitle": "completed_rerouted · SITE-006 → ROOM-03"
+  },
+  {
+    "page_no": 10,
+    "page_type": "task",
+    "task_id": "T007",
+    "title": "任务设计页 · T007",
+    "subtitle": "completed_rerouted · SITE-007 → ROOM-01"
+  },
+  {
+    "page_no": 11,
+    "page_type": "task",
+    "task_id": "T008",
+    "title": "任务设计页 · T008",
+    "subtitle": "completed_direct · SITE-008 → ROOM-02"
+  },
+  {
+    "page_no": 12,
+    "page_type": "task",
+    "task_id": "T009",
+    "title": "任务设计页 · T009",
+    "subtitle": "completed_direct · SITE-009 → ROOM-03"
+  },
+  {
+    "page_no": 13,
+    "page_type": "task",
+    "task_id": "T010",
+    "title": "任务设计页 · T010",
+    "subtitle": "completed_direct · SITE-010 → ROOM-01"
+  },
+  {
+    "page_no": 14,
+    "page_type": "task",
+    "task_id": "T011",
+    "title": "任务设计页 · T011",
+    "subtitle": "completed_direct · SITE-011 → ROOM-02"
+  },
+  {
+    "page_no": 15,
+    "page_type": "task",
+    "task_id": "T012",
+    "title": "任务设计页 · T012",
+    "subtitle": "completed_direct · SITE-012 → ROOM-03"
+  },
+  {
+    "page_no": 16,
+    "page_type": "task",
+    "task_id": "T013",
+    "title": "任务设计页 · T013",
+    "subtitle": "completed_direct · SITE-013 → ROOM-01"
+  },
+  {
+    "page_no": 17,
+    "page_type": "task",
+    "task_id": "T014",
+    "title": "任务设计页 · T014",
+    "subtitle": "completed_direct · SITE-014 → ROOM-02"
+  },
+  {
+    "page_no": 18,
+    "page_type": "task",
+    "task_id": "T015",
+    "title": "任务设计页 · T015",
+    "subtitle": "completed_direct · SITE-015 → ROOM-03"
+  },
+  {
+    "page_no": 19,
+    "page_type": "task",
+    "task_id": "T016",
+    "title": "任务设计页 · T016",
+    "subtitle": "completed_direct · SITE-016 → ROOM-01"
+  },
+  {
+    "page_no": 20,
+    "page_type": "task",
+    "task_id": "T017",
+    "title": "任务设计页 · T017",
+    "subtitle": "completed_direct · SITE-017 → ROOM-02"
+  },
+  {
+    "page_no": 21,
+    "page_type": "task",
+    "task_id": "T018",
+    "title": "任务设计页 · T018",
+    "subtitle": "completed_direct · SITE-018 → ROOM-03"
+  },
+  {
+    "page_no": 22,
+    "page_type": "task",
+    "task_id": "T019",
+    "title": "任务设计页 · T019",
+    "subtitle": "completed_direct · SITE-019 → ROOM-01"
+  },
+  {
+    "page_no": 23,
+    "page_type": "task",
+    "task_id": "T020",
+    "title": "任务设计页 · T020",
+    "subtitle": "completed_direct · SITE-020 → ROOM-02"
+  },
+  {
+    "page_no": 24,
+    "page_type": "task",
+    "task_id": "T021",
+    "title": "任务设计页 · T021",
+    "subtitle": "completed_direct · SITE-021 → ROOM-03"
+  },
+  {
+    "page_no": 25,
+    "page_type": "task",
+    "task_id": "T022",
+    "title": "任务设计页 · T022",
+    "subtitle": "completed_rerouted · SITE-022 → ROOM-01"
+  },
+  {
+    "page_no": 26,
+    "page_type": "task",
+    "task_id": "T023",
+    "title": "任务设计页 · T023",
+    "subtitle": "completed_direct · SITE-023 → ROOM-02"
+  },
+  {
+    "page_no": 27,
+    "page_type": "task",
+    "task_id": "T024",
+    "title": "任务设计页 · T024",
+    "subtitle": "completed_direct · SITE-024 → ROOM-03"
+  },
+  {
+    "page_no": 28,
+    "page_type": "task",
+    "task_id": "T025",
+    "title": "任务设计页 · T025",
+    "subtitle": "completed_direct · SITE-025 → ROOM-01"
+  },
+  {
+    "page_no": 29,
+    "page_type": "task",
+    "task_id": "T026",
+    "title": "任务设计页 · T026",
+    "subtitle": "completed_rerouted · SITE-026 → ROOM-02"
+  },
+  {
+    "page_no": 30,
+    "page_type": "task",
+    "task_id": "T027",
+    "title": "任务设计页 · T027",
+    "subtitle": "completed_rerouted · SITE-027 → ROOM-03"
+  },
+  {
+    "page_no": 31,
+    "page_type": "task",
+    "task_id": "T028",
+    "title": "任务设计页 · T028",
+    "subtitle": "completed_direct · SITE-028 → ROOM-01"
+  },
+  {
+    "page_no": 32,
+    "page_type": "task",
+    "task_id": "T029",
+    "title": "任务设计页 · T029",
+    "subtitle": "needs_review · SITE-029 → ROOM-02"
+  },
+  {
+    "page_no": 33,
+    "page_type": "task",
+    "task_id": "T030",
+    "title": "任务设计页 · T030",
+    "subtitle": "failed · SITE-030 → ROOM-03"
+  },
+  {
+    "page_no": 34,
+    "page_type": "resource",
+    "task_id": "",
+    "title": "资源占用与瓶颈汇总",
+    "subtitle": "子管资源与光缆纤芯规格已分离"
+  },
+  {
+    "page_no": 35,
+    "page_type": "bom_issues",
+    "task_id": "",
+    "title": "BOM 与异常汇总",
+    "subtitle": "BOM 只来自最终 PASS 路线"
+  },
+  {
+    "page_no": 36,
+    "page_type": "boundary",
+    "task_id": "",
+    "title": "数据来源、许可与成果边界",
+    "subtitle": "可核查公开背景与合成通信属性不得混称"
+  }
+]

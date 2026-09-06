@@ -1,0 +1,375 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    },
+    "type": "name"
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4514226,
+            31.217358
+          ],
+          [
+            121.451434,
+            31.2172585
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "T002:1:R_SUBDUCT_CAPACITY:BC-0091",
+      "properties": {
+        "asset_id": "BC-0091",
+        "caused_by_task_ids": "T001",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "T002",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4549255,
+            31.2113903
+          ],
+          [
+            121.4550163,
+            31.2114145
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "T003:1:R_SUBDUCT_CAPACITY:BC-0214",
+      "properties": {
+        "asset_id": "BC-0214",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "T003",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4566179,
+            31.2195585
+          ],
+          [
+            121.4567313,
+            31.2196065
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "T004:1:R_SEGMENT_STATUS:BC-0244",
+      "properties": {
+        "asset_id": "BC-0244",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "segment_forbidden",
+        "message": "合成资源台账标记为禁用",
+        "rule_id": "R_SEGMENT_STATUS",
+        "status": "completed_rerouted",
+        "task_id": "T004",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4514226,
+            31.217358
+          ],
+          [
+            121.451434,
+            31.2172585
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "T004:1:R_SUBDUCT_CAPACITY:BC-0091",
+      "properties": {
+        "asset_id": "BC-0091",
+        "caused_by_task_ids": "T001",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "T004",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4630798,
+            31.2167706
+          ],
+          [
+            121.4632211,
+            31.2168255
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "T005:1:R_TASK_FORBIDDEN:BC-0386",
+      "properties": {
+        "asset_id": "BC-0386",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "explicit_forbidden_asset",
+        "message": "任务显式禁用候选通道",
+        "rule_id": "R_TASK_FORBIDDEN",
+        "status": "completed_rerouted",
+        "task_id": "T005",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4566179,
+            31.2195585
+          ],
+          [
+            121.4567313,
+            31.2196065
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "T006:1:R_SEGMENT_STATUS:BC-0244",
+      "properties": {
+        "asset_id": "BC-0244",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "segment_forbidden",
+        "message": "合成资源台账标记为禁用",
+        "rule_id": "R_SEGMENT_STATUS",
+        "status": "completed_rerouted",
+        "task_id": "T006",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4514226,
+            31.217358
+          ],
+          [
+            121.451434,
+            31.2172585
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "T007:1:R_SUBDUCT_CAPACITY:BC-0091",
+      "properties": {
+        "asset_id": "BC-0091",
+        "caused_by_task_ids": "T001",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "T007",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4549255,
+            31.2113903
+          ],
+          [
+            121.4550163,
+            31.2114145
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "T022:1:R_SUBDUCT_CAPACITY:BC-0214",
+      "properties": {
+        "asset_id": "BC-0214",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "completed_rerouted",
+        "task_id": "T022",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4566179,
+            31.2195585
+          ],
+          [
+            121.4567313,
+            31.2196065
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "T026:1:R_SEGMENT_STATUS:BC-0244",
+      "properties": {
+        "asset_id": "BC-0244",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "segment_forbidden",
+        "message": "合成资源台账标记为禁用",
+        "rule_id": "R_SEGMENT_STATUS",
+        "status": "completed_rerouted",
+        "task_id": "T026",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4566179,
+            31.2195585
+          ],
+          [
+            121.4567313,
+            31.2196065
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "T027:1:R_SEGMENT_STATUS:BC-0244",
+      "properties": {
+        "asset_id": "BC-0244",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "segment_forbidden",
+        "message": "合成资源台账标记为禁用",
+        "rule_id": "R_SEGMENT_STATUS",
+        "status": "completed_rerouted",
+        "task_id": "T027",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.447,
+            31.2103188
+          ],
+          [
+            121.4471874,
+            31.2103594
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "T029:1:R_REVIEW_REQUIRED:BC-0001",
+      "properties": {
+        "asset_id": "BC-0001",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "insufficient_risk_information",
+        "message": "空间风险信息不足，必须人工复核",
+        "rule_id": "R_REVIEW_REQUIRED",
+        "status": "needs_review",
+        "task_id": "T029",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4549255,
+            31.2113903
+          ],
+          [
+            121.4550163,
+            31.2114145
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "T029:1:R_SUBDUCT_CAPACITY:BC-0214",
+      "properties": {
+        "asset_id": "BC-0214",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "subduct_capacity",
+        "message": "剩余合成子管不足 1 个",
+        "rule_id": "R_SUBDUCT_CAPACITY",
+        "status": "needs_review",
+        "task_id": "T029",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            121.4646761,
+            31.2212188
+          ],
+          [
+            121.465,
+            31.2212401
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "T030:1:R_TASK_FORBIDDEN:BC-0437",
+      "properties": {
+        "asset_id": "BC-0437",
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "issue_type": "explicit_forbidden_asset",
+        "message": "任务显式禁用候选通道",
+        "rule_id": "R_TASK_FORBIDDEN",
+        "status": "failed",
+        "task_id": "T030",
+        "validation_index": 1
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

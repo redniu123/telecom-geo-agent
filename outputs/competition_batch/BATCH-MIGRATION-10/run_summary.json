@@ -1,0 +1,17 @@
+{
+  "batch_id": "BATCH-MIGRATION-10",
+  "dataset_id": "osm_shanghai_public_background_synthetic_batch_v1",
+  "disclaimer": "真实公开 GIS 背景；通信设施、候选通道身份、子管资源和成本均为合成竞赛属性；非正式施工图。",
+  "max_replans_per_task": 1,
+  "parameter_fingerprint": "314b5a574d978c6fbac0bc46150d3755f59f242cc539219234db08ea6f206224",
+  "schema_version": 1,
+  "sorting_rule": "priority(high>medium>low),task_id(ascending)",
+  "status": "completed",
+  "task_count": 10,
+  "terminal_counts": {
+    "completed_direct": 10,
+    "completed_rerouted": 0,
+    "failed": 0,
+    "needs_review": 0
+  }
+}

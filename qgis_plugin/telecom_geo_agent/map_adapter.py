@@ -197,6 +197,40 @@ class QgisMapAdapter:
             raise RuntimeError(f"当前问题图层不包含资产：{asset_id}")
         self._zoom_to(key, selected_only=True)
 
+    def filter_batch_tasks(self, status: str) -> None:
+        allowed = {"all", "completed_direct", "completed_rerouted", "needs_review", "failed"}
+        if status not in allowed:
+            raise ValueError(f"未知批量状态筛选：{status}")
+        expression = "" if status == "all" else f'"status" = \'{status}\''
+        for key in ("batch_tasks", "batch_candidates", "batch_final", "batch_issues"):
+            layer = self.layers.get(key)
+            if layer is not None and not layer.setSubsetString(expression):
+                raise RuntimeError(f"QGIS 无法应用批量状态筛选：{key}")
+        if "batch_tasks" in self.layers:
+            self._zoom_to("batch_tasks")
+
+    def focus_batch_task(self, task_id: str) -> None:
+        escaped = task_id.replace("'", "''")
+        selected_key = None
+        for key in ("batch_final", "batch_candidates", "batch_tasks", "batch_issues"):
+            layer = self.layers.get(key)
+            if layer is None or "task_id" not in layer.fields().names():
+                continue
+            layer.removeSelection()
+            layer.selectByExpression(f'"task_id" = \'{escaped}\'')
+            if selected_key is None and layer.selectedFeatureCount() > 0:
+                selected_key = key
+        if selected_key is None:
+            raise RuntimeError(f"当前批次不存在可定位任务：{task_id}")
+        self._zoom_to(selected_key, selected_only=True)
+
+    def set_batch_route_visibility(
+        self, candidate_visible: bool, final_visible: bool
+    ) -> None:
+        self._set_visible_if_present("batch_candidates", candidate_visible)
+        self._set_visible_if_present("batch_final", final_visible)
+        self.iface.mapCanvas().refresh()
+
     def _set_visible_if_present(self, key: str, visible: bool) -> None:
         if key in self.layers:
             self._set_visible(key, visible)
@@ -207,7 +241,9 @@ class QgisMapAdapter:
             raise RuntimeError(f"图层尚未加载：{key}")
         layer.updateExtents()
         extent = layer.boundingBoxOfSelected() if selected_only else layer.extent()
-        if extent.isEmpty():
+        # Point-only task filters legitimately yield a zero-width/height
+        # rectangle. Only a null extent means there is no locatable feature.
+        if extent.isNull():
             raise RuntimeError(f"图层没有可定位要素：{key}")
         margin = max(extent.width(), extent.height(), 0.002) * 0.35
         buffered = QgsRectangle(
@@ -247,3 +283,8 @@ class QgisMapAdapter:
             destination,
             paper_size=paper_size,
         )
+
+    def export_batch_atlas(self, state: dict, destination):
+        from .atlas_exporter import export_batch_atlas
+
+        return export_batch_atlas(self.project, self.layers, state, destination)

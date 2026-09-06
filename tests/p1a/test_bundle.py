@@ -25,6 +25,9 @@ def test_bundle_contains_exact_canonical_p0_snapshot(tmp_path):
         assert "telecom_geo_agent/p0_runtime/data/competition/source_manifest.json" in names
         assert "telecom_geo_agent/p0_runtime/data/competition/background/roads.geojson" in names
         assert "telecom_geo_agent/p0_runtime/data/competition/candidate_channels.geojson" in names
+        assert "telecom_geo_agent/p0_runtime/competition/batch/planner.py" in names
+        assert "telecom_geo_agent/p0_runtime/data/competition_batch/manifest.json" in names
+        assert "telecom_geo_agent/p0_runtime/data/competition_batch/batch_tasks.csv" in names
         manifest = json.loads(
             archive.read("telecom_geo_agent/BUNDLE_MANIFEST.json").decode("utf-8")
         )
@@ -36,7 +39,7 @@ def test_bundle_contains_exact_canonical_p0_snapshot(tmp_path):
             canonical.read_bytes()
         ).hexdigest()
         assert manifest["networkx_version"] is None
-        assert manifest["plugin_version"] == "0.3.0"
+        assert manifest["plugin_version"] == "0.4.0"
         competition_manifest = root / "data" / "competition" / "source_manifest.json"
         assert manifest["canonical_sha256"][
             "data/competition/source_manifest.json"

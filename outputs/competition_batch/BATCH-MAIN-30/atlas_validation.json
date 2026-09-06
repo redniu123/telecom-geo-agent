@@ -1,0 +1,898 @@
+{
+  "status": "PASS",
+  "pdf": "design_book.pdf",
+  "pdf_bytes": 25343226,
+  "pages": 36,
+  "paper": "1191 x 842 pts (A3)",
+  "text_reread": "PASS",
+  "all_task_page_titles_present": true,
+  "osm_attribution_present": true,
+  "synthetic_non_construction_disclaimer_present": true,
+  "all_pages_rendered": true,
+  "geopackage_reread": "PASS",
+  "geopackage_bytes": 442368,
+  "geopackage_layer_counts": {
+    "batch_candidates": 30,
+    "batch_final": 28,
+    "batch_issues": 13,
+    "batch_resource": 444,
+    "batch_rooms": 3,
+    "batch_sites": 30,
+    "batch_tasks": 30
+  },
+  "rendered_page_checks": [
+    {
+      "page": 1,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        237.1,
+        239.3,
+        237.72
+      ]
+    },
+    {
+      "page": 2,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        237.79,
+        239.92,
+        238.3
+      ]
+    },
+    {
+      "page": 3,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        237.66,
+        239.8,
+        238.18
+      ]
+    },
+    {
+      "page": 4,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        244.52,
+        245.83,
+        244.97
+      ]
+    },
+    {
+      "page": 5,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        241.89,
+        243.37,
+        242.4
+      ]
+    },
+    {
+      "page": 6,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        243.75,
+        245.15,
+        244.19
+      ]
+    },
+    {
+      "page": 7,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        244.2,
+        245.55,
+        244.64
+      ]
+    },
+    {
+      "page": 8,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        243.89,
+        245.37,
+        244.23
+      ]
+    },
+    {
+      "page": 9,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        241.72,
+        243.33,
+        242.09
+      ]
+    },
+    {
+      "page": 10,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        242.4,
+        243.85,
+        242.91
+      ]
+    },
+    {
+      "page": 11,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        243.08,
+        244.65,
+        243.47
+      ]
+    },
+    {
+      "page": 12,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        244.47,
+        245.79,
+        244.9
+      ]
+    },
+    {
+      "page": 13,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        241.56,
+        243.05,
+        242.13
+      ]
+    },
+    {
+      "page": 14,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        245.75,
+        246.92,
+        245.9
+      ]
+    },
+    {
+      "page": 15,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        244.34,
+        245.27,
+        244.8
+      ]
+    },
+    {
+      "page": 16,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        243.98,
+        244.94,
+        244.53
+      ]
+    },
+    {
+      "page": 17,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        246.81,
+        247.78,
+        247.05
+      ]
+    },
+    {
+      "page": 18,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        243.53,
+        244.76,
+        244.0
+      ]
+    },
+    {
+      "page": 19,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        241.8,
+        243.29,
+        242.25
+      ]
+    },
+    {
+      "page": 20,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        241.9,
+        243.58,
+        242.35
+      ]
+    },
+    {
+      "page": 21,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        244.5,
+        245.82,
+        244.94
+      ]
+    },
+    {
+      "page": 22,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        241.09,
+        242.79,
+        241.59
+      ]
+    },
+    {
+      "page": 23,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        242.32,
+        243.89,
+        242.75
+      ]
+    },
+    {
+      "page": 24,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        242.71,
+        243.71,
+        243.31
+      ]
+    },
+    {
+      "page": 25,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        241.53,
+        243.23,
+        242.0
+      ]
+    },
+    {
+      "page": 26,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        242.48,
+        244.05,
+        242.95
+      ]
+    },
+    {
+      "page": 27,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        240.43,
+        242.22,
+        240.83
+      ]
+    },
+    {
+      "page": 28,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        241.49,
+        243.14,
+        241.9
+      ]
+    },
+    {
+      "page": 29,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        240.6,
+        242.36,
+        241.07
+      ]
+    },
+    {
+      "page": 30,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        244.43,
+        245.76,
+        244.88
+      ]
+    },
+    {
+      "page": 31,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        243.22,
+        244.27,
+        243.71
+      ]
+    },
+    {
+      "page": 32,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        244.43,
+        245.75,
+        244.84
+      ]
+    },
+    {
+      "page": 33,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        246.38,
+        246.65,
+        247.05
+      ]
+    },
+    {
+      "page": 34,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        235.94,
+        238.23,
+        236.71
+      ]
+    },
+    {
+      "page": 35,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        237.66,
+        239.8,
+        238.18
+      ]
+    },
+    {
+      "page": 36,
+      "width_px": 1191,
+      "height_px": 842,
+      "channel_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "mean_rgb": [
+        236.99,
+        239.2,
+        237.63
+      ]
+    }
+  ],
+  "contact_sheets": [
+    "atlas_contact_sheet_01.jpg",
+    "atlas_contact_sheet_02.jpg",
+    "atlas_contact_sheet_03.jpg",
+    "atlas_contact_sheet_04.jpg",
+    "atlas_contact_sheet_05.jpg",
+    "atlas_contact_sheet_06.jpg"
+  ],
+  "visual_review_note": "Contact sheets require an actual human-visible inspection; automated checks only prove renderability, size, text and nonblank pixels."
+}

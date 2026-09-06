@@ -1,0 +1,23 @@
+{
+  "assertions": [
+    "multiple_completed_direct",
+    "multiple_completed_rerouted",
+    "at_least_one_needs_review",
+    "at_least_one_failed",
+    "cross_task_caused_by_chain"
+  ],
+  "prohibited_answer_fields": [
+    "expected_route_id",
+    "expected_edge_ids",
+    "final_route",
+    "route_geometry"
+  ],
+  "scenario_resource_roles": {
+    "cross_task_bottleneck": "BC-0091",
+    "explicit_failure_cut": "BC-0437",
+    "global_forbidden": "BC-0244",
+    "initial_full": "BC-0214",
+    "review_required": "BC-0001"
+  },
+  "schema_version": 1
+}

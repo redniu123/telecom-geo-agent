@@ -22,6 +22,9 @@ def _is_runtime_root(path: Path) -> bool:
             path / "data" / "competition" / "source_manifest.json",
             path / "data" / "competition" / "network.geojson",
             path / "data" / "competition" / "sites.geojson",
+            path / "competition" / "batch" / "planner.py",
+            path / "data" / "competition_batch" / "manifest.json",
+            path / "data" / "competition_batch" / "batch_tasks.csv",
         )
     )
 
@@ -45,7 +48,7 @@ def resolve_runtime_root(plugin_directory: str | Path | None = None) -> Path:
         if _is_runtime_root(resolved):
             return resolved
     raise RuntimeError(
-        "找不到 TelecomGeoAgent 0.3 运行时。请使用 scripts/build_qgis_plugin.py "
+        "找不到 TelecomGeoAgent 0.4 运行时。请使用 scripts/build_qgis_plugin.py "
         "生成的 ZIP 安装，或设置 TELECOM_GEO_AGENT_ROOT 指向仓库根目录。"
     )
 

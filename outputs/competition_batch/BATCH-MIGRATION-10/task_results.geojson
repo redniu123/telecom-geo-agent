@@ -1,0 +1,261 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    },
+    "type": "name"
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          121.4629062,
+          31.2192715
+        ],
+        "type": "Point"
+      },
+      "id": "task:M001",
+      "properties": {
+        "batch_id": "BATCH-MIGRATION-10",
+        "cable_fiber_cores": 48,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-02",
+        "priority": "medium",
+        "repair_count": 0,
+        "route_length_m": 1409.62,
+        "site_id": "SITE-020",
+        "status": "completed_direct",
+        "task_id": "M001"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4578034,
+          31.2186768
+        ],
+        "type": "Point"
+      },
+      "id": "task:M002",
+      "properties": {
+        "batch_id": "BATCH-MIGRATION-10",
+        "cable_fiber_cores": 24,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-01",
+        "priority": "medium",
+        "repair_count": 0,
+        "route_length_m": 1555.66,
+        "site_id": "SITE-019",
+        "status": "completed_direct",
+        "task_id": "M002"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4516954,
+          31.21
+        ],
+        "type": "Point"
+      },
+      "id": "task:M003",
+      "properties": {
+        "batch_id": "BATCH-MIGRATION-10",
+        "cable_fiber_cores": 144,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-03",
+        "priority": "medium",
+        "repair_count": 0,
+        "route_length_m": 2076.59,
+        "site_id": "SITE-018",
+        "status": "completed_direct",
+        "task_id": "M003"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4507902,
+          31.2155996
+        ],
+        "type": "Point"
+      },
+      "id": "task:M004",
+      "properties": {
+        "batch_id": "BATCH-MIGRATION-10",
+        "cable_fiber_cores": 48,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-02",
+        "priority": "medium",
+        "repair_count": 0,
+        "route_length_m": 2187.98,
+        "site_id": "SITE-017",
+        "status": "completed_direct",
+        "task_id": "M004"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4566828,
+          31.2135109
+        ],
+        "type": "Point"
+      },
+      "id": "task:M005",
+      "properties": {
+        "batch_id": "BATCH-MIGRATION-10",
+        "cable_fiber_cores": 24,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-01",
+        "priority": "medium",
+        "repair_count": 0,
+        "route_length_m": 1327.41,
+        "site_id": "SITE-016",
+        "status": "completed_direct",
+        "task_id": "M005"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.465,
+          31.2170104
+        ],
+        "type": "Point"
+      },
+      "id": "task:M006",
+      "properties": {
+        "batch_id": "BATCH-MIGRATION-10",
+        "cable_fiber_cores": 96,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-03",
+        "priority": "medium",
+        "repair_count": 0,
+        "route_length_m": 865.62,
+        "site_id": "SITE-015",
+        "status": "completed_direct",
+        "task_id": "M006"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.465,
+          31.2122199
+        ],
+        "type": "Point"
+      },
+      "id": "task:M007",
+      "properties": {
+        "batch_id": "BATCH-MIGRATION-10",
+        "cable_fiber_cores": 48,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-02",
+        "priority": "medium",
+        "repair_count": 0,
+        "route_length_m": 594.69,
+        "site_id": "SITE-014",
+        "status": "completed_direct",
+        "task_id": "M007"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4514925,
+          31.2120032
+        ],
+        "type": "Point"
+      },
+      "id": "task:M008",
+      "properties": {
+        "batch_id": "BATCH-MIGRATION-10",
+        "cable_fiber_cores": 24,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-01",
+        "priority": "medium",
+        "repair_count": 0,
+        "route_length_m": 617.27,
+        "site_id": "SITE-013",
+        "status": "completed_direct",
+        "task_id": "M008"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4590327,
+          31.222
+        ],
+        "type": "Point"
+      },
+      "id": "task:M009",
+      "properties": {
+        "batch_id": "BATCH-MIGRATION-10",
+        "cable_fiber_cores": 144,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-03",
+        "priority": "medium",
+        "repair_count": 0,
+        "route_length_m": 823.28,
+        "site_id": "SITE-012",
+        "status": "completed_direct",
+        "task_id": "M009"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4589511,
+          31.2109908
+        ],
+        "type": "Point"
+      },
+      "id": "task:M010",
+      "properties": {
+        "batch_id": "BATCH-MIGRATION-10",
+        "cable_fiber_cores": 48,
+        "caused_by_task_ids": "",
+        "data_class": "derived_competition_output",
+        "error": null,
+        "preferred_room_id": "ROOM-02",
+        "priority": "medium",
+        "repair_count": 0,
+        "route_length_m": 712.06,
+        "site_id": "SITE-011",
+        "status": "completed_direct",
+        "task_id": "M010"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

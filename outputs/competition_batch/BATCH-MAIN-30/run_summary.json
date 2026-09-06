@@ -1,0 +1,17 @@
+{
+  "batch_id": "BATCH-MAIN-30",
+  "dataset_id": "osm_shanghai_public_background_synthetic_batch_v1",
+  "disclaimer": "真实公开 GIS 背景；通信设施、候选通道身份、子管资源和成本均为合成竞赛属性；非正式施工图。",
+  "max_replans_per_task": 1,
+  "parameter_fingerprint": "5dd5fa22c9e3bf73c83344d444eed98fee59fa470f5692decdf459ceec91b9dd",
+  "schema_version": 1,
+  "sorting_rule": "priority(high>medium>low),task_id(ascending)",
+  "status": "completed",
+  "task_count": 30,
+  "terminal_counts": {
+    "completed_direct": 19,
+    "completed_rerouted": 9,
+    "failed": 1,
+    "needs_review": 1
+  }
+}

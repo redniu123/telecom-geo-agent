@@ -1,0 +1,672 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    },
+    "type": "name"
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          121.4470794,
+          31.2105947
+        ],
+        "type": "Point"
+      },
+      "id": "facility:ROOM-01",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成汇聚机房 01",
+        "node_id": "BN-0009",
+        "site_id": "ROOM-01",
+        "site_type": "aggregation_room",
+        "snap_distance_m": 0.0,
+        "source_rule": "deterministic_three_point_network_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4641173,
+          31.211272
+        ],
+        "type": "Point"
+      },
+      "id": "facility:ROOM-02",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成汇聚机房 02",
+        "node_id": "BN-0382",
+        "site_id": "ROOM-02",
+        "site_type": "aggregation_room",
+        "snap_distance_m": 0.0,
+        "source_rule": "deterministic_three_point_network_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4646761,
+          31.2212188
+        ],
+        "type": "Point"
+      },
+      "id": "facility:ROOM-03",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成汇聚机房 03",
+        "node_id": "BN-0398",
+        "site_id": "ROOM-03",
+        "site_type": "aggregation_room",
+        "snap_distance_m": 0.0,
+        "source_rule": "deterministic_three_point_network_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4529708,
+          31.222
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-001",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 001",
+        "node_id": "BN-0122",
+        "site_id": "SITE-001",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.447,
+          31.2154819
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-002",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 002",
+        "node_id": "BN-0005",
+        "site_id": "SITE-002",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4554329,
+          31.21
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-003",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 003",
+        "node_id": "BN-0212",
+        "site_id": "SITE-003",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4558703,
+          31.222
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-004",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 004",
+        "node_id": "BN-0214",
+        "site_id": "SITE-004",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.465,
+          31.2130028
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-005",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 005",
+        "node_id": "BN-0407",
+        "site_id": "SITE-005",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4531756,
+          31.222
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-006",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 006",
+        "node_id": "BN-0130",
+        "site_id": "SITE-006",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.447,
+          31.2171595
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-007",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 007",
+        "node_id": "BN-0006",
+        "site_id": "SITE-007",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4593063,
+          31.2164304
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-008",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 008",
+        "node_id": "BN-0282",
+        "site_id": "SITE-008",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.447,
+          31.2129062
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-009",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 009",
+        "node_id": "BN-0004",
+        "site_id": "SITE-009",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4529753,
+          31.2162293
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-010",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 010",
+        "node_id": "BN-0123",
+        "site_id": "SITE-010",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4589511,
+          31.2109908
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-011",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 011",
+        "node_id": "BN-0276",
+        "site_id": "SITE-011",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4590327,
+          31.222
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-012",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 012",
+        "node_id": "BN-0278",
+        "site_id": "SITE-012",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4514925,
+          31.2120032
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-013",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 013",
+        "node_id": "BN-0088",
+        "site_id": "SITE-013",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.465,
+          31.2122199
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-014",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 014",
+        "node_id": "BN-0406",
+        "site_id": "SITE-014",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.465,
+          31.2170104
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-015",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 015",
+        "node_id": "BN-0408",
+        "site_id": "SITE-015",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4566828,
+          31.2135109
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-016",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 016",
+        "node_id": "BN-0231",
+        "site_id": "SITE-016",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4507902,
+          31.2155996
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-017",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 017",
+        "node_id": "BN-0071",
+        "site_id": "SITE-017",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4516954,
+          31.21
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-018",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 018",
+        "node_id": "BN-0090",
+        "site_id": "SITE-018",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4578034,
+          31.2186768
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-019",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 019",
+        "node_id": "BN-0259",
+        "site_id": "SITE-019",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4629062,
+          31.2192715
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-020",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 020",
+        "node_id": "BN-0352",
+        "site_id": "SITE-020",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4623914,
+          31.222
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-021",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 021",
+        "node_id": "BN-0342",
+        "site_id": "SITE-021",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4613285,
+          31.2137031
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-022",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 022",
+        "node_id": "BN-0319",
+        "site_id": "SITE-022",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4512584,
+          31.219445
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-023",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 023",
+        "node_id": "BN-0079",
+        "site_id": "SITE-023",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4547669,
+          31.2141003
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-024",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 024",
+        "node_id": "BN-0190",
+        "site_id": "SITE-024",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.458763,
+          31.2134407
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-025",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 025",
+        "node_id": "BN-0274",
+        "site_id": "SITE-025",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4551653,
+          31.2189433
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-026",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 026",
+        "node_id": "BN-0206",
+        "site_id": "SITE-026",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.447,
+          31.2202959
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-027",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 027",
+        "node_id": "BN-0008",
+        "site_id": "SITE-027",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4513284,
+          31.2140811
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-028",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 028",
+        "node_id": "BN-0082",
+        "site_id": "SITE-028",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.447,
+          31.2103188
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-029",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 029",
+        "node_id": "BN-0001",
+        "site_id": "SITE-029",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.465,
+          31.2212401
+        ],
+        "type": "Point"
+      },
+      "id": "facility:SITE-030",
+      "properties": {
+        "data_class": "synthetic",
+        "name": "合成接入设施 030",
+        "node_id": "BN-0411",
+        "site_id": "SITE-030",
+        "site_type": "access_site",
+        "snap_distance_m": 0.0,
+        "source_rule": "fixed_seed_free_deterministic_graph_spread"
+      },
+      "type": "Feature"
+    }
+  ],
+  "name": "telecom_competition_demo",
+  "type": "FeatureCollection"
+}

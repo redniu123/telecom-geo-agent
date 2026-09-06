@@ -1,0 +1,17 @@
+{
+  "batch_id": "BATCH-STRESS-100",
+  "dataset_id": "osm_shanghai_public_background_synthetic_batch_v1",
+  "disclaimer": "真实公开 GIS 背景；通信设施、候选通道身份、子管资源和成本均为合成竞赛属性；非正式施工图。",
+  "max_replans_per_task": 1,
+  "parameter_fingerprint": "3e7c1f6efceb466daa17380b6531f7a59cff193eb414849481da6c826efcc262",
+  "schema_version": 1,
+  "sorting_rule": "priority(high>medium>low),task_id(ascending)",
+  "status": "completed",
+  "task_count": 100,
+  "terminal_counts": {
+    "completed_direct": 59,
+    "completed_rerouted": 29,
+    "failed": 0,
+    "needs_review": 12
+  }
+}

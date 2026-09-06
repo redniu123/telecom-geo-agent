@@ -14,7 +14,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 PLUGIN_SOURCE = REPO_ROOT / "qgis_plugin" / "telecom_geo_agent"
-PLUGIN_VERSION = "0.3.0"
+PLUGIN_VERSION = "0.4.0"
 FIXED_ZIP_TIMESTAMP = (2026, 9, 4, 0, 0, 0)
 
 
@@ -91,6 +91,10 @@ def build_bundle(
             repo_root / "data" / "competition",
             runtime_root / "data" / "competition",
         )
+        _copy_tree(
+            repo_root / "data" / "competition_batch",
+            runtime_root / "data" / "competition_batch",
+        )
 
         canonical_files = [
             path
@@ -98,10 +102,15 @@ def build_bundle(
             for path in source.rglob("*.py")
         ]
         canonical_files.extend((repo_root / "data" / "demo").glob("*.geojson"))
-        canonical_files.extend((repo_root / "competition").glob("*.py"))
+        canonical_files.extend((repo_root / "competition").rglob("*.py"))
         canonical_files.extend(
             path
             for path in (repo_root / "data" / "competition").rglob("*")
+            if path.is_file()
+        )
+        canonical_files.extend(
+            path
+            for path in (repo_root / "data" / "competition_batch").rglob("*")
             if path.is_file()
         )
         manifest = {

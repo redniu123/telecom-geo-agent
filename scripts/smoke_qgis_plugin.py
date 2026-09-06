@@ -212,6 +212,43 @@ def run_smoke(
             assert "no route" in failed_competition["error"]
             assert "final_route" not in plugin.map_adapter.layers
             print("competition_no_path=EXPECTED_FAIL_WITH_EVIDENCE")
+
+            batch = plugin.controller.batch
+            batch_csv = (
+                batch.repository_root
+                / "data"
+                / "competition_batch"
+                / "batch_tasks.csv"
+            )
+            plugin.controller.import_batch(str(batch_csv))
+            plugin.controller.preview_batch()
+            plugin.controller.execute_batch(batch.request.fingerprint)
+            batch_state = batch.last_state
+            assert batch_state is not None and batch_state["task_count"] == 30
+            assert batch_state["terminal_counts"] == {
+                "completed_direct": 19,
+                "completed_rerouted": 9,
+                "failed": 1,
+                "needs_review": 1,
+            }
+            assert len(plugin.map_adapter.layers) == 13
+            plugin.controller.filter_batch("failed")
+            assert plugin.dock._batch.table.rowCount() == 1
+            assert plugin.map_adapter.layers["batch_tasks"].featureCount() == 1
+            plugin.controller.filter_batch("all")
+            plugin.controller.focus_batch("T002")
+            assert plugin.map_adapter.layers["batch_final"].selectedFeatureCount() == 1
+            plugin.dock._batch._show_task_detail("T002")
+            detail = plugin.dock._batch.detail_text.toPlainText()
+            assert "T001" in detail and "R_SUBDUCT_CAPACITY" in detail and "→" in detail
+            plugin.controller.set_batch_route_visibility(True, False)
+            assert _visible(plugin, "batch_candidates")
+            assert not _visible(plugin, "batch_final")
+            plugin.controller.set_batch_route_visibility(False, True)
+            assert not _visible(plugin, "batch_candidates")
+            assert _visible(plugin, "batch_final")
+            print("batch_30_installed_bundle=PASS")
+            print("batch_filter_focus_conflict_resource_visibility=PASS")
             print(f"extent_updates={iface.canvas.extent_updates}")
         finally:
             plugin.unload()
@@ -227,7 +264,7 @@ def main() -> int:
     )
     parser.add_argument(
         "--bundle",
-        default="dist/telecom_geo_agent-0.3.0.zip",
+        default="dist/telecom_geo_agent-0.4.0.zip",
         help="待验证的插件 ZIP",
     )
     parser.add_argument(

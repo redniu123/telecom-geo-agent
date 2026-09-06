@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "qgis_version": "3.44.14-Solothurn",
+  "real_qt_batch_widget": true,
+  "table_rows": 30,
+  "loaded_layer_count": 13,
+  "failed_filter_feature_count": 1,
+  "focused_task_id": "T002",
+  "focused_final_route_count": 1,
+  "task_detail_conflict_cause_present": true,
+  "task_detail_resource_before_after_present": true,
+  "candidate_final_visibility_toggle": true,
+  "canvas_extent_updates": 3,
+  "visible_gui_user_acceptance": "pending_user"
+}
