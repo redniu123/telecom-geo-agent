@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "validation_type": "automated_native_qt_qgis_render",
+  "not_user_visible_acceptance": true,
+  "qt_platform": "default",
+  "qt_scale_factor": "1.5",
+  "tag": "native150pct",
+  "screenshots": [
+    {
+      "file": "batch_ui_empty_native150pct.png",
+      "pixel_width": 1920,
+      "pixel_height": 1350,
+      "device_pixel_ratio": 1.5,
+      "bytes": 122333
+    },
+    {
+      "file": "batch_ui_preview_native150pct.png",
+      "pixel_width": 1920,
+      "pixel_height": 1350,
+      "device_pixel_ratio": 1.5,
+      "bytes": 1111273
+    },
+    {
+      "file": "batch_ui_review_t002_native150pct.png",
+      "pixel_width": 1920,
+      "pixel_height": 1350,
+      "device_pixel_ratio": 1.5,
+      "bytes": 1143583
+    },
+    {
+      "file": "batch_ui_narrow_native150pct.png",
+      "pixel_width": 1536,
+      "pixel_height": 1140,
+      "device_pixel_ratio": 1.5,
+      "bytes": 798632
+    }
+  ],
+  "measurements": {
+    "window_logical_size": [
+      1024,
+      760
+    ],
+    "dock_logical_size": [
+      350,
+      760
+    ],
+    "scroll_viewport_width": 317,
+    "scroll_content_width": 317,
+    "horizontal_scroll_max": 0,
+    "vertical_scroll_max": 2748,
+    "hidden_table_columns": [
+      3,
+      4,
+      5
+    ],
+    "critical_buttons": [
+      {
+        "text": "加载内置样例",
+        "width": 289,
+        "size_hint_width": 130,
+        "height": 39,
+        "size_hint_height": 39,
+        "enabled": true,
+        "text_fits_size_hint": true
+      },
+      {
+        "text": "导入并校验",
+        "width": 141,
+        "size_hint_width": 112,
+        "height": 39,
+        "size_hint_height": 39,
+        "enabled": true,
+        "text_fits_size_hint": true
+      },
+      {
+        "text": "预览任务并生成确认指纹",
+        "width": 289,
+        "size_hint_width": 220,
+        "height": 39,
+        "size_hint_height": 39,
+        "enabled": true,
+        "text_fits_size_hint": true
+      },
+      {
+        "text": "确认并运行批量设计",
+        "width": 289,
+        "size_hint_width": 184,
+        "height": 39,
+        "size_hint_height": 39,
+        "enabled": true,
+        "text_fits_size_hint": true
+      },
+      {
+        "text": "导出图册与 GeoPackage",
+        "width": 289,
+        "size_hint_width": 229,
+        "height": 39,
+        "size_hint_height": 39,
+        "enabled": true,
+        "text_fits_size_hint": true
+      }
+    ]
+  }
+}

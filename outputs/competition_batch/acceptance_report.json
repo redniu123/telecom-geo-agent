@@ -387,13 +387,13 @@
   },
   "determinism": {
     "functional_state_equal": true,
-    "repeat_batch_algorithm_seconds": 0.171432,
+    "repeat_batch_algorithm_seconds": 0.174536,
     "status": "PASS"
   },
   "human_baseline_status": "pending_human_baseline",
   "human_baseline_template_rows": 30,
   "main_30": {
-    "batch_algorithm_seconds": 0.17494,
+    "batch_algorithm_seconds": 0.171517,
     "terminal_counts": {
       "completed_direct": 19,
       "completed_rerouted": 9,
@@ -404,7 +404,7 @@
   "metric_boundary": "batch_algorithm_seconds is a software performance probe only; it is not end-to-end human efficiency evidence",
   "migration_10": {
     "algorithm_code_changes": 0,
-    "batch_algorithm_seconds": 0.053145,
+    "batch_algorithm_seconds": 0.056227,
     "terminal_counts": {
       "completed_direct": 10,
       "completed_rerouted": 0,
@@ -427,7 +427,7 @@
   "schema_version": 1,
   "status": "PASS",
   "stress_100": {
-    "batch_algorithm_seconds": 0.573235,
+    "batch_algorithm_seconds": 0.561174,
     "failed_task_side_effects": 0,
     "negative_resources": 0,
     "terminal_counts": {

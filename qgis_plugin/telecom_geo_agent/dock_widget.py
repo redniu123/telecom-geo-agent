@@ -25,6 +25,7 @@ from qgis.PyQt.QtWidgets import (
 )
 
 from .batch_widget import BatchDesignWidget
+from .ui_style import APP_STYLE_SHEET, repolish
 
 
 class MessageInput(QPlainTextEdit):
@@ -48,6 +49,8 @@ class AgentDockWidget(QDockWidget):
     competition_execute_requested = pyqtSignal(object, object)
     competition_export_requested = pyqtSignal()
     batch_import_requested = pyqtSignal(str)
+    batch_sample_requested = pyqtSignal()
+    batch_input_changed = pyqtSignal(str)
     batch_preview_requested = pyqtSignal()
     batch_execute_requested = pyqtSignal(object)
     batch_export_requested = pyqtSignal()
@@ -72,24 +75,38 @@ class AgentDockWidget(QDockWidget):
         super().__init__("通信工程 Agent", parent)
         self.setObjectName("TelecomGeoAgentDock")
         self.setAllowedAreas(Qt.LeftDockWidgetArea | Qt.RightDockWidgetArea)
-        self.setMinimumWidth(360)
+        self.setMinimumWidth(340)
 
         root = QWidget(self)
+        root.setMinimumWidth(0)
+        root.setSizePolicy(QSizePolicy.Ignored, QSizePolicy.Ignored)
         root_layout = QVBoxLayout(root)
         root_layout.setContentsMargins(10, 10, 10, 10)
         root_layout.setSpacing(8)
 
-        title = QLabel("通信工程 Agent · 离线设计")
+        title = QLabel("通信工程设计 Agent")
         title.setObjectName("AgentTitle")
-        subtitle = QLabel("参数化规划 · 可解释校核 · 公开背景与合成通信属性")
+        title.setMinimumWidth(0)
+        title.setSizePolicy(QSizePolicy.Ignored, QSizePolicy.Preferred)
+        subtitle = QLabel("QGIS 侧边工作台 · 批量接入 / 单任务回归 / 可解释校核")
         subtitle.setWordWrap(True)
         subtitle.setObjectName("AgentSubtitle")
+        subtitle.setMinimumWidth(0)
+        subtitle.setSizePolicy(QSizePolicy.Ignored, QSizePolicy.Preferred)
         root_layout.addWidget(title)
         root_layout.addWidget(subtitle)
 
         tabs = QTabWidget()
         tabs.setObjectName("AgentTabs")
+        tabs.setMinimumWidth(0)
+        tabs.setSizePolicy(QSizePolicy.Ignored, QSizePolicy.Ignored)
+        tabs.setElideMode(Qt.ElideRight)
+        tabs.setUsesScrollButtons(True)
+        tabs.tabBar().setExpanding(False)
+        self._tabs = tabs
         chat_tab = QWidget()
+        chat_tab.setMinimumWidth(0)
+        chat_tab.setSizePolicy(QSizePolicy.Ignored, QSizePolicy.Ignored)
         layout = QVBoxLayout(chat_tab)
         layout.setContentsMargins(4, 6, 4, 4)
         layout.setSpacing(8)
@@ -138,13 +155,15 @@ class AgentDockWidget(QDockWidget):
         self._status.setObjectName("AgentStatus")
         self._send_button = QPushButton("发送")
         self._send_button.setObjectName("SendButton")
+        self._send_button.setProperty("buttonRole", "primary")
         self._send_button.setDefault(True)
         send_row.addWidget(self._status, 1)
         send_row.addWidget(self._send_button)
         layout.addLayout(send_row)
-        tabs.addTab(chat_tab, "对话式 P0")
 
         competition_tab = QWidget()
+        competition_tab.setMinimumWidth(0)
+        competition_tab.setSizePolicy(QSizePolicy.Ignored, QSizePolicy.Ignored)
         competition_layout = QVBoxLayout(competition_tab)
         competition_layout.setContentsMargins(4, 8, 4, 4)
         competition_layout.setSpacing(8)
@@ -154,10 +173,12 @@ class AgentDockWidget(QDockWidget):
         )
         boundary.setWordWrap(True)
         boundary.setObjectName("DataBoundary")
+        boundary.setProperty("role", "boundary")
         competition_layout.addWidget(boundary)
 
         workflow_hint = QLabel("① 选择参数   →   ② 预览确认   →   ③ 执行并导出")
         workflow_hint.setObjectName("WorkflowHint")
+        workflow_hint.setProperty("role", "nextStep")
         workflow_hint.setAlignment(Qt.AlignCenter)
         competition_layout.addWidget(workflow_hint)
 
@@ -184,15 +205,18 @@ class AgentDockWidget(QDockWidget):
 
         self._scenario_hint = QLabel()
         self._scenario_hint.setObjectName("ScenarioHint")
+        self._scenario_hint.setProperty("role", "mapContext")
         self._scenario_hint.setWordWrap(True)
         competition_layout.addWidget(self._scenario_hint)
 
         buttons = QHBoxLayout()
         self._preview_button = QPushButton("1. 预览参数")
         self._preview_button.setObjectName("PreviewButton")
+        self._preview_button.setProperty("buttonRole", "secondary")
         self._preview_button.setToolTip("校验字段并生成本次参数指纹")
         self._execute_button = QPushButton("2. 确认并执行")
         self._execute_button.setObjectName("ExecuteButton")
+        self._execute_button.setProperty("buttonRole", "primary")
         self._execute_button.setToolTip("仅执行当前已预览且未变化的参数")
         self._execute_button.setEnabled(False)
         buttons.addWidget(self._preview_button)
@@ -210,15 +234,22 @@ class AgentDockWidget(QDockWidget):
         self._competition_status.setObjectName("CompetitionStatus")
         self._export_button = QPushButton("导出 A3 标准图纸 PDF")
         self._export_button.setObjectName("ExportButton")
+        self._export_button.setProperty("buttonRole", "success")
         self._export_button.setToolTip("仅在最终校核 PASS 且存在 BOM 时可用")
         self._export_button.setEnabled(False)
         export_row.addWidget(self._competition_status, 1)
         export_row.addWidget(self._export_button)
         competition_layout.addLayout(export_row)
-        tabs.addTab(competition_tab, "参数化设计")
-
         self._batch = BatchDesignWidget()
         tabs.addTab(self._batch, "批量设计")
+        tabs.addTab(competition_tab, "单任务")
+        tabs.addTab(chat_tab, "P0 对话")
+        tabs.setTabToolTip(0, "批量接入设计与自动成册（主要工作流）")
+        tabs.setTabToolTip(1, "原参数化单任务回归入口")
+        tabs.setTabToolTip(2, "原冻结 P0 对话式回归入口")
+        tabs.setCurrentWidget(self._batch)
+        self._batch.sample_requested.connect(self.batch_sample_requested.emit)
+        self._batch.input_changed.connect(self.batch_input_changed.emit)
         self._batch.import_requested.connect(self.batch_import_requested.emit)
         self._batch.preview_requested.connect(self.batch_preview_requested.emit)
         self._batch.execute_requested.connect(self.batch_execute_requested.emit)
@@ -253,48 +284,7 @@ class AgentDockWidget(QDockWidget):
         )
 
     def _apply_style(self) -> None:
-        self.setStyleSheet(
-            """
-            QDockWidget { color: #d7dde8; }
-            QWidget { background: #171a21; color: #d7dde8; }
-            QLabel#AgentTitle { font-size: 17px; font-weight: 650; color: #f3f6fb; }
-            QLabel#AgentSubtitle { color: #8f9bad; font-size: 11px; }
-            QLabel#DataBoundary { color: #e3bd67; background: #30291c; border: 1px solid #66542a; border-radius: 6px; padding: 7px; }
-            QLabel#WorkflowHint { color: #8fc7ec; background: #182735; border-radius: 6px; padding: 7px; font-weight: 600; }
-            QLabel#ScenarioHint { color: #aeb9c8; background: #20252e; border-left: 3px solid #3189c9; padding: 7px; }
-            QLabel#AgentStatus { color: #9ca9ba; }
-            QLabel#CompetitionStatus { background: #20252e; border-radius: 9px; padding: 4px 8px; font-weight: 600; }
-            QTabWidget::pane { border: 1px solid #313947; border-radius: 7px; top: -1px; }
-            QTabBar::tab { background: #20252e; color: #9faaba; border: 1px solid #313947; padding: 7px 12px; }
-            QTabBar::tab:selected { background: #193b57; color: #f2f7fb; border-bottom-color: #3189c9; }
-            QPlainTextEdit {
-                background: #10131a; border: 1px solid #343b49;
-                border-radius: 7px; padding: 7px; color: #eef2f8;
-            }
-            QPushButton {
-                background: #252b36; border: 1px solid #3c4656;
-                border-radius: 6px; padding: 6px 9px;
-            }
-            QPushButton:hover { background: #303847; }
-            QPushButton:disabled { color: #687282; background: #20242c; }
-            QPushButton#SendButton { background: #1769d2; border-color: #2780ed; font-weight: 600; }
-            QPushButton#ExecuteButton { background: #1769d2; border-color: #2780ed; font-weight: 600; }
-            QPushButton#PreviewButton { background: #214057; border-color: #376786; font-weight: 600; }
-            QPushButton#ExportButton:enabled { background: #1f6649; border-color: #328462; font-weight: 600; }
-            QComboBox, QSpinBox, QLineEdit { background: #10131a; border: 1px solid #343b49; border-radius: 5px; padding: 5px; }
-            QComboBox:focus, QSpinBox:focus, QLineEdit:focus, QPlainTextEdit:focus { border: 1px solid #3189c9; }
-            QCheckBox { spacing: 7px; }
-            QFrame[messageKind="info"] { background: #222833; border-radius: 8px; }
-            QFrame[messageKind="route"] { background: #1e3145; border: 1px solid #315c83; border-radius: 8px; }
-            QFrame[messageKind="warning"] { background: #40341e; border: 1px solid #80652a; border-radius: 8px; }
-            QFrame[messageKind="repair"] { background: #34294a; border: 1px solid #624a8b; border-radius: 8px; }
-            QFrame[messageKind="success"] { background: #1e3b2e; border: 1px solid #317357; border-radius: 8px; }
-            QFrame[messageKind="bom"] { background: #24362f; border: 1px solid #3d705b; border-radius: 8px; }
-            QFrame[messageKind="map"] { background: #243746; border: 1px solid #416d8b; border-radius: 8px; }
-            QFrame[messageKind="error"] { background: #482426; border: 1px solid #8b3e43; border-radius: 8px; }
-            QFrame[messageRole="user"] { background: #193a63; border: 1px solid #2866a4; border-radius: 8px; }
-            """
-        )
+        self.setStyleSheet(APP_STYLE_SHEET)
 
     def _emit_input(self) -> None:
         text = self._input.toPlainText().strip()
@@ -344,7 +334,7 @@ class AgentDockWidget(QDockWidget):
     def configure_competition(self, catalog: dict) -> None:
         self._scenario_defaults = dict(catalog["scenarios"])
         self._dataset.clear()
-        self._dataset.addItem("上海公开 GIS 竞赛样例 v1", catalog["dataset_id"])
+        self._dataset.addItem("内置单任务回归样例 · 上海公开 GIS", catalog["dataset_id"])
         self._scenario.blockSignals(True)
         self._scenario.clear()
         for scenario_id, scenario in catalog["scenarios"].items():
@@ -419,12 +409,20 @@ class AgentDockWidget(QDockWidget):
         self._competition_status.setStyleSheet(
             f"color: {colors.get(state, colors['idle'])};"
         )
+        self._competition_status.setProperty("state", state)
+        repolish(self._competition_status)
 
     def set_export_enabled(self, enabled: bool) -> None:
         self._export_button.setEnabled(enabled)
 
-    def configure_batch(self, dataset_id: str, default_csv: str) -> None:
-        self._batch.configure(dataset_id, default_csv)
+    def configure_batch(self, descriptor: dict) -> None:
+        self._batch.configure_available_source(descriptor)
+
+    def set_batch_dataset(self, descriptor: dict, default_csv: str) -> None:
+        self._batch.set_dataset(descriptor, default_csv)
+
+    def clear_batch_dataset(self, reason: str) -> None:
+        self._batch.clear_dataset(reason)
 
     def batch_csv_path(self) -> str:
         return self._batch.path_edit.text().strip()
@@ -435,11 +433,32 @@ class AgentDockWidget(QDockWidget):
     def set_batch_status(self, text: str, state: str = "idle") -> None:
         self._batch.set_status(text, state)
 
+    def set_batch_busy(self, busy: bool, stage: str = "") -> None:
+        self._batch.set_busy(busy, stage)
+
+    def set_batch_task_summary(self, summary: dict | None) -> None:
+        self._batch.set_task_summary(summary)
+
+    def set_batch_run_gate(self, enabled: bool, reason: str = "") -> None:
+        self._batch.set_run_gate(enabled, reason)
+
+    def set_batch_map_context(self, text: str, state: str = "idle") -> None:
+        self._batch.set_map_context(text, state)
+
+    def show_batch_stage(self, stage: str) -> None:
+        self._batch.show_stage(stage)
+
     def set_batch_results(self, tasks: list[dict]) -> None:
         self._batch.set_results(tasks)
+
+    def clear_batch_results(self) -> None:
+        self._batch.clear_results()
 
     def filter_batch_results(self, status: str) -> None:
         self._batch.filter_results(status)
 
     def set_batch_export_enabled(self, enabled: bool) -> None:
         self._batch.set_export_enabled(enabled)
+
+    def set_batch_export_path(self, path: str | None) -> None:
+        self._batch.set_export_path(path)

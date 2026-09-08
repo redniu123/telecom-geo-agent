@@ -94,6 +94,18 @@ class TelecomGeoAgentPlugin:
         if hasattr(self.dock, "batch_import_requested") and hasattr(
             self.controller, "import_batch"
         ):
+            if hasattr(self.dock, "batch_sample_requested") and hasattr(
+                self.controller, "select_batch_sample"
+            ):
+                self.dock.batch_sample_requested.connect(
+                    self.controller.select_batch_sample
+                )
+            if hasattr(self.dock, "batch_input_changed") and hasattr(
+                self.controller, "invalidate_batch_input"
+            ):
+                self.dock.batch_input_changed.connect(
+                    self.controller.invalidate_batch_input
+                )
             self.dock.batch_import_requested.connect(self.controller.import_batch)
             self.dock.batch_preview_requested.connect(self.controller.preview_batch)
             self.dock.batch_execute_requested.connect(self.controller.execute_batch)
@@ -143,6 +155,18 @@ class TelecomGeoAgentPlugin:
             if hasattr(self.dock, "batch_import_requested") and hasattr(
                 self.controller, "import_batch"
             ):
+                if hasattr(self.dock, "batch_sample_requested") and hasattr(
+                    self.controller, "select_batch_sample"
+                ):
+                    self.dock.batch_sample_requested.disconnect(
+                        self.controller.select_batch_sample
+                    )
+                if hasattr(self.dock, "batch_input_changed") and hasattr(
+                    self.controller, "invalidate_batch_input"
+                ):
+                    self.dock.batch_input_changed.disconnect(
+                        self.controller.invalidate_batch_input
+                    )
                 self.dock.batch_import_requested.disconnect(self.controller.import_batch)
                 self.dock.batch_preview_requested.disconnect(self.controller.preview_batch)
                 self.dock.batch_execute_requested.disconnect(self.controller.execute_batch)

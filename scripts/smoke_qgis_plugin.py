@@ -88,6 +88,11 @@ def run_smoke(
         plugin = telecom_geo_agent.classFactory(iface)
         plugin.initGui()
         try:
+            assert plugin.controller.batch.dataset is None
+            assert not plugin.dock._batch.path_edit.text()
+            assert not QgsProject.instance().mapLayers()
+            print("batch_startup_empty_before_any_workflow=PASS")
+
             plugin.controller.handle_user_input(DEFAULT_REQUEST)
             state = plugin.controller.last_state
             assert state is not None and state["status"] == "completed"
@@ -214,6 +219,13 @@ def run_smoke(
             print("competition_no_path=EXPECTED_FAIL_WITH_EVIDENCE")
 
             batch = plugin.controller.batch
+            assert batch.dataset is None
+            assert not plugin.dock._batch.path_edit.text()
+            plugin.controller.select_batch_sample()
+            assert batch.dataset is not None
+            assert len(plugin.map_adapter.layers) == 8
+            assert plugin.dock._batch.path_edit.text().endswith("batch_tasks.csv")
+            assert "当前操作使用同一数据集" in plugin.dock._batch.map_context_label.text()
             batch_csv = (
                 batch.repository_root
                 / "data"
@@ -239,16 +251,27 @@ def run_smoke(
             plugin.controller.focus_batch("T002")
             assert plugin.map_adapter.layers["batch_final"].selectedFeatureCount() == 1
             plugin.dock._batch._show_task_detail("T002")
-            detail = plugin.dock._batch.detail_text.toPlainText()
-            assert "T001" in detail and "R_SUBDUCT_CAPACITY" in detail and "→" in detail
+            business_detail = "\n".join(
+                (
+                    plugin.dock._batch.detail_business.text(),
+                    plugin.dock._batch.detail_issue.text(),
+                    plugin.dock._batch.detail_resource.text(),
+                    plugin.dock._batch.detail_outcome.text(),
+                )
+            )
+            technical_detail = plugin.dock._batch.technical_text.toPlainText()
+            assert "T001" in business_detail and "子管余量不足" in business_detail
+            assert "R_SUBDUCT_CAPACITY" in technical_detail and "→" in business_detail
+            assert not plugin.dock._batch.technical_text.isVisible()
             plugin.controller.set_batch_route_visibility(True, False)
             assert _visible(plugin, "batch_candidates")
             assert not _visible(plugin, "batch_final")
             plugin.controller.set_batch_route_visibility(False, True)
             assert not _visible(plugin, "batch_candidates")
             assert _visible(plugin, "batch_final")
+            print("batch_empty_start_and_explicit_sample=PASS")
             print("batch_30_installed_bundle=PASS")
-            print("batch_filter_focus_conflict_resource_visibility=PASS")
+            print("batch_filter_focus_business_detail_technical_evidence_visibility=PASS")
             print(f"extent_updates={iface.canvas.extent_updates}")
         finally:
             plugin.unload()
@@ -264,7 +287,7 @@ def main() -> int:
     )
     parser.add_argument(
         "--bundle",
-        default="dist/telecom_geo_agent-0.4.0.zip",
+        default="dist/telecom_geo_agent-0.5.0.zip",
         help="待验证的插件 ZIP",
     )
     parser.add_argument(

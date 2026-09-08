@@ -197,6 +197,15 @@ class QgisMapAdapter:
             raise RuntimeError(f"当前问题图层不包含资产：{asset_id}")
         self._zoom_to(key, selected_only=True)
 
+    def show_batch_dataset(self) -> None:
+        """Fit the map to the explicitly selected batch input dataset."""
+
+        for key in ("batch_channels", "batch_roads", "batch_sites"):
+            if key in self.layers:
+                self._zoom_to(key)
+                return
+        raise RuntimeError("当前没有可显示的批量输入图层")
+
     def filter_batch_tasks(self, status: str) -> None:
         allowed = {"all", "completed_direct", "completed_rerouted", "needs_review", "failed"}
         if status not in allowed:

@@ -1,0 +1,2 @@
+# Preserve byte-for-byte public-source payloads whose SHA-256 values are audited.
+data/competition_batch/background/*.geojson -text

@@ -39,7 +39,7 @@ def verify(pdf: Path, output_dir: Path) -> dict:
     text = _run(["pdftotext", "-layout", str(pdf), "-"])
     required = [
         "片区通信设施批量接入设计图册",
-        "411 节点 / 444 边 / 3 机房 / 30 任务",
+        "444 候选边 / 3 合成机房 / 30 合成接入设施 / 30 任务",
         "直接成功：19",
         "绕行成功：9",
         "待人工复核：1",

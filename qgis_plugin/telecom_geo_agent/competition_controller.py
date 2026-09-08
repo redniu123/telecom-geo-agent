@@ -158,6 +158,12 @@ class PluginController:
     def import_batch(self, path: str) -> None:
         self.batch.import_csv(path)
 
+    def select_batch_sample(self) -> None:
+        self.batch.select_builtin_sample()
+
+    def invalidate_batch_input(self, path: str) -> None:
+        self.batch.invalidate_input(path)
+
     def preview_batch(self) -> None:
         self.batch.preview()
 

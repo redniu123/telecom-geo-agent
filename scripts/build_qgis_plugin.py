@@ -14,7 +14,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 PLUGIN_SOURCE = REPO_ROOT / "qgis_plugin" / "telecom_geo_agent"
-PLUGIN_VERSION = "0.4.0"
+PLUGIN_VERSION = "0.5.0"
 FIXED_ZIP_TIMESTAMP = (2026, 9, 4, 0, 0, 0)
 
 

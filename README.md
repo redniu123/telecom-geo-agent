@@ -205,20 +205,27 @@ dist/telecom_geo_agent-0.3.0.zip
 
 人工效率基线没有被自动生成。`outputs/competition/benchmark/metric_report.json` 在人工证据为空时必须保持 `pending_human_baseline`；只有 Quimer 完成同机、同任务、带录屏/日志引用的手工对照后，才允许计算并讨论赛题门槛。
 
-## 竞赛版 0.4：片区批量接入与自动成册
+## 竞赛版 0.5：QGIS 批量设计工作台
 
-0.4 保留原有 P0 对话和 0.3 单任务参数化设计，新增单进程、固定优先级、顺序规划的片区批量流程。主展示数据为 3 个合成汇聚机房、30 个合成接入任务和从已审计公开道路几何派生的 411 节点/444 边候选网络。子管资源与光缆纤芯规格分离；只有最终独立校核 PASS 的任务才会原子预占每段 1 个合成子管，失败和待复核任务保持零资源副作用，每个任务最多自动改路一次。
+0.5 继承 0.4 的 H0—H6 离线批量规划、资源台账和自动成册能力，重新组织了右侧 QGIS Dock。插件启动后保持真正空状态，不预选数据、不预填任务路径、也不加载插件图层；用户必须点击“加载内置样例”，完成数据校验后才能进入任务导入。当前数据集、来源边界、许可署名、实际加载数量、地图上下文、阻断原因和下一步动作都在界面中明确显示。
+
+“批量设计”现在是默认主页，工作流按“数据准备 → 任务确认 → 运行 → 结果复核 → 导出”纵向展开。运行结果支持四种中文终态筛选、任务与地图联动定位、候选/最终路线显隐、业务结论优先的任务详情，以及默认折叠的技术证据。窄 Dock 会隐藏次要表格列并保持纵向滚动；界面中的数据和任务数量来自实际加载结果，不以固定样例数充当状态。
+
+外部准备包目前只显示为禁用的“我的工程包 · 待接入”入口，因为其 `plugin_gui_integration` 仍是 `not_implemented`。0.5 没有伪造导入成功、没有连接在线模型或平台，也没有改变“公开 OSM 仅为背景、通信设施与资源为合成竞赛属性、输出不是正式施工图”的边界。
 
 ```powershell
 python scripts/audit_batch_dataset.py
 python scripts/run_batch_acceptance.py
-python scripts/build_qgis_plugin.py --output-dir dist
-& "G:\Program Files\QGIS 3.44.14\bin\python-qgis-ltr.bat" scripts\smoke_qgis_plugin.py --bundle dist\telecom_geo_agent-0.4.0.zip
+python -m pytest -q
+& "G:\Program Files\QGIS 3.44.14\bin\python-qgis-ltr.bat" scripts\smoke_batch_qgis.py
+& "G:\Program Files\QGIS 3.44.14\bin\python-qgis-ltr.bat" scripts\render_qgis_batch_ui.py --output-dir outputs\ui_validation --tag native100pct
 & "G:\Program Files\QGIS 3.44.14\bin\python-qgis-ltr.bat" scripts\export_batch_atlas.py
 python scripts/verify_batch_atlas.py
+python scripts/build_qgis_plugin.py --output-dir dist
+& "G:\Program Files\QGIS 3.44.14\bin\python-qgis-ltr.bat" scripts\smoke_qgis_plugin.py --bundle dist\telecom_geo_agent-0.5.0.zip
 ```
 
-在 QGIS 中安装 `dist/telecom_geo_agent-0.4.0.zip`，打开“批量设计”页签：导入 CSV，预览并确认参数指纹，运行后可按四种终态筛选、点击任务定位、切换候选/最终路线，并查看冲突来源与资源预占前后值。生成的 36 页 A3 图册位于 `outputs/competition_batch/BATCH-MAIN-30/design_book.pdf`。完整自动化证据和可见 QGIS 人工复核步骤见 `docs/competition/08_批量接入H0-H6验收与用户复核.md`。
+在 QGIS 中从 ZIP 安装 `dist/telecom_geo_agent-0.5.0.zip`。打开右侧“通信工程 Agent”后，在默认“批量设计”页依次点击“加载内置样例”“导入并校验”“预览任务并生成确认指纹”“确认并运行批量设计”，再完成结果复核与导出。生成的 36 页 A3 图册位于 `outputs/competition_batch/BATCH-MAIN-30/design_book.pdf`。0.4 的 H0—H6 核心验收见 `docs/competition/08_批量接入H0-H6验收与用户复核.md`；0.5 的界面变更、自动渲染证据和可见 QGIS 人工复核步骤见 `docs/competition/10_QGIS批量设计UI专项优化与验收.md`。
 
 人工端到端效率基线仍必须由用户在同机、同任务、同起止条件下实测；未实测时 `outputs/competition_batch/acceptance_report.json` 必须保持 `pending_human_baseline`，不得把算法秒数冒充人工效率结论。
 

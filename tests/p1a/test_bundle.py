@@ -39,7 +39,7 @@ def test_bundle_contains_exact_canonical_p0_snapshot(tmp_path):
             canonical.read_bytes()
         ).hexdigest()
         assert manifest["networkx_version"] is None
-        assert manifest["plugin_version"] == "0.4.0"
+        assert manifest["plugin_version"] == "0.5.0"
         competition_manifest = root / "data" / "competition" / "source_manifest.json"
         assert manifest["canonical_sha256"][
             "data/competition/source_manifest.json"
