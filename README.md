@@ -229,6 +229,23 @@ python scripts/build_qgis_plugin.py --output-dir dist
 
 人工端到端效率基线仍必须由用户在同机、同任务、同起止条件下实测；未实测时 `outputs/competition_batch/acceptance_report.json` 必须保持 `pending_human_baseline`，不得把算法秒数冒充人工效率结论。
 
+## 队员离线试用包
+
+向队员分发时，优先使用仓库中的外层试用包：
+
+```text
+dist/telecom_geo_agent-0.5.0-team-trial.zip
+dist/telecom_geo_agent-0.5.0-team-trial.sha256
+```
+
+外层包包含可直接在 QGIS 中安装的内层插件 ZIP、人工使用说明、反馈表、数据 manifest/校验值和参考界面。插件内已封装 NetworkX 及 30/10/100 三套任务数据，队员不需要单独准备 Python、数据或在线服务。完整步骤和期望结果见 `docs/team_trial/队员人工试用说明.md`。
+
+重新构建试用包：
+
+```powershell
+python scripts/build_team_trial_package.py --output-dir dist
+```
+
 ## 计算口径与免责声明
 
 路由权重是：

@@ -144,8 +144,10 @@ QGIS 右侧“通信工程 Agent”已完成一轮独立、可安装、可回归
 
 ### 7.3 工程输出
 
-- `outputs/competition_batch/BATCH-MAIN-30/design_book.pdf`：25,343,103 bytes，36 页 A3，SHA-256 `723F0E843BB2630D9A6952C9224BE0830146D94EFA20F3CBF58DE28AF7F14EA8`；
-- `outputs/competition_batch/BATCH-MAIN-30/batch_results.gpkg`：442,368 bytes，7 图层，SHA-256 `DD2C522D3B4F1C83713C9BEA46E884979F6493C01267B60A80A17576C8DC40C0`。
+> 2026-09-10 发包前使用同一 QGIS 3.44.14 环境重新生成并重读；页数、图层数和内容验证结果不变。QGIS/PDF/GeoPackage 会写入运行元数据，所以重新生成后以下当前哈希取代 2026-09-08 快照值。
+
+- `outputs/competition_batch/BATCH-MAIN-30/design_book.pdf`：25,343,103 bytes，36 页 A3，SHA-256 `4E13ED95A3D72C6E0A776AF6A30384B1FA4EBAC6FD952E314888712A988BB7C3`；
+- `outputs/competition_batch/BATCH-MAIN-30/batch_results.gpkg`：442,368 bytes，7 图层，SHA-256 `30467646B4C6B6014166E181EC10B72F912D3E4E93D3127206800178004E2541`。
 
 ## 8. 用户在可见 QGIS 中的最终验收
 
